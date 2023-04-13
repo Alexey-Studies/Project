@@ -197,15 +197,37 @@
             tabPage2 = new TabPage();
             tabPage3 = new TabPage();
             tabPage4 = new TabPage();
-            tabPage5 = new TabPage();
-            button1 = new Button();
+            button4 = new Button();
             label1 = new Label();
             dateTimePicker1 = new DateTimePicker();
+            dataGridViewPlan = new DataGridView();
+            Subject = new DataGridViewTextBoxColumn();
+            Abbriviation = new DataGridViewTextBoxColumn();
+            StudyGroups = new DataGridViewTextBoxColumn();
+            Lectures = new DataGridViewTextBoxColumn();
+            PracticalLessons = new DataGridViewTextBoxColumn();
+            LaboratoryStudies = new DataGridViewTextBoxColumn();
+            Nirs = new DataGridViewTextBoxColumn();
+            PartTimeStudents = new DataGridViewTextBoxColumn();
+            CourseConsultations = new DataGridViewTextBoxColumn();
+            ExaminationConsultations = new DataGridViewTextBoxColumn();
+            ControlAuditWork = new DataGridViewTextBoxColumn();
+            IndependentWork = new DataGridViewTextBoxColumn();
+            AbstractsTranslations = new DataGridViewTextBoxColumn();
+            CalculatedGraphWorks = new DataGridViewTextBoxColumn();
+            CourseWorks = new DataGridViewTextBoxColumn();
+            SemesterExams = new DataGridViewTextBoxColumn();
+            PracticeGuide = new DataGridViewTextBoxColumn();
+            StateExams = new DataGridViewTextBoxColumn();
+            Vkr = new DataGridViewTextBoxColumn();
+            Guidance = new DataGridViewTextBoxColumn();
+            OtherTypes = new DataGridViewTextBoxColumn();
             label13 = new Label();
             button3 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
-            tabPage5.SuspendLayout();
+            tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewPlan).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
@@ -215,7 +237,6 @@
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(tabPage3);
             tabControl1.Controls.Add(tabPage4);
-            tabControl1.Controls.Add(tabPage5);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
             tabControl1.SizeMode = TabSizeMode.Fixed;
@@ -1937,24 +1958,20 @@
             // tabPage4
             // 
             resources.ApplyResources(tabPage4, "tabPage4");
+            tabPage4.Controls.Add(button4);
+            tabPage4.Controls.Add(label1);
+            tabPage4.Controls.Add(dateTimePicker1);
+            tabPage4.Controls.Add(dataGridViewPlan);
             tabPage4.Name = "tabPage4";
             tabPage4.UseVisualStyleBackColor = true;
             // 
-            // tabPage5
+            // button4
             // 
-            resources.ApplyResources(tabPage5, "tabPage5");
-            tabPage5.Controls.Add(button1);
-            tabPage5.Controls.Add(label1);
-            tabPage5.Controls.Add(dateTimePicker1);
-            tabPage5.Name = "tabPage5";
-            tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            resources.ApplyResources(button1, "button1");
-            button1.Name = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            resources.ApplyResources(button4, "button4");
+            button4.BackColor = Color.FromArgb(220, 237, 250);
+            button4.Name = "button4";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // label1
             // 
@@ -1965,6 +1982,121 @@
             // 
             resources.ApplyResources(dateTimePicker1, "dateTimePicker1");
             dateTimePicker1.Name = "dateTimePicker1";
+            // 
+            // dataGridViewPlan
+            // 
+            resources.ApplyResources(dataGridViewPlan, "dataGridViewPlan");
+            dataGridViewPlan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
+            dataGridViewPlan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewPlan.Columns.AddRange(new DataGridViewColumn[] { Subject, Abbriviation, StudyGroups, Lectures, PracticalLessons, LaboratoryStudies, Nirs, PartTimeStudents, CourseConsultations, ExaminationConsultations, ControlAuditWork, IndependentWork, AbstractsTranslations, CalculatedGraphWorks, CourseWorks, SemesterExams, PracticeGuide, StateExams, Vkr, Guidance, OtherTypes });
+            dataGridViewPlan.Name = "dataGridViewPlan";
+            dataGridViewPlan.RowTemplate.Height = 25;
+            dataGridViewPlan.KeyDown += dataGridView1_KeyDown;
+            // 
+            // Subject
+            // 
+            resources.ApplyResources(Subject, "Subject");
+            Subject.Name = "Subject";
+            // 
+            // Abbriviation
+            // 
+            resources.ApplyResources(Abbriviation, "Abbriviation");
+            Abbriviation.Name = "Abbriviation";
+            // 
+            // StudyGroups
+            // 
+            resources.ApplyResources(StudyGroups, "StudyGroups");
+            StudyGroups.Name = "StudyGroups";
+            // 
+            // Lectures
+            // 
+            resources.ApplyResources(Lectures, "Lectures");
+            Lectures.Name = "Lectures";
+            // 
+            // PracticalLessons
+            // 
+            resources.ApplyResources(PracticalLessons, "PracticalLessons");
+            PracticalLessons.Name = "PracticalLessons";
+            // 
+            // LaboratoryStudies
+            // 
+            resources.ApplyResources(LaboratoryStudies, "LaboratoryStudies");
+            LaboratoryStudies.Name = "LaboratoryStudies";
+            // 
+            // Nirs
+            // 
+            resources.ApplyResources(Nirs, "Nirs");
+            Nirs.Name = "Nirs";
+            // 
+            // PartTimeStudents
+            // 
+            resources.ApplyResources(PartTimeStudents, "PartTimeStudents");
+            PartTimeStudents.Name = "PartTimeStudents";
+            // 
+            // CourseConsultations
+            // 
+            resources.ApplyResources(CourseConsultations, "CourseConsultations");
+            CourseConsultations.Name = "CourseConsultations";
+            // 
+            // ExaminationConsultations
+            // 
+            resources.ApplyResources(ExaminationConsultations, "ExaminationConsultations");
+            ExaminationConsultations.Name = "ExaminationConsultations";
+            // 
+            // ControlAuditWork
+            // 
+            resources.ApplyResources(ControlAuditWork, "ControlAuditWork");
+            ControlAuditWork.Name = "ControlAuditWork";
+            // 
+            // IndependentWork
+            // 
+            resources.ApplyResources(IndependentWork, "IndependentWork");
+            IndependentWork.Name = "IndependentWork";
+            // 
+            // AbstractsTranslations
+            // 
+            resources.ApplyResources(AbstractsTranslations, "AbstractsTranslations");
+            AbstractsTranslations.Name = "AbstractsTranslations";
+            // 
+            // CalculatedGraphWorks
+            // 
+            resources.ApplyResources(CalculatedGraphWorks, "CalculatedGraphWorks");
+            CalculatedGraphWorks.Name = "CalculatedGraphWorks";
+            // 
+            // CourseWorks
+            // 
+            resources.ApplyResources(CourseWorks, "CourseWorks");
+            CourseWorks.Name = "CourseWorks";
+            // 
+            // SemesterExams
+            // 
+            resources.ApplyResources(SemesterExams, "SemesterExams");
+            SemesterExams.Name = "SemesterExams";
+            // 
+            // PracticeGuide
+            // 
+            resources.ApplyResources(PracticeGuide, "PracticeGuide");
+            PracticeGuide.Name = "PracticeGuide";
+            // 
+            // StateExams
+            // 
+            resources.ApplyResources(StateExams, "StateExams");
+            StateExams.Name = "StateExams";
+            // 
+            // Vkr
+            // 
+            resources.ApplyResources(Vkr, "Vkr");
+            Vkr.Name = "Vkr";
+            // 
+            // Guidance
+            // 
+            resources.ApplyResources(Guidance, "Guidance");
+            Guidance.Name = "Guidance";
+            // 
+            // OtherTypes
+            // 
+            resources.ApplyResources(OtherTypes, "OtherTypes");
+            OtherTypes.Name = "OtherTypes";
             // 
             // label13
             // 
@@ -1981,13 +2113,16 @@
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.None;
             Controls.Add(tabControl1);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             MaximizeBox = false;
             Name = "Form1";
+            WindowState = FormWindowState.Maximized;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
-            tabPage5.ResumeLayout(false);
-            tabPage5.PerformLayout();
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewPlan).EndInit();
             ResumeLayout(false);
         }
 
@@ -1999,7 +2134,6 @@
         private TabPage tabPage3;
         private TabPage tabPage4;
         private Label label2;
-        private Label label1;
         private ComboBox comboBox1;
         private Label label3;
         private ComboBox comboBox5;
@@ -2161,12 +2295,33 @@
         private ComboBox comboBox145;
         private Label label12;
         private Button button2;
-        private Button button1;
-
-        private DateTimePicker dateTimePicker1;
         private Button button3;
         private Label label13;
-        private TabPage tabPage5;
         private Label label14;
+        private Button button4;
+        private Label label1;
+        private DateTimePicker dateTimePicker1;
+        private DataGridView dataGridViewPlan;
+        private DataGridViewTextBoxColumn Subject;
+        private DataGridViewTextBoxColumn Abbriviation;
+        private DataGridViewTextBoxColumn StudyGroups;
+        private DataGridViewTextBoxColumn Lectures;
+        private DataGridViewTextBoxColumn PracticalLessons;
+        private DataGridViewTextBoxColumn LaboratoryStudies;
+        private DataGridViewTextBoxColumn Nirs;
+        private DataGridViewTextBoxColumn PartTimeStudents;
+        private DataGridViewTextBoxColumn CourseConsultations;
+        private DataGridViewTextBoxColumn ExaminationConsultations;
+        private DataGridViewTextBoxColumn ControlAuditWork;
+        private DataGridViewTextBoxColumn IndependentWork;
+        private DataGridViewTextBoxColumn AbstractsTranslations;
+        private DataGridViewTextBoxColumn CalculatedGraphWorks;
+        private DataGridViewTextBoxColumn CourseWorks;
+        private DataGridViewTextBoxColumn SemesterExams;
+        private DataGridViewTextBoxColumn PracticeGuide;
+        private DataGridViewTextBoxColumn StateExams;
+        private DataGridViewTextBoxColumn Vkr;
+        private DataGridViewTextBoxColumn Guidance;
+        private DataGridViewTextBoxColumn OtherTypes;
     }
 }
