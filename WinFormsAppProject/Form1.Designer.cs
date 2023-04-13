@@ -28,3107 +28,1967 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox146 = new System.Windows.Forms.ComboBox();
-            this.comboBox147 = new System.Windows.Forms.ComboBox();
-            this.comboBox148 = new System.Windows.Forms.ComboBox();
-            this.comboBox149 = new System.Windows.Forms.ComboBox();
-            this.comboBox150 = new System.Windows.Forms.ComboBox();
-            this.comboBox76 = new System.Windows.Forms.ComboBox();
-            this.comboBox77 = new System.Windows.Forms.ComboBox();
-            this.comboBox78 = new System.Windows.Forms.ComboBox();
-            this.comboBox79 = new System.Windows.Forms.ComboBox();
-            this.comboBox80 = new System.Windows.Forms.ComboBox();
-            this.comboBox81 = new System.Windows.Forms.ComboBox();
-            this.comboBox82 = new System.Windows.Forms.ComboBox();
-            this.comboBox83 = new System.Windows.Forms.ComboBox();
-            this.comboBox84 = new System.Windows.Forms.ComboBox();
-            this.comboBox85 = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox86 = new System.Windows.Forms.ComboBox();
-            this.comboBox87 = new System.Windows.Forms.ComboBox();
-            this.comboBox88 = new System.Windows.Forms.ComboBox();
-            this.comboBox89 = new System.Windows.Forms.ComboBox();
-            this.comboBox90 = new System.Windows.Forms.ComboBox();
-            this.comboBox91 = new System.Windows.Forms.ComboBox();
-            this.comboBox92 = new System.Windows.Forms.ComboBox();
-            this.comboBox93 = new System.Windows.Forms.ComboBox();
-            this.comboBox94 = new System.Windows.Forms.ComboBox();
-            this.comboBox95 = new System.Windows.Forms.ComboBox();
-            this.comboBox96 = new System.Windows.Forms.ComboBox();
-            this.comboBox97 = new System.Windows.Forms.ComboBox();
-            this.comboBox98 = new System.Windows.Forms.ComboBox();
-            this.comboBox99 = new System.Windows.Forms.ComboBox();
-            this.comboBox100 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox101 = new System.Windows.Forms.ComboBox();
-            this.comboBox102 = new System.Windows.Forms.ComboBox();
-            this.comboBox103 = new System.Windows.Forms.ComboBox();
-            this.comboBox104 = new System.Windows.Forms.ComboBox();
-            this.comboBox105 = new System.Windows.Forms.ComboBox();
-            this.comboBox106 = new System.Windows.Forms.ComboBox();
-            this.comboBox107 = new System.Windows.Forms.ComboBox();
-            this.comboBox108 = new System.Windows.Forms.ComboBox();
-            this.comboBox109 = new System.Windows.Forms.ComboBox();
-            this.comboBox110 = new System.Windows.Forms.ComboBox();
-            this.comboBox111 = new System.Windows.Forms.ComboBox();
-            this.comboBox112 = new System.Windows.Forms.ComboBox();
-            this.comboBox113 = new System.Windows.Forms.ComboBox();
-            this.comboBox114 = new System.Windows.Forms.ComboBox();
-            this.comboBox115 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.comboBox116 = new System.Windows.Forms.ComboBox();
-            this.comboBox117 = new System.Windows.Forms.ComboBox();
-            this.comboBox118 = new System.Windows.Forms.ComboBox();
-            this.comboBox119 = new System.Windows.Forms.ComboBox();
-            this.comboBox120 = new System.Windows.Forms.ComboBox();
-            this.comboBox121 = new System.Windows.Forms.ComboBox();
-            this.comboBox122 = new System.Windows.Forms.ComboBox();
-            this.comboBox123 = new System.Windows.Forms.ComboBox();
-            this.comboBox124 = new System.Windows.Forms.ComboBox();
-            this.comboBox125 = new System.Windows.Forms.ComboBox();
-            this.comboBox126 = new System.Windows.Forms.ComboBox();
-            this.comboBox127 = new System.Windows.Forms.ComboBox();
-            this.comboBox128 = new System.Windows.Forms.ComboBox();
-            this.comboBox129 = new System.Windows.Forms.ComboBox();
-            this.comboBox130 = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.comboBox131 = new System.Windows.Forms.ComboBox();
-            this.comboBox132 = new System.Windows.Forms.ComboBox();
-            this.comboBox133 = new System.Windows.Forms.ComboBox();
-            this.comboBox134 = new System.Windows.Forms.ComboBox();
-            this.comboBox135 = new System.Windows.Forms.ComboBox();
-            this.comboBox136 = new System.Windows.Forms.ComboBox();
-            this.comboBox137 = new System.Windows.Forms.ComboBox();
-            this.comboBox138 = new System.Windows.Forms.ComboBox();
-            this.comboBox139 = new System.Windows.Forms.ComboBox();
-            this.comboBox140 = new System.Windows.Forms.ComboBox();
-            this.comboBox141 = new System.Windows.Forms.ComboBox();
-            this.comboBox142 = new System.Windows.Forms.ComboBox();
-            this.comboBox143 = new System.Windows.Forms.ComboBox();
-            this.comboBox144 = new System.Windows.Forms.ComboBox();
-            this.comboBox145 = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox61 = new System.Windows.Forms.ComboBox();
-            this.comboBox62 = new System.Windows.Forms.ComboBox();
-            this.comboBox63 = new System.Windows.Forms.ComboBox();
-            this.comboBox64 = new System.Windows.Forms.ComboBox();
-            this.comboBox65 = new System.Windows.Forms.ComboBox();
-            this.comboBox66 = new System.Windows.Forms.ComboBox();
-            this.comboBox67 = new System.Windows.Forms.ComboBox();
-            this.comboBox68 = new System.Windows.Forms.ComboBox();
-            this.comboBox69 = new System.Windows.Forms.ComboBox();
-            this.comboBox70 = new System.Windows.Forms.ComboBox();
-            this.comboBox71 = new System.Windows.Forms.ComboBox();
-            this.comboBox72 = new System.Windows.Forms.ComboBox();
-            this.comboBox73 = new System.Windows.Forms.ComboBox();
-            this.comboBox74 = new System.Windows.Forms.ComboBox();
-            this.comboBox75 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.comboBox31 = new System.Windows.Forms.ComboBox();
-            this.comboBox32 = new System.Windows.Forms.ComboBox();
-            this.comboBox33 = new System.Windows.Forms.ComboBox();
-            this.comboBox34 = new System.Windows.Forms.ComboBox();
-            this.comboBox35 = new System.Windows.Forms.ComboBox();
-            this.comboBox36 = new System.Windows.Forms.ComboBox();
-            this.comboBox37 = new System.Windows.Forms.ComboBox();
-            this.comboBox38 = new System.Windows.Forms.ComboBox();
-            this.comboBox39 = new System.Windows.Forms.ComboBox();
-            this.comboBox40 = new System.Windows.Forms.ComboBox();
-            this.comboBox41 = new System.Windows.Forms.ComboBox();
-            this.comboBox42 = new System.Windows.Forms.ComboBox();
-            this.comboBox43 = new System.Windows.Forms.ComboBox();
-            this.comboBox44 = new System.Windows.Forms.ComboBox();
-            this.comboBox45 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox46 = new System.Windows.Forms.ComboBox();
-            this.comboBox47 = new System.Windows.Forms.ComboBox();
-            this.comboBox48 = new System.Windows.Forms.ComboBox();
-            this.comboBox49 = new System.Windows.Forms.ComboBox();
-            this.comboBox50 = new System.Windows.Forms.ComboBox();
-            this.comboBox51 = new System.Windows.Forms.ComboBox();
-            this.comboBox52 = new System.Windows.Forms.ComboBox();
-            this.comboBox53 = new System.Windows.Forms.ComboBox();
-            this.comboBox54 = new System.Windows.Forms.ComboBox();
-            this.comboBox55 = new System.Windows.Forms.ComboBox();
-            this.comboBox56 = new System.Windows.Forms.ComboBox();
-            this.comboBox57 = new System.Windows.Forms.ComboBox();
-            this.comboBox58 = new System.Windows.Forms.ComboBox();
-            this.comboBox59 = new System.Windows.Forms.ComboBox();
-            this.comboBox60 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
-            this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
-            this.comboBox23 = new System.Windows.Forms.ComboBox();
-            this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.comboBox25 = new System.Windows.Forms.ComboBox();
-            this.comboBox26 = new System.Windows.Forms.ComboBox();
-            this.comboBox27 = new System.Windows.Forms.ComboBox();
-            this.comboBox28 = new System.Windows.Forms.ComboBox();
-            this.comboBox29 = new System.Windows.Forms.ComboBox();
-            this.comboBox30 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
+            button2 = new Button();
+            comboBox146 = new ComboBox();
+            comboBox147 = new ComboBox();
+            comboBox148 = new ComboBox();
+            comboBox149 = new ComboBox();
+            comboBox150 = new ComboBox();
+            comboBox76 = new ComboBox();
+            comboBox77 = new ComboBox();
+            comboBox78 = new ComboBox();
+            comboBox79 = new ComboBox();
+            comboBox80 = new ComboBox();
+            comboBox81 = new ComboBox();
+            comboBox82 = new ComboBox();
+            comboBox83 = new ComboBox();
+            comboBox84 = new ComboBox();
+            comboBox85 = new ComboBox();
+            label8 = new Label();
+            comboBox86 = new ComboBox();
+            comboBox87 = new ComboBox();
+            comboBox88 = new ComboBox();
+            comboBox89 = new ComboBox();
+            comboBox90 = new ComboBox();
+            comboBox91 = new ComboBox();
+            comboBox92 = new ComboBox();
+            comboBox93 = new ComboBox();
+            comboBox94 = new ComboBox();
+            comboBox95 = new ComboBox();
+            comboBox96 = new ComboBox();
+            comboBox97 = new ComboBox();
+            comboBox98 = new ComboBox();
+            comboBox99 = new ComboBox();
+            comboBox100 = new ComboBox();
+            label9 = new Label();
+            comboBox101 = new ComboBox();
+            comboBox102 = new ComboBox();
+            comboBox103 = new ComboBox();
+            comboBox104 = new ComboBox();
+            comboBox105 = new ComboBox();
+            comboBox106 = new ComboBox();
+            comboBox107 = new ComboBox();
+            comboBox108 = new ComboBox();
+            comboBox109 = new ComboBox();
+            comboBox110 = new ComboBox();
+            comboBox111 = new ComboBox();
+            comboBox112 = new ComboBox();
+            comboBox113 = new ComboBox();
+            comboBox114 = new ComboBox();
+            comboBox115 = new ComboBox();
+            label10 = new Label();
+            comboBox116 = new ComboBox();
+            comboBox117 = new ComboBox();
+            comboBox118 = new ComboBox();
+            comboBox119 = new ComboBox();
+            comboBox120 = new ComboBox();
+            comboBox121 = new ComboBox();
+            comboBox122 = new ComboBox();
+            comboBox123 = new ComboBox();
+            comboBox124 = new ComboBox();
+            comboBox125 = new ComboBox();
+            comboBox126 = new ComboBox();
+            comboBox127 = new ComboBox();
+            comboBox128 = new ComboBox();
+            comboBox129 = new ComboBox();
+            comboBox130 = new ComboBox();
+            label11 = new Label();
+            comboBox131 = new ComboBox();
+            comboBox132 = new ComboBox();
+            comboBox133 = new ComboBox();
+            comboBox134 = new ComboBox();
+            comboBox135 = new ComboBox();
+            comboBox136 = new ComboBox();
+            comboBox137 = new ComboBox();
+            comboBox138 = new ComboBox();
+            comboBox139 = new ComboBox();
+            comboBox140 = new ComboBox();
+            comboBox141 = new ComboBox();
+            comboBox142 = new ComboBox();
+            comboBox143 = new ComboBox();
+            comboBox144 = new ComboBox();
+            comboBox145 = new ComboBox();
+            label12 = new Label();
+            comboBox61 = new ComboBox();
+            comboBox62 = new ComboBox();
+            comboBox63 = new ComboBox();
+            comboBox64 = new ComboBox();
+            comboBox65 = new ComboBox();
+            comboBox66 = new ComboBox();
+            comboBox67 = new ComboBox();
+            comboBox68 = new ComboBox();
+            comboBox69 = new ComboBox();
+            comboBox70 = new ComboBox();
+            comboBox71 = new ComboBox();
+            comboBox72 = new ComboBox();
+            comboBox73 = new ComboBox();
+            comboBox74 = new ComboBox();
+            comboBox75 = new ComboBox();
+            label7 = new Label();
+            comboBox31 = new ComboBox();
+            comboBox32 = new ComboBox();
+            comboBox33 = new ComboBox();
+            comboBox34 = new ComboBox();
+            comboBox35 = new ComboBox();
+            comboBox36 = new ComboBox();
+            comboBox37 = new ComboBox();
+            comboBox38 = new ComboBox();
+            comboBox39 = new ComboBox();
+            comboBox40 = new ComboBox();
+            comboBox41 = new ComboBox();
+            comboBox42 = new ComboBox();
+            comboBox43 = new ComboBox();
+            comboBox44 = new ComboBox();
+            comboBox45 = new ComboBox();
+            label5 = new Label();
+            comboBox46 = new ComboBox();
+            comboBox47 = new ComboBox();
+            comboBox48 = new ComboBox();
+            comboBox49 = new ComboBox();
+            comboBox50 = new ComboBox();
+            comboBox51 = new ComboBox();
+            comboBox52 = new ComboBox();
+            comboBox53 = new ComboBox();
+            comboBox54 = new ComboBox();
+            comboBox55 = new ComboBox();
+            comboBox56 = new ComboBox();
+            comboBox57 = new ComboBox();
+            comboBox58 = new ComboBox();
+            comboBox59 = new ComboBox();
+            comboBox60 = new ComboBox();
+            label6 = new Label();
+            comboBox16 = new ComboBox();
+            comboBox17 = new ComboBox();
+            comboBox18 = new ComboBox();
+            comboBox19 = new ComboBox();
+            comboBox20 = new ComboBox();
+            comboBox21 = new ComboBox();
+            comboBox22 = new ComboBox();
+            comboBox23 = new ComboBox();
+            comboBox24 = new ComboBox();
+            comboBox25 = new ComboBox();
+            comboBox26 = new ComboBox();
+            comboBox27 = new ComboBox();
+            comboBox28 = new ComboBox();
+            comboBox29 = new ComboBox();
+            comboBox30 = new ComboBox();
+            label4 = new Label();
+            comboBox15 = new ComboBox();
+            comboBox14 = new ComboBox();
+            comboBox13 = new ComboBox();
+            comboBox12 = new ComboBox();
+            comboBox11 = new ComboBox();
+            comboBox10 = new ComboBox();
+            comboBox9 = new ComboBox();
+            comboBox8 = new ComboBox();
+            comboBox7 = new ComboBox();
+            comboBox6 = new ComboBox();
+            comboBox5 = new ComboBox();
+            comboBox3 = new ComboBox();
+            comboBox4 = new ComboBox();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
+            label3 = new Label();
+            label14 = new Label();
+            label2 = new Label();
+            tabPage2 = new TabPage();
+            tabPage3 = new TabPage();
+            tabPage4 = new TabPage();
+            tabPage5 = new TabPage();
+            button1 = new Button();
+            label1 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            label13 = new Label();
+            button3 = new Button();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            tabPage5.SuspendLayout();
+            SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.ItemSize = new System.Drawing.Size(300, 25);
-            this.tabControl1.Location = new System.Drawing.Point(-4, -4);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.Padding = new System.Drawing.Point(105, 3);
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1205, 975);
-            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl1.TabIndex = 0;
+            resources.ApplyResources(tabControl1, "tabControl1");
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage5);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.SizeMode = TabSizeMode.Fixed;
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.tabPage1.Controls.Add(this.button2);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.comboBox146);
-            this.tabPage1.Controls.Add(this.comboBox147);
-            this.tabPage1.Controls.Add(this.comboBox148);
-            this.tabPage1.Controls.Add(this.comboBox149);
-            this.tabPage1.Controls.Add(this.comboBox150);
-            this.tabPage1.Controls.Add(this.comboBox76);
-            this.tabPage1.Controls.Add(this.comboBox77);
-            this.tabPage1.Controls.Add(this.comboBox78);
-            this.tabPage1.Controls.Add(this.comboBox79);
-            this.tabPage1.Controls.Add(this.comboBox80);
-            this.tabPage1.Controls.Add(this.comboBox81);
-            this.tabPage1.Controls.Add(this.comboBox82);
-            this.tabPage1.Controls.Add(this.comboBox83);
-            this.tabPage1.Controls.Add(this.comboBox84);
-            this.tabPage1.Controls.Add(this.comboBox85);
-            this.tabPage1.Controls.Add(this.label8);
-            this.tabPage1.Controls.Add(this.comboBox86);
-            this.tabPage1.Controls.Add(this.comboBox87);
-            this.tabPage1.Controls.Add(this.comboBox88);
-            this.tabPage1.Controls.Add(this.comboBox89);
-            this.tabPage1.Controls.Add(this.comboBox90);
-            this.tabPage1.Controls.Add(this.comboBox91);
-            this.tabPage1.Controls.Add(this.comboBox92);
-            this.tabPage1.Controls.Add(this.comboBox93);
-            this.tabPage1.Controls.Add(this.comboBox94);
-            this.tabPage1.Controls.Add(this.comboBox95);
-            this.tabPage1.Controls.Add(this.comboBox96);
-            this.tabPage1.Controls.Add(this.comboBox97);
-            this.tabPage1.Controls.Add(this.comboBox98);
-            this.tabPage1.Controls.Add(this.comboBox99);
-            this.tabPage1.Controls.Add(this.comboBox100);
-            this.tabPage1.Controls.Add(this.label9);
-            this.tabPage1.Controls.Add(this.comboBox101);
-            this.tabPage1.Controls.Add(this.comboBox102);
-            this.tabPage1.Controls.Add(this.comboBox103);
-            this.tabPage1.Controls.Add(this.comboBox104);
-            this.tabPage1.Controls.Add(this.comboBox105);
-            this.tabPage1.Controls.Add(this.comboBox106);
-            this.tabPage1.Controls.Add(this.comboBox107);
-            this.tabPage1.Controls.Add(this.comboBox108);
-            this.tabPage1.Controls.Add(this.comboBox109);
-            this.tabPage1.Controls.Add(this.comboBox110);
-            this.tabPage1.Controls.Add(this.comboBox111);
-            this.tabPage1.Controls.Add(this.comboBox112);
-            this.tabPage1.Controls.Add(this.comboBox113);
-            this.tabPage1.Controls.Add(this.comboBox114);
-            this.tabPage1.Controls.Add(this.comboBox115);
-            this.tabPage1.Controls.Add(this.label10);
-            this.tabPage1.Controls.Add(this.comboBox116);
-            this.tabPage1.Controls.Add(this.comboBox117);
-            this.tabPage1.Controls.Add(this.comboBox118);
-            this.tabPage1.Controls.Add(this.comboBox119);
-            this.tabPage1.Controls.Add(this.comboBox120);
-            this.tabPage1.Controls.Add(this.comboBox121);
-            this.tabPage1.Controls.Add(this.comboBox122);
-            this.tabPage1.Controls.Add(this.comboBox123);
-            this.tabPage1.Controls.Add(this.comboBox124);
-            this.tabPage1.Controls.Add(this.comboBox125);
-            this.tabPage1.Controls.Add(this.comboBox126);
-            this.tabPage1.Controls.Add(this.comboBox127);
-            this.tabPage1.Controls.Add(this.comboBox128);
-            this.tabPage1.Controls.Add(this.comboBox129);
-            this.tabPage1.Controls.Add(this.comboBox130);
-            this.tabPage1.Controls.Add(this.label11);
-            this.tabPage1.Controls.Add(this.comboBox131);
-            this.tabPage1.Controls.Add(this.comboBox132);
-            this.tabPage1.Controls.Add(this.comboBox133);
-            this.tabPage1.Controls.Add(this.comboBox134);
-            this.tabPage1.Controls.Add(this.comboBox135);
-            this.tabPage1.Controls.Add(this.comboBox136);
-            this.tabPage1.Controls.Add(this.comboBox137);
-            this.tabPage1.Controls.Add(this.comboBox138);
-            this.tabPage1.Controls.Add(this.comboBox139);
-            this.tabPage1.Controls.Add(this.comboBox140);
-            this.tabPage1.Controls.Add(this.comboBox141);
-            this.tabPage1.Controls.Add(this.comboBox142);
-            this.tabPage1.Controls.Add(this.comboBox143);
-            this.tabPage1.Controls.Add(this.comboBox144);
-            this.tabPage1.Controls.Add(this.comboBox145);
-            this.tabPage1.Controls.Add(this.label12);
-            this.tabPage1.Controls.Add(this.comboBox61);
-            this.tabPage1.Controls.Add(this.comboBox62);
-            this.tabPage1.Controls.Add(this.comboBox63);
-            this.tabPage1.Controls.Add(this.comboBox64);
-            this.tabPage1.Controls.Add(this.comboBox65);
-            this.tabPage1.Controls.Add(this.comboBox66);
-            this.tabPage1.Controls.Add(this.comboBox67);
-            this.tabPage1.Controls.Add(this.comboBox68);
-            this.tabPage1.Controls.Add(this.comboBox69);
-            this.tabPage1.Controls.Add(this.comboBox70);
-            this.tabPage1.Controls.Add(this.comboBox71);
-            this.tabPage1.Controls.Add(this.comboBox72);
-            this.tabPage1.Controls.Add(this.comboBox73);
-            this.tabPage1.Controls.Add(this.comboBox74);
-            this.tabPage1.Controls.Add(this.comboBox75);
-            this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.comboBox31);
-            this.tabPage1.Controls.Add(this.comboBox32);
-            this.tabPage1.Controls.Add(this.comboBox33);
-            this.tabPage1.Controls.Add(this.comboBox34);
-            this.tabPage1.Controls.Add(this.comboBox35);
-            this.tabPage1.Controls.Add(this.comboBox36);
-            this.tabPage1.Controls.Add(this.comboBox37);
-            this.tabPage1.Controls.Add(this.comboBox38);
-            this.tabPage1.Controls.Add(this.comboBox39);
-            this.tabPage1.Controls.Add(this.comboBox40);
-            this.tabPage1.Controls.Add(this.comboBox41);
-            this.tabPage1.Controls.Add(this.comboBox42);
-            this.tabPage1.Controls.Add(this.comboBox43);
-            this.tabPage1.Controls.Add(this.comboBox44);
-            this.tabPage1.Controls.Add(this.comboBox45);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.comboBox46);
-            this.tabPage1.Controls.Add(this.comboBox47);
-            this.tabPage1.Controls.Add(this.comboBox48);
-            this.tabPage1.Controls.Add(this.comboBox49);
-            this.tabPage1.Controls.Add(this.comboBox50);
-            this.tabPage1.Controls.Add(this.comboBox51);
-            this.tabPage1.Controls.Add(this.comboBox52);
-            this.tabPage1.Controls.Add(this.comboBox53);
-            this.tabPage1.Controls.Add(this.comboBox54);
-            this.tabPage1.Controls.Add(this.comboBox55);
-            this.tabPage1.Controls.Add(this.comboBox56);
-            this.tabPage1.Controls.Add(this.comboBox57);
-            this.tabPage1.Controls.Add(this.comboBox58);
-            this.tabPage1.Controls.Add(this.comboBox59);
-            this.tabPage1.Controls.Add(this.comboBox60);
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.comboBox16);
-            this.tabPage1.Controls.Add(this.comboBox17);
-            this.tabPage1.Controls.Add(this.comboBox18);
-            this.tabPage1.Controls.Add(this.comboBox19);
-            this.tabPage1.Controls.Add(this.comboBox20);
-            this.tabPage1.Controls.Add(this.comboBox21);
-            this.tabPage1.Controls.Add(this.comboBox22);
-            this.tabPage1.Controls.Add(this.comboBox23);
-            this.tabPage1.Controls.Add(this.comboBox24);
-            this.tabPage1.Controls.Add(this.comboBox25);
-            this.tabPage1.Controls.Add(this.comboBox26);
-            this.tabPage1.Controls.Add(this.comboBox27);
-            this.tabPage1.Controls.Add(this.comboBox28);
-            this.tabPage1.Controls.Add(this.comboBox29);
-            this.tabPage1.Controls.Add(this.comboBox30);
-            this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.comboBox15);
-            this.tabPage1.Controls.Add(this.comboBox14);
-            this.tabPage1.Controls.Add(this.comboBox13);
-            this.tabPage1.Controls.Add(this.comboBox12);
-            this.tabPage1.Controls.Add(this.comboBox11);
-            this.tabPage1.Controls.Add(this.comboBox10);
-            this.tabPage1.Controls.Add(this.comboBox9);
-            this.tabPage1.Controls.Add(this.comboBox8);
-            this.tabPage1.Controls.Add(this.comboBox7);
-            this.tabPage1.Controls.Add(this.comboBox6);
-            this.tabPage1.Controls.Add(this.comboBox5);
-            this.tabPage1.Controls.Add(this.comboBox3);
-            this.tabPage1.Controls.Add(this.comboBox4);
-            this.tabPage1.Controls.Add(this.comboBox2);
-            this.tabPage1.Controls.Add(this.comboBox1);
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1197, 942);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Расписание";
+            resources.ApplyResources(tabPage1, "tabPage1");
+            tabPage1.BackColor = SystemColors.GradientActiveCaption;
+            tabPage1.Controls.Add(button2);
+            tabPage1.Controls.Add(comboBox146);
+            tabPage1.Controls.Add(comboBox147);
+            tabPage1.Controls.Add(comboBox148);
+            tabPage1.Controls.Add(comboBox149);
+            tabPage1.Controls.Add(comboBox150);
+            tabPage1.Controls.Add(comboBox76);
+            tabPage1.Controls.Add(comboBox77);
+            tabPage1.Controls.Add(comboBox78);
+            tabPage1.Controls.Add(comboBox79);
+            tabPage1.Controls.Add(comboBox80);
+            tabPage1.Controls.Add(comboBox81);
+            tabPage1.Controls.Add(comboBox82);
+            tabPage1.Controls.Add(comboBox83);
+            tabPage1.Controls.Add(comboBox84);
+            tabPage1.Controls.Add(comboBox85);
+            tabPage1.Controls.Add(label8);
+            tabPage1.Controls.Add(comboBox86);
+            tabPage1.Controls.Add(comboBox87);
+            tabPage1.Controls.Add(comboBox88);
+            tabPage1.Controls.Add(comboBox89);
+            tabPage1.Controls.Add(comboBox90);
+            tabPage1.Controls.Add(comboBox91);
+            tabPage1.Controls.Add(comboBox92);
+            tabPage1.Controls.Add(comboBox93);
+            tabPage1.Controls.Add(comboBox94);
+            tabPage1.Controls.Add(comboBox95);
+            tabPage1.Controls.Add(comboBox96);
+            tabPage1.Controls.Add(comboBox97);
+            tabPage1.Controls.Add(comboBox98);
+            tabPage1.Controls.Add(comboBox99);
+            tabPage1.Controls.Add(comboBox100);
+            tabPage1.Controls.Add(label9);
+            tabPage1.Controls.Add(comboBox101);
+            tabPage1.Controls.Add(comboBox102);
+            tabPage1.Controls.Add(comboBox103);
+            tabPage1.Controls.Add(comboBox104);
+            tabPage1.Controls.Add(comboBox105);
+            tabPage1.Controls.Add(comboBox106);
+            tabPage1.Controls.Add(comboBox107);
+            tabPage1.Controls.Add(comboBox108);
+            tabPage1.Controls.Add(comboBox109);
+            tabPage1.Controls.Add(comboBox110);
+            tabPage1.Controls.Add(comboBox111);
+            tabPage1.Controls.Add(comboBox112);
+            tabPage1.Controls.Add(comboBox113);
+            tabPage1.Controls.Add(comboBox114);
+            tabPage1.Controls.Add(comboBox115);
+            tabPage1.Controls.Add(label10);
+            tabPage1.Controls.Add(comboBox116);
+            tabPage1.Controls.Add(comboBox117);
+            tabPage1.Controls.Add(comboBox118);
+            tabPage1.Controls.Add(comboBox119);
+            tabPage1.Controls.Add(comboBox120);
+            tabPage1.Controls.Add(comboBox121);
+            tabPage1.Controls.Add(comboBox122);
+            tabPage1.Controls.Add(comboBox123);
+            tabPage1.Controls.Add(comboBox124);
+            tabPage1.Controls.Add(comboBox125);
+            tabPage1.Controls.Add(comboBox126);
+            tabPage1.Controls.Add(comboBox127);
+            tabPage1.Controls.Add(comboBox128);
+            tabPage1.Controls.Add(comboBox129);
+            tabPage1.Controls.Add(comboBox130);
+            tabPage1.Controls.Add(label11);
+            tabPage1.Controls.Add(comboBox131);
+            tabPage1.Controls.Add(comboBox132);
+            tabPage1.Controls.Add(comboBox133);
+            tabPage1.Controls.Add(comboBox134);
+            tabPage1.Controls.Add(comboBox135);
+            tabPage1.Controls.Add(comboBox136);
+            tabPage1.Controls.Add(comboBox137);
+            tabPage1.Controls.Add(comboBox138);
+            tabPage1.Controls.Add(comboBox139);
+            tabPage1.Controls.Add(comboBox140);
+            tabPage1.Controls.Add(comboBox141);
+            tabPage1.Controls.Add(comboBox142);
+            tabPage1.Controls.Add(comboBox143);
+            tabPage1.Controls.Add(comboBox144);
+            tabPage1.Controls.Add(comboBox145);
+            tabPage1.Controls.Add(label12);
+            tabPage1.Controls.Add(comboBox61);
+            tabPage1.Controls.Add(comboBox62);
+            tabPage1.Controls.Add(comboBox63);
+            tabPage1.Controls.Add(comboBox64);
+            tabPage1.Controls.Add(comboBox65);
+            tabPage1.Controls.Add(comboBox66);
+            tabPage1.Controls.Add(comboBox67);
+            tabPage1.Controls.Add(comboBox68);
+            tabPage1.Controls.Add(comboBox69);
+            tabPage1.Controls.Add(comboBox70);
+            tabPage1.Controls.Add(comboBox71);
+            tabPage1.Controls.Add(comboBox72);
+            tabPage1.Controls.Add(comboBox73);
+            tabPage1.Controls.Add(comboBox74);
+            tabPage1.Controls.Add(comboBox75);
+            tabPage1.Controls.Add(label7);
+            tabPage1.Controls.Add(comboBox31);
+            tabPage1.Controls.Add(comboBox32);
+            tabPage1.Controls.Add(comboBox33);
+            tabPage1.Controls.Add(comboBox34);
+            tabPage1.Controls.Add(comboBox35);
+            tabPage1.Controls.Add(comboBox36);
+            tabPage1.Controls.Add(comboBox37);
+            tabPage1.Controls.Add(comboBox38);
+            tabPage1.Controls.Add(comboBox39);
+            tabPage1.Controls.Add(comboBox40);
+            tabPage1.Controls.Add(comboBox41);
+            tabPage1.Controls.Add(comboBox42);
+            tabPage1.Controls.Add(comboBox43);
+            tabPage1.Controls.Add(comboBox44);
+            tabPage1.Controls.Add(comboBox45);
+            tabPage1.Controls.Add(label5);
+            tabPage1.Controls.Add(comboBox46);
+            tabPage1.Controls.Add(comboBox47);
+            tabPage1.Controls.Add(comboBox48);
+            tabPage1.Controls.Add(comboBox49);
+            tabPage1.Controls.Add(comboBox50);
+            tabPage1.Controls.Add(comboBox51);
+            tabPage1.Controls.Add(comboBox52);
+            tabPage1.Controls.Add(comboBox53);
+            tabPage1.Controls.Add(comboBox54);
+            tabPage1.Controls.Add(comboBox55);
+            tabPage1.Controls.Add(comboBox56);
+            tabPage1.Controls.Add(comboBox57);
+            tabPage1.Controls.Add(comboBox58);
+            tabPage1.Controls.Add(comboBox59);
+            tabPage1.Controls.Add(comboBox60);
+            tabPage1.Controls.Add(label6);
+            tabPage1.Controls.Add(comboBox16);
+            tabPage1.Controls.Add(comboBox17);
+            tabPage1.Controls.Add(comboBox18);
+            tabPage1.Controls.Add(comboBox19);
+            tabPage1.Controls.Add(comboBox20);
+            tabPage1.Controls.Add(comboBox21);
+            tabPage1.Controls.Add(comboBox22);
+            tabPage1.Controls.Add(comboBox23);
+            tabPage1.Controls.Add(comboBox24);
+            tabPage1.Controls.Add(comboBox25);
+            tabPage1.Controls.Add(comboBox26);
+            tabPage1.Controls.Add(comboBox27);
+            tabPage1.Controls.Add(comboBox28);
+            tabPage1.Controls.Add(comboBox29);
+            tabPage1.Controls.Add(comboBox30);
+            tabPage1.Controls.Add(label4);
+            tabPage1.Controls.Add(comboBox15);
+            tabPage1.Controls.Add(comboBox14);
+            tabPage1.Controls.Add(comboBox13);
+            tabPage1.Controls.Add(comboBox12);
+            tabPage1.Controls.Add(comboBox11);
+            tabPage1.Controls.Add(comboBox10);
+            tabPage1.Controls.Add(comboBox9);
+            tabPage1.Controls.Add(comboBox8);
+            tabPage1.Controls.Add(comboBox7);
+            tabPage1.Controls.Add(comboBox6);
+            tabPage1.Controls.Add(comboBox5);
+            tabPage1.Controls.Add(comboBox3);
+            tabPage1.Controls.Add(comboBox4);
+            tabPage1.Controls.Add(comboBox2);
+            tabPage1.Controls.Add(comboBox1);
+            tabPage1.Controls.Add(label3);
+            tabPage1.Controls.Add(label14);
+            tabPage1.Controls.Add(label2);
+            tabPage1.Name = "tabPage1";
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(237)))), ((int)(((byte)(250)))));
-            this.button2.Location = new System.Drawing.Point(964, 853);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(178, 48);
-            this.button2.TabIndex = 107;
-            this.button2.Text = "Сохранить";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.PaleGreen;
-            this.button1.Location = new System.Drawing.Point(59, 853);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 48);
-            this.button1.TabIndex = 108;
-            this.button1.Text = "Рассчитать";
-            this.button1.UseVisualStyleBackColor = false;
+            resources.ApplyResources(button2, "button2");
+            button2.BackColor = Color.FromArgb(220, 237, 250);
+            button2.Name = "button2";
+            button2.UseVisualStyleBackColor = false;
             // 
             // comboBox146
             // 
-            this.comboBox146.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox146.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox146.FormattingEnabled = true;
-            this.comboBox146.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox146.Location = new System.Drawing.Point(1043, 754);
-            this.comboBox146.Name = "comboBox146";
-            this.comboBox146.Size = new System.Drawing.Size(99, 28);
-            this.comboBox146.TabIndex = 348;
-            this.comboBox146.Text = "ЛЕКЦ";
-            this.comboBox146.UseWaitCursor = true;
+            resources.ApplyResources(comboBox146, "comboBox146");
+            comboBox146.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox146.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox146.FormattingEnabled = true;
+            comboBox146.Items.AddRange(new object[] { resources.GetString("comboBox146.Items"), resources.GetString("comboBox146.Items1"), resources.GetString("comboBox146.Items2") });
+            comboBox146.Name = "comboBox146";
+            comboBox146.UseWaitCursor = true;
             // 
             // comboBox147
             // 
-            this.comboBox147.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox147.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox147.FormattingEnabled = true;
-            this.comboBox147.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox147.Location = new System.Drawing.Point(938, 754);
-            this.comboBox147.Name = "comboBox147";
-            this.comboBox147.Size = new System.Drawing.Size(99, 28);
-            this.comboBox147.TabIndex = 347;
-            this.comboBox147.Text = "ЛЕКЦ";
-            this.comboBox147.UseWaitCursor = true;
+            resources.ApplyResources(comboBox147, "comboBox147");
+            comboBox147.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox147.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox147.FormattingEnabled = true;
+            comboBox147.Items.AddRange(new object[] { resources.GetString("comboBox147.Items"), resources.GetString("comboBox147.Items1"), resources.GetString("comboBox147.Items2") });
+            comboBox147.Name = "comboBox147";
+            comboBox147.UseWaitCursor = true;
             // 
             // comboBox148
             // 
-            this.comboBox148.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox148.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox148.FormattingEnabled = true;
-            this.comboBox148.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox148.Location = new System.Drawing.Point(833, 754);
-            this.comboBox148.Name = "comboBox148";
-            this.comboBox148.Size = new System.Drawing.Size(99, 28);
-            this.comboBox148.TabIndex = 346;
-            this.comboBox148.Text = "ПРАКТ";
-            this.comboBox148.UseWaitCursor = true;
+            resources.ApplyResources(comboBox148, "comboBox148");
+            comboBox148.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox148.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox148.FormattingEnabled = true;
+            comboBox148.Items.AddRange(new object[] { resources.GetString("comboBox148.Items"), resources.GetString("comboBox148.Items1"), resources.GetString("comboBox148.Items2") });
+            comboBox148.Name = "comboBox148";
+            comboBox148.UseWaitCursor = true;
             // 
             // comboBox149
             // 
-            this.comboBox149.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox149.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox149.FormattingEnabled = true;
-            this.comboBox149.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox149.Location = new System.Drawing.Point(728, 754);
-            this.comboBox149.Name = "comboBox149";
-            this.comboBox149.Size = new System.Drawing.Size(99, 28);
-            this.comboBox149.TabIndex = 345;
-            this.comboBox149.Text = "ПРАКТ";
-            this.comboBox149.UseWaitCursor = true;
+            resources.ApplyResources(comboBox149, "comboBox149");
+            comboBox149.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox149.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox149.FormattingEnabled = true;
+            comboBox149.Items.AddRange(new object[] { resources.GetString("comboBox149.Items"), resources.GetString("comboBox149.Items1"), resources.GetString("comboBox149.Items2") });
+            comboBox149.Name = "comboBox149";
+            comboBox149.UseWaitCursor = true;
             // 
             // comboBox150
             // 
-            this.comboBox150.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox150.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox150.FormattingEnabled = true;
-            this.comboBox150.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox150.Location = new System.Drawing.Point(623, 754);
-            this.comboBox150.Name = "comboBox150";
-            this.comboBox150.Size = new System.Drawing.Size(99, 28);
-            this.comboBox150.TabIndex = 344;
-            this.comboBox150.Text = "ЛАБ";
-            this.comboBox150.UseWaitCursor = true;
+            resources.ApplyResources(comboBox150, "comboBox150");
+            comboBox150.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox150.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox150.FormattingEnabled = true;
+            comboBox150.Items.AddRange(new object[] { resources.GetString("comboBox150.Items"), resources.GetString("comboBox150.Items1"), resources.GetString("comboBox150.Items2") });
+            comboBox150.Name = "comboBox150";
+            comboBox150.UseWaitCursor = true;
             // 
             // comboBox76
             // 
-            this.comboBox76.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox76.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox76.FormattingEnabled = true;
-            this.comboBox76.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox76.Location = new System.Drawing.Point(1043, 720);
-            this.comboBox76.Name = "comboBox76";
-            this.comboBox76.Size = new System.Drawing.Size(99, 28);
-            this.comboBox76.TabIndex = 343;
-            this.comboBox76.Text = "КСЦ-21";
-            this.comboBox76.UseWaitCursor = true;
+            resources.ApplyResources(comboBox76, "comboBox76");
+            comboBox76.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox76.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox76.FormattingEnabled = true;
+            comboBox76.Items.AddRange(new object[] { resources.GetString("comboBox76.Items"), resources.GetString("comboBox76.Items1"), resources.GetString("comboBox76.Items2"), resources.GetString("comboBox76.Items3"), resources.GetString("comboBox76.Items4") });
+            comboBox76.Name = "comboBox76";
+            comboBox76.UseWaitCursor = true;
             // 
             // comboBox77
             // 
-            this.comboBox77.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox77.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox77.FormattingEnabled = true;
-            this.comboBox77.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox77.Location = new System.Drawing.Point(938, 720);
-            this.comboBox77.Name = "comboBox77";
-            this.comboBox77.Size = new System.Drawing.Size(99, 28);
-            this.comboBox77.TabIndex = 342;
-            this.comboBox77.Text = "АСУ-21";
-            this.comboBox77.UseWaitCursor = true;
+            resources.ApplyResources(comboBox77, "comboBox77");
+            comboBox77.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox77.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox77.FormattingEnabled = true;
+            comboBox77.Items.AddRange(new object[] { resources.GetString("comboBox77.Items"), resources.GetString("comboBox77.Items1"), resources.GetString("comboBox77.Items2"), resources.GetString("comboBox77.Items3"), resources.GetString("comboBox77.Items4") });
+            comboBox77.Name = "comboBox77";
+            comboBox77.UseWaitCursor = true;
             // 
             // comboBox78
             // 
-            this.comboBox78.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox78.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox78.FormattingEnabled = true;
-            this.comboBox78.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox78.Location = new System.Drawing.Point(833, 720);
-            this.comboBox78.Name = "comboBox78";
-            this.comboBox78.Size = new System.Drawing.Size(99, 28);
-            this.comboBox78.TabIndex = 341;
-            this.comboBox78.Text = "СП-21";
-            this.comboBox78.UseWaitCursor = true;
+            resources.ApplyResources(comboBox78, "comboBox78");
+            comboBox78.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox78.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox78.FormattingEnabled = true;
+            comboBox78.Items.AddRange(new object[] { resources.GetString("comboBox78.Items"), resources.GetString("comboBox78.Items1"), resources.GetString("comboBox78.Items2"), resources.GetString("comboBox78.Items3"), resources.GetString("comboBox78.Items4") });
+            comboBox78.Name = "comboBox78";
+            comboBox78.UseWaitCursor = true;
             // 
             // comboBox79
             // 
-            this.comboBox79.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox79.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox79.FormattingEnabled = true;
-            this.comboBox79.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox79.Location = new System.Drawing.Point(728, 720);
-            this.comboBox79.Name = "comboBox79";
-            this.comboBox79.Size = new System.Drawing.Size(99, 28);
-            this.comboBox79.TabIndex = 340;
-            this.comboBox79.Text = "ПИ-21";
-            this.comboBox79.UseWaitCursor = true;
+            resources.ApplyResources(comboBox79, "comboBox79");
+            comboBox79.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox79.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox79.FormattingEnabled = true;
+            comboBox79.Items.AddRange(new object[] { resources.GetString("comboBox79.Items"), resources.GetString("comboBox79.Items1"), resources.GetString("comboBox79.Items2"), resources.GetString("comboBox79.Items3"), resources.GetString("comboBox79.Items4") });
+            comboBox79.Name = "comboBox79";
+            comboBox79.UseWaitCursor = true;
             // 
             // comboBox80
             // 
-            this.comboBox80.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox80.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox80.FormattingEnabled = true;
-            this.comboBox80.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox80.Location = new System.Drawing.Point(623, 720);
-            this.comboBox80.Name = "comboBox80";
-            this.comboBox80.Size = new System.Drawing.Size(99, 28);
-            this.comboBox80.TabIndex = 339;
-            this.comboBox80.Text = "КИ-21";
-            this.comboBox80.UseWaitCursor = true;
+            resources.ApplyResources(comboBox80, "comboBox80");
+            comboBox80.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox80.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox80.FormattingEnabled = true;
+            comboBox80.Items.AddRange(new object[] { resources.GetString("comboBox80.Items"), resources.GetString("comboBox80.Items1"), resources.GetString("comboBox80.Items2"), resources.GetString("comboBox80.Items3"), resources.GetString("comboBox80.Items4") });
+            comboBox80.Name = "comboBox80";
+            comboBox80.UseWaitCursor = true;
             // 
             // comboBox81
             // 
-            this.comboBox81.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox81.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox81.FormattingEnabled = true;
-            this.comboBox81.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox81.Location = new System.Drawing.Point(1043, 686);
-            this.comboBox81.Name = "comboBox81";
-            this.comboBox81.Size = new System.Drawing.Size(99, 28);
-            this.comboBox81.TabIndex = 338;
-            this.comboBox81.Text = "ОППТ";
+            resources.ApplyResources(comboBox81, "comboBox81");
+            comboBox81.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox81.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox81.FormattingEnabled = true;
+            comboBox81.Items.AddRange(new object[] { resources.GetString("comboBox81.Items"), resources.GetString("comboBox81.Items1"), resources.GetString("comboBox81.Items2"), resources.GetString("comboBox81.Items3"), resources.GetString("comboBox81.Items4") });
+            comboBox81.Name = "comboBox81";
             // 
             // comboBox82
             // 
-            this.comboBox82.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox82.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox82.FormattingEnabled = true;
-            this.comboBox82.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox82.Location = new System.Drawing.Point(938, 686);
-            this.comboBox82.Name = "comboBox82";
-            this.comboBox82.Size = new System.Drawing.Size(99, 28);
-            this.comboBox82.TabIndex = 337;
-            this.comboBox82.Text = "АНГЛ";
+            resources.ApplyResources(comboBox82, "comboBox82");
+            comboBox82.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox82.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox82.FormattingEnabled = true;
+            comboBox82.Items.AddRange(new object[] { resources.GetString("comboBox82.Items"), resources.GetString("comboBox82.Items1"), resources.GetString("comboBox82.Items2"), resources.GetString("comboBox82.Items3"), resources.GetString("comboBox82.Items4") });
+            comboBox82.Name = "comboBox82";
             // 
             // comboBox83
             // 
-            this.comboBox83.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox83.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox83.FormattingEnabled = true;
-            this.comboBox83.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox83.Location = new System.Drawing.Point(833, 686);
-            this.comboBox83.Name = "comboBox83";
-            this.comboBox83.Size = new System.Drawing.Size(99, 28);
-            this.comboBox83.TabIndex = 336;
-            this.comboBox83.Text = "РУСС";
+            resources.ApplyResources(comboBox83, "comboBox83");
+            comboBox83.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox83.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox83.FormattingEnabled = true;
+            comboBox83.Items.AddRange(new object[] { resources.GetString("comboBox83.Items"), resources.GetString("comboBox83.Items1"), resources.GetString("comboBox83.Items2"), resources.GetString("comboBox83.Items3"), resources.GetString("comboBox83.Items4") });
+            comboBox83.Name = "comboBox83";
             // 
             // comboBox84
             // 
-            this.comboBox84.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox84.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox84.FormattingEnabled = true;
-            this.comboBox84.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox84.Location = new System.Drawing.Point(728, 686);
-            this.comboBox84.Name = "comboBox84";
-            this.comboBox84.Size = new System.Drawing.Size(99, 28);
-            this.comboBox84.TabIndex = 335;
-            this.comboBox84.Text = "ИВТ";
+            resources.ApplyResources(comboBox84, "comboBox84");
+            comboBox84.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox84.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox84.FormattingEnabled = true;
+            comboBox84.Items.AddRange(new object[] { resources.GetString("comboBox84.Items"), resources.GetString("comboBox84.Items1"), resources.GetString("comboBox84.Items2"), resources.GetString("comboBox84.Items3"), resources.GetString("comboBox84.Items4") });
+            comboBox84.Name = "comboBox84";
             // 
             // comboBox85
             // 
-            this.comboBox85.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox85.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox85.FormattingEnabled = true;
-            this.comboBox85.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox85.Location = new System.Drawing.Point(623, 686);
-            this.comboBox85.Name = "comboBox85";
-            this.comboBox85.Size = new System.Drawing.Size(99, 28);
-            this.comboBox85.TabIndex = 334;
-            this.comboBox85.Text = "ООП";
+            resources.ApplyResources(comboBox85, "comboBox85");
+            comboBox85.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox85.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox85.FormattingEnabled = true;
+            comboBox85.Items.AddRange(new object[] { resources.GetString("comboBox85.Items"), resources.GetString("comboBox85.Items1"), resources.GetString("comboBox85.Items2"), resources.GetString("comboBox85.Items3"), resources.GetString("comboBox85.Items4") });
+            comboBox85.Name = "comboBox85";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.LightYellow;
-            this.label8.Location = new System.Drawing.Point(865, 649);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(28, 20);
-            this.label8.TabIndex = 333;
-            this.label8.Text = "ПТ";
+            resources.ApplyResources(label8, "label8");
+            label8.BackColor = Color.LightYellow;
+            label8.Name = "label8";
             // 
             // comboBox86
             // 
-            this.comboBox86.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox86.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox86.FormattingEnabled = true;
-            this.comboBox86.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox86.Location = new System.Drawing.Point(1043, 611);
-            this.comboBox86.Name = "comboBox86";
-            this.comboBox86.Size = new System.Drawing.Size(99, 28);
-            this.comboBox86.TabIndex = 332;
-            this.comboBox86.Text = "ЛЕКЦ";
-            this.comboBox86.UseWaitCursor = true;
+            resources.ApplyResources(comboBox86, "comboBox86");
+            comboBox86.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox86.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox86.FormattingEnabled = true;
+            comboBox86.Items.AddRange(new object[] { resources.GetString("comboBox86.Items"), resources.GetString("comboBox86.Items1"), resources.GetString("comboBox86.Items2") });
+            comboBox86.Name = "comboBox86";
+            comboBox86.UseWaitCursor = true;
             // 
             // comboBox87
             // 
-            this.comboBox87.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox87.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox87.FormattingEnabled = true;
-            this.comboBox87.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox87.Location = new System.Drawing.Point(938, 611);
-            this.comboBox87.Name = "comboBox87";
-            this.comboBox87.Size = new System.Drawing.Size(99, 28);
-            this.comboBox87.TabIndex = 331;
-            this.comboBox87.Text = "ЛЕКЦ";
-            this.comboBox87.UseWaitCursor = true;
+            resources.ApplyResources(comboBox87, "comboBox87");
+            comboBox87.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox87.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox87.FormattingEnabled = true;
+            comboBox87.Items.AddRange(new object[] { resources.GetString("comboBox87.Items"), resources.GetString("comboBox87.Items1"), resources.GetString("comboBox87.Items2") });
+            comboBox87.Name = "comboBox87";
+            comboBox87.UseWaitCursor = true;
             // 
             // comboBox88
             // 
-            this.comboBox88.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox88.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox88.FormattingEnabled = true;
-            this.comboBox88.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox88.Location = new System.Drawing.Point(833, 611);
-            this.comboBox88.Name = "comboBox88";
-            this.comboBox88.Size = new System.Drawing.Size(99, 28);
-            this.comboBox88.TabIndex = 330;
-            this.comboBox88.Text = "ЛАБ";
-            this.comboBox88.UseWaitCursor = true;
+            resources.ApplyResources(comboBox88, "comboBox88");
+            comboBox88.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox88.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox88.FormattingEnabled = true;
+            comboBox88.Items.AddRange(new object[] { resources.GetString("comboBox88.Items"), resources.GetString("comboBox88.Items1"), resources.GetString("comboBox88.Items2") });
+            comboBox88.Name = "comboBox88";
+            comboBox88.UseWaitCursor = true;
             // 
             // comboBox89
             // 
-            this.comboBox89.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox89.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox89.FormattingEnabled = true;
-            this.comboBox89.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox89.Location = new System.Drawing.Point(728, 611);
-            this.comboBox89.Name = "comboBox89";
-            this.comboBox89.Size = new System.Drawing.Size(99, 28);
-            this.comboBox89.TabIndex = 329;
-            this.comboBox89.Text = "ПРАКТ";
-            this.comboBox89.UseWaitCursor = true;
+            resources.ApplyResources(comboBox89, "comboBox89");
+            comboBox89.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox89.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox89.FormattingEnabled = true;
+            comboBox89.Items.AddRange(new object[] { resources.GetString("comboBox89.Items"), resources.GetString("comboBox89.Items1"), resources.GetString("comboBox89.Items2") });
+            comboBox89.Name = "comboBox89";
+            comboBox89.UseWaitCursor = true;
             // 
             // comboBox90
             // 
-            this.comboBox90.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox90.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox90.FormattingEnabled = true;
-            this.comboBox90.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox90.Location = new System.Drawing.Point(623, 611);
-            this.comboBox90.Name = "comboBox90";
-            this.comboBox90.Size = new System.Drawing.Size(99, 28);
-            this.comboBox90.TabIndex = 328;
-            this.comboBox90.Text = "ЛАБ";
-            this.comboBox90.UseWaitCursor = true;
+            resources.ApplyResources(comboBox90, "comboBox90");
+            comboBox90.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox90.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox90.FormattingEnabled = true;
+            comboBox90.Items.AddRange(new object[] { resources.GetString("comboBox90.Items"), resources.GetString("comboBox90.Items1"), resources.GetString("comboBox90.Items2") });
+            comboBox90.Name = "comboBox90";
+            comboBox90.UseWaitCursor = true;
             // 
             // comboBox91
             // 
-            this.comboBox91.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox91.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox91.FormattingEnabled = true;
-            this.comboBox91.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox91.Location = new System.Drawing.Point(1043, 577);
-            this.comboBox91.Name = "comboBox91";
-            this.comboBox91.Size = new System.Drawing.Size(99, 28);
-            this.comboBox91.TabIndex = 327;
-            this.comboBox91.Text = "КСЦ-21";
-            this.comboBox91.UseWaitCursor = true;
+            resources.ApplyResources(comboBox91, "comboBox91");
+            comboBox91.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox91.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox91.FormattingEnabled = true;
+            comboBox91.Items.AddRange(new object[] { resources.GetString("comboBox91.Items"), resources.GetString("comboBox91.Items1"), resources.GetString("comboBox91.Items2"), resources.GetString("comboBox91.Items3"), resources.GetString("comboBox91.Items4") });
+            comboBox91.Name = "comboBox91";
+            comboBox91.UseWaitCursor = true;
             // 
             // comboBox92
             // 
-            this.comboBox92.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox92.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox92.FormattingEnabled = true;
-            this.comboBox92.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox92.Location = new System.Drawing.Point(938, 577);
-            this.comboBox92.Name = "comboBox92";
-            this.comboBox92.Size = new System.Drawing.Size(99, 28);
-            this.comboBox92.TabIndex = 326;
-            this.comboBox92.Text = "АСУ-21";
-            this.comboBox92.UseWaitCursor = true;
+            resources.ApplyResources(comboBox92, "comboBox92");
+            comboBox92.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox92.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox92.FormattingEnabled = true;
+            comboBox92.Items.AddRange(new object[] { resources.GetString("comboBox92.Items"), resources.GetString("comboBox92.Items1"), resources.GetString("comboBox92.Items2"), resources.GetString("comboBox92.Items3"), resources.GetString("comboBox92.Items4") });
+            comboBox92.Name = "comboBox92";
+            comboBox92.UseWaitCursor = true;
             // 
             // comboBox93
             // 
-            this.comboBox93.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox93.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox93.FormattingEnabled = true;
-            this.comboBox93.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox93.Location = new System.Drawing.Point(833, 577);
-            this.comboBox93.Name = "comboBox93";
-            this.comboBox93.Size = new System.Drawing.Size(99, 28);
-            this.comboBox93.TabIndex = 325;
-            this.comboBox93.Text = "СП-21";
-            this.comboBox93.UseWaitCursor = true;
+            resources.ApplyResources(comboBox93, "comboBox93");
+            comboBox93.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox93.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox93.FormattingEnabled = true;
+            comboBox93.Items.AddRange(new object[] { resources.GetString("comboBox93.Items"), resources.GetString("comboBox93.Items1"), resources.GetString("comboBox93.Items2"), resources.GetString("comboBox93.Items3"), resources.GetString("comboBox93.Items4") });
+            comboBox93.Name = "comboBox93";
+            comboBox93.UseWaitCursor = true;
             // 
             // comboBox94
             // 
-            this.comboBox94.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox94.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox94.FormattingEnabled = true;
-            this.comboBox94.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox94.Location = new System.Drawing.Point(728, 577);
-            this.comboBox94.Name = "comboBox94";
-            this.comboBox94.Size = new System.Drawing.Size(99, 28);
-            this.comboBox94.TabIndex = 324;
-            this.comboBox94.Text = "ПИ-21";
-            this.comboBox94.UseWaitCursor = true;
+            resources.ApplyResources(comboBox94, "comboBox94");
+            comboBox94.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox94.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox94.FormattingEnabled = true;
+            comboBox94.Items.AddRange(new object[] { resources.GetString("comboBox94.Items"), resources.GetString("comboBox94.Items1"), resources.GetString("comboBox94.Items2"), resources.GetString("comboBox94.Items3"), resources.GetString("comboBox94.Items4") });
+            comboBox94.Name = "comboBox94";
+            comboBox94.UseWaitCursor = true;
             // 
             // comboBox95
             // 
-            this.comboBox95.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox95.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox95.FormattingEnabled = true;
-            this.comboBox95.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox95.Location = new System.Drawing.Point(623, 577);
-            this.comboBox95.Name = "comboBox95";
-            this.comboBox95.Size = new System.Drawing.Size(99, 28);
-            this.comboBox95.TabIndex = 323;
-            this.comboBox95.Text = "КИ-21";
-            this.comboBox95.UseWaitCursor = true;
+            resources.ApplyResources(comboBox95, "comboBox95");
+            comboBox95.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox95.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox95.FormattingEnabled = true;
+            comboBox95.Items.AddRange(new object[] { resources.GetString("comboBox95.Items"), resources.GetString("comboBox95.Items1"), resources.GetString("comboBox95.Items2"), resources.GetString("comboBox95.Items3"), resources.GetString("comboBox95.Items4") });
+            comboBox95.Name = "comboBox95";
+            comboBox95.UseWaitCursor = true;
             // 
             // comboBox96
             // 
-            this.comboBox96.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox96.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox96.FormattingEnabled = true;
-            this.comboBox96.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox96.Location = new System.Drawing.Point(1043, 543);
-            this.comboBox96.Name = "comboBox96";
-            this.comboBox96.Size = new System.Drawing.Size(99, 28);
-            this.comboBox96.TabIndex = 322;
-            this.comboBox96.Text = "ОППТ";
+            resources.ApplyResources(comboBox96, "comboBox96");
+            comboBox96.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox96.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox96.FormattingEnabled = true;
+            comboBox96.Items.AddRange(new object[] { resources.GetString("comboBox96.Items"), resources.GetString("comboBox96.Items1"), resources.GetString("comboBox96.Items2"), resources.GetString("comboBox96.Items3"), resources.GetString("comboBox96.Items4") });
+            comboBox96.Name = "comboBox96";
             // 
             // comboBox97
             // 
-            this.comboBox97.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox97.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox97.FormattingEnabled = true;
-            this.comboBox97.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox97.Location = new System.Drawing.Point(938, 543);
-            this.comboBox97.Name = "comboBox97";
-            this.comboBox97.Size = new System.Drawing.Size(99, 28);
-            this.comboBox97.TabIndex = 321;
-            this.comboBox97.Text = "АНГЛ";
+            resources.ApplyResources(comboBox97, "comboBox97");
+            comboBox97.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox97.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox97.FormattingEnabled = true;
+            comboBox97.Items.AddRange(new object[] { resources.GetString("comboBox97.Items"), resources.GetString("comboBox97.Items1"), resources.GetString("comboBox97.Items2"), resources.GetString("comboBox97.Items3"), resources.GetString("comboBox97.Items4") });
+            comboBox97.Name = "comboBox97";
             // 
             // comboBox98
             // 
-            this.comboBox98.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox98.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox98.FormattingEnabled = true;
-            this.comboBox98.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox98.Location = new System.Drawing.Point(833, 543);
-            this.comboBox98.Name = "comboBox98";
-            this.comboBox98.Size = new System.Drawing.Size(99, 28);
-            this.comboBox98.TabIndex = 320;
-            this.comboBox98.Text = "РУСС";
+            resources.ApplyResources(comboBox98, "comboBox98");
+            comboBox98.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox98.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox98.FormattingEnabled = true;
+            comboBox98.Items.AddRange(new object[] { resources.GetString("comboBox98.Items"), resources.GetString("comboBox98.Items1"), resources.GetString("comboBox98.Items2"), resources.GetString("comboBox98.Items3"), resources.GetString("comboBox98.Items4") });
+            comboBox98.Name = "comboBox98";
             // 
             // comboBox99
             // 
-            this.comboBox99.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox99.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox99.FormattingEnabled = true;
-            this.comboBox99.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox99.Location = new System.Drawing.Point(728, 543);
-            this.comboBox99.Name = "comboBox99";
-            this.comboBox99.Size = new System.Drawing.Size(99, 28);
-            this.comboBox99.TabIndex = 319;
-            this.comboBox99.Text = "ООП";
+            resources.ApplyResources(comboBox99, "comboBox99");
+            comboBox99.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox99.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox99.FormattingEnabled = true;
+            comboBox99.Items.AddRange(new object[] { resources.GetString("comboBox99.Items"), resources.GetString("comboBox99.Items1"), resources.GetString("comboBox99.Items2"), resources.GetString("comboBox99.Items3"), resources.GetString("comboBox99.Items4") });
+            comboBox99.Name = "comboBox99";
             // 
             // comboBox100
             // 
-            this.comboBox100.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox100.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox100.FormattingEnabled = true;
-            this.comboBox100.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox100.Location = new System.Drawing.Point(623, 543);
-            this.comboBox100.Name = "comboBox100";
-            this.comboBox100.Size = new System.Drawing.Size(99, 28);
-            this.comboBox100.TabIndex = 318;
-            this.comboBox100.Text = "ИВТ";
+            resources.ApplyResources(comboBox100, "comboBox100");
+            comboBox100.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox100.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox100.FormattingEnabled = true;
+            comboBox100.Items.AddRange(new object[] { resources.GetString("comboBox100.Items"), resources.GetString("comboBox100.Items1"), resources.GetString("comboBox100.Items2"), resources.GetString("comboBox100.Items3"), resources.GetString("comboBox100.Items4") });
+            comboBox100.Name = "comboBox100";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.LightYellow;
-            this.label9.Location = new System.Drawing.Point(865, 506);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(27, 20);
-            this.label9.TabIndex = 317;
-            this.label9.Text = "ЧТ";
+            resources.ApplyResources(label9, "label9");
+            label9.BackColor = Color.LightYellow;
+            label9.Name = "label9";
             // 
             // comboBox101
             // 
-            this.comboBox101.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox101.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox101.FormattingEnabled = true;
-            this.comboBox101.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox101.Location = new System.Drawing.Point(1043, 467);
-            this.comboBox101.Name = "comboBox101";
-            this.comboBox101.Size = new System.Drawing.Size(99, 28);
-            this.comboBox101.TabIndex = 316;
-            this.comboBox101.Text = "ЛЕКЦ";
-            this.comboBox101.UseWaitCursor = true;
+            resources.ApplyResources(comboBox101, "comboBox101");
+            comboBox101.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox101.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox101.FormattingEnabled = true;
+            comboBox101.Items.AddRange(new object[] { resources.GetString("comboBox101.Items"), resources.GetString("comboBox101.Items1"), resources.GetString("comboBox101.Items2") });
+            comboBox101.Name = "comboBox101";
+            comboBox101.UseWaitCursor = true;
             // 
             // comboBox102
             // 
-            this.comboBox102.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox102.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox102.FormattingEnabled = true;
-            this.comboBox102.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox102.Location = new System.Drawing.Point(938, 467);
-            this.comboBox102.Name = "comboBox102";
-            this.comboBox102.Size = new System.Drawing.Size(99, 28);
-            this.comboBox102.TabIndex = 315;
-            this.comboBox102.Text = "ЛАБ";
-            this.comboBox102.UseWaitCursor = true;
+            resources.ApplyResources(comboBox102, "comboBox102");
+            comboBox102.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox102.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox102.FormattingEnabled = true;
+            comboBox102.Items.AddRange(new object[] { resources.GetString("comboBox102.Items"), resources.GetString("comboBox102.Items1"), resources.GetString("comboBox102.Items2") });
+            comboBox102.Name = "comboBox102";
+            comboBox102.UseWaitCursor = true;
             // 
             // comboBox103
             // 
-            this.comboBox103.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox103.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox103.FormattingEnabled = true;
-            this.comboBox103.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox103.Location = new System.Drawing.Point(833, 467);
-            this.comboBox103.Name = "comboBox103";
-            this.comboBox103.Size = new System.Drawing.Size(99, 28);
-            this.comboBox103.TabIndex = 314;
-            this.comboBox103.Text = "ПРАКТ";
-            this.comboBox103.UseWaitCursor = true;
+            resources.ApplyResources(comboBox103, "comboBox103");
+            comboBox103.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox103.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox103.FormattingEnabled = true;
+            comboBox103.Items.AddRange(new object[] { resources.GetString("comboBox103.Items"), resources.GetString("comboBox103.Items1"), resources.GetString("comboBox103.Items2") });
+            comboBox103.Name = "comboBox103";
+            comboBox103.UseWaitCursor = true;
             // 
             // comboBox104
             // 
-            this.comboBox104.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox104.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox104.FormattingEnabled = true;
-            this.comboBox104.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox104.Location = new System.Drawing.Point(728, 467);
-            this.comboBox104.Name = "comboBox104";
-            this.comboBox104.Size = new System.Drawing.Size(99, 28);
-            this.comboBox104.TabIndex = 313;
-            this.comboBox104.Text = "ЛЕКЦ";
-            this.comboBox104.UseWaitCursor = true;
+            resources.ApplyResources(comboBox104, "comboBox104");
+            comboBox104.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox104.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox104.FormattingEnabled = true;
+            comboBox104.Items.AddRange(new object[] { resources.GetString("comboBox104.Items"), resources.GetString("comboBox104.Items1"), resources.GetString("comboBox104.Items2") });
+            comboBox104.Name = "comboBox104";
+            comboBox104.UseWaitCursor = true;
             // 
             // comboBox105
             // 
-            this.comboBox105.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox105.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox105.FormattingEnabled = true;
-            this.comboBox105.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox105.Location = new System.Drawing.Point(623, 467);
-            this.comboBox105.Name = "comboBox105";
-            this.comboBox105.Size = new System.Drawing.Size(99, 28);
-            this.comboBox105.TabIndex = 312;
-            this.comboBox105.Text = "ЛАБ";
-            this.comboBox105.UseWaitCursor = true;
+            resources.ApplyResources(comboBox105, "comboBox105");
+            comboBox105.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox105.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox105.FormattingEnabled = true;
+            comboBox105.Items.AddRange(new object[] { resources.GetString("comboBox105.Items"), resources.GetString("comboBox105.Items1"), resources.GetString("comboBox105.Items2") });
+            comboBox105.Name = "comboBox105";
+            comboBox105.UseWaitCursor = true;
             // 
             // comboBox106
             // 
-            this.comboBox106.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox106.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox106.FormattingEnabled = true;
-            this.comboBox106.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox106.Location = new System.Drawing.Point(1043, 433);
-            this.comboBox106.Name = "comboBox106";
-            this.comboBox106.Size = new System.Drawing.Size(99, 28);
-            this.comboBox106.TabIndex = 311;
-            this.comboBox106.Text = "СП-21";
-            this.comboBox106.UseWaitCursor = true;
+            resources.ApplyResources(comboBox106, "comboBox106");
+            comboBox106.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox106.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox106.FormattingEnabled = true;
+            comboBox106.Items.AddRange(new object[] { resources.GetString("comboBox106.Items"), resources.GetString("comboBox106.Items1"), resources.GetString("comboBox106.Items2"), resources.GetString("comboBox106.Items3"), resources.GetString("comboBox106.Items4") });
+            comboBox106.Name = "comboBox106";
+            comboBox106.UseWaitCursor = true;
             // 
             // comboBox107
             // 
-            this.comboBox107.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox107.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox107.FormattingEnabled = true;
-            this.comboBox107.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox107.Location = new System.Drawing.Point(938, 433);
-            this.comboBox107.Name = "comboBox107";
-            this.comboBox107.Size = new System.Drawing.Size(99, 28);
-            this.comboBox107.TabIndex = 310;
-            this.comboBox107.Text = "ПИ-21";
-            this.comboBox107.UseWaitCursor = true;
+            resources.ApplyResources(comboBox107, "comboBox107");
+            comboBox107.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox107.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox107.FormattingEnabled = true;
+            comboBox107.Items.AddRange(new object[] { resources.GetString("comboBox107.Items"), resources.GetString("comboBox107.Items1"), resources.GetString("comboBox107.Items2"), resources.GetString("comboBox107.Items3"), resources.GetString("comboBox107.Items4") });
+            comboBox107.Name = "comboBox107";
+            comboBox107.UseWaitCursor = true;
             // 
             // comboBox108
             // 
-            this.comboBox108.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox108.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox108.FormattingEnabled = true;
-            this.comboBox108.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox108.Location = new System.Drawing.Point(833, 433);
-            this.comboBox108.Name = "comboBox108";
-            this.comboBox108.Size = new System.Drawing.Size(99, 28);
-            this.comboBox108.TabIndex = 309;
-            this.comboBox108.Text = "АСУ-21";
-            this.comboBox108.UseWaitCursor = true;
+            resources.ApplyResources(comboBox108, "comboBox108");
+            comboBox108.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox108.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox108.FormattingEnabled = true;
+            comboBox108.Items.AddRange(new object[] { resources.GetString("comboBox108.Items"), resources.GetString("comboBox108.Items1"), resources.GetString("comboBox108.Items2"), resources.GetString("comboBox108.Items3"), resources.GetString("comboBox108.Items4") });
+            comboBox108.Name = "comboBox108";
+            comboBox108.UseWaitCursor = true;
             // 
             // comboBox109
             // 
-            this.comboBox109.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox109.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox109.FormattingEnabled = true;
-            this.comboBox109.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox109.Location = new System.Drawing.Point(728, 433);
-            this.comboBox109.Name = "comboBox109";
-            this.comboBox109.Size = new System.Drawing.Size(99, 28);
-            this.comboBox109.TabIndex = 308;
-            this.comboBox109.Text = "КСЦ-21";
-            this.comboBox109.UseWaitCursor = true;
+            resources.ApplyResources(comboBox109, "comboBox109");
+            comboBox109.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox109.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox109.FormattingEnabled = true;
+            comboBox109.Items.AddRange(new object[] { resources.GetString("comboBox109.Items"), resources.GetString("comboBox109.Items1"), resources.GetString("comboBox109.Items2"), resources.GetString("comboBox109.Items3"), resources.GetString("comboBox109.Items4") });
+            comboBox109.Name = "comboBox109";
+            comboBox109.UseWaitCursor = true;
             // 
             // comboBox110
             // 
-            this.comboBox110.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox110.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox110.FormattingEnabled = true;
-            this.comboBox110.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox110.Location = new System.Drawing.Point(623, 433);
-            this.comboBox110.Name = "comboBox110";
-            this.comboBox110.Size = new System.Drawing.Size(99, 28);
-            this.comboBox110.TabIndex = 307;
-            this.comboBox110.Text = "КИ-21";
-            this.comboBox110.UseWaitCursor = true;
+            resources.ApplyResources(comboBox110, "comboBox110");
+            comboBox110.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox110.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox110.FormattingEnabled = true;
+            comboBox110.Items.AddRange(new object[] { resources.GetString("comboBox110.Items"), resources.GetString("comboBox110.Items1"), resources.GetString("comboBox110.Items2"), resources.GetString("comboBox110.Items3"), resources.GetString("comboBox110.Items4") });
+            comboBox110.Name = "comboBox110";
+            comboBox110.UseWaitCursor = true;
             // 
             // comboBox111
             // 
-            this.comboBox111.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox111.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox111.FormattingEnabled = true;
-            this.comboBox111.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox111.Location = new System.Drawing.Point(1043, 399);
-            this.comboBox111.Name = "comboBox111";
-            this.comboBox111.Size = new System.Drawing.Size(99, 28);
-            this.comboBox111.TabIndex = 306;
-            this.comboBox111.Text = "РУСС";
+            resources.ApplyResources(comboBox111, "comboBox111");
+            comboBox111.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox111.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox111.FormattingEnabled = true;
+            comboBox111.Items.AddRange(new object[] { resources.GetString("comboBox111.Items"), resources.GetString("comboBox111.Items1"), resources.GetString("comboBox111.Items2"), resources.GetString("comboBox111.Items3"), resources.GetString("comboBox111.Items4") });
+            comboBox111.Name = "comboBox111";
             // 
             // comboBox112
             // 
-            this.comboBox112.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox112.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox112.FormattingEnabled = true;
-            this.comboBox112.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox112.Location = new System.Drawing.Point(938, 399);
-            this.comboBox112.Name = "comboBox112";
-            this.comboBox112.Size = new System.Drawing.Size(99, 28);
-            this.comboBox112.TabIndex = 305;
-            this.comboBox112.Text = "ИВТ";
+            resources.ApplyResources(comboBox112, "comboBox112");
+            comboBox112.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox112.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox112.FormattingEnabled = true;
+            comboBox112.Items.AddRange(new object[] { resources.GetString("comboBox112.Items"), resources.GetString("comboBox112.Items1"), resources.GetString("comboBox112.Items2"), resources.GetString("comboBox112.Items3"), resources.GetString("comboBox112.Items4") });
+            comboBox112.Name = "comboBox112";
             // 
             // comboBox113
             // 
-            this.comboBox113.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox113.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox113.FormattingEnabled = true;
-            this.comboBox113.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox113.Location = new System.Drawing.Point(833, 399);
-            this.comboBox113.Name = "comboBox113";
-            this.comboBox113.Size = new System.Drawing.Size(99, 28);
-            this.comboBox113.TabIndex = 304;
-            this.comboBox113.Text = "ОППТ";
+            resources.ApplyResources(comboBox113, "comboBox113");
+            comboBox113.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox113.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox113.FormattingEnabled = true;
+            comboBox113.Items.AddRange(new object[] { resources.GetString("comboBox113.Items"), resources.GetString("comboBox113.Items1"), resources.GetString("comboBox113.Items2"), resources.GetString("comboBox113.Items3"), resources.GetString("comboBox113.Items4") });
+            comboBox113.Name = "comboBox113";
             // 
             // comboBox114
             // 
-            this.comboBox114.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox114.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox114.FormattingEnabled = true;
-            this.comboBox114.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox114.Location = new System.Drawing.Point(728, 399);
-            this.comboBox114.Name = "comboBox114";
-            this.comboBox114.Size = new System.Drawing.Size(99, 28);
-            this.comboBox114.TabIndex = 303;
-            this.comboBox114.Text = "ООП";
+            resources.ApplyResources(comboBox114, "comboBox114");
+            comboBox114.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox114.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox114.FormattingEnabled = true;
+            comboBox114.Items.AddRange(new object[] { resources.GetString("comboBox114.Items"), resources.GetString("comboBox114.Items1"), resources.GetString("comboBox114.Items2"), resources.GetString("comboBox114.Items3"), resources.GetString("comboBox114.Items4") });
+            comboBox114.Name = "comboBox114";
             // 
             // comboBox115
             // 
-            this.comboBox115.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox115.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox115.FormattingEnabled = true;
-            this.comboBox115.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox115.Location = new System.Drawing.Point(623, 399);
-            this.comboBox115.Name = "comboBox115";
-            this.comboBox115.Size = new System.Drawing.Size(99, 28);
-            this.comboBox115.TabIndex = 302;
-            this.comboBox115.Text = "АНГЛ";
+            resources.ApplyResources(comboBox115, "comboBox115");
+            comboBox115.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox115.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox115.FormattingEnabled = true;
+            comboBox115.Items.AddRange(new object[] { resources.GetString("comboBox115.Items"), resources.GetString("comboBox115.Items1"), resources.GetString("comboBox115.Items2"), resources.GetString("comboBox115.Items3"), resources.GetString("comboBox115.Items4") });
+            comboBox115.Name = "comboBox115";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.LightYellow;
-            this.label10.Location = new System.Drawing.Point(865, 362);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(26, 20);
-            this.label10.TabIndex = 301;
-            this.label10.Text = "СР";
+            resources.ApplyResources(label10, "label10");
+            label10.BackColor = Color.LightYellow;
+            label10.Name = "label10";
             // 
             // comboBox116
             // 
-            this.comboBox116.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox116.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox116.FormattingEnabled = true;
-            this.comboBox116.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox116.Location = new System.Drawing.Point(1043, 324);
-            this.comboBox116.Name = "comboBox116";
-            this.comboBox116.Size = new System.Drawing.Size(99, 28);
-            this.comboBox116.TabIndex = 300;
-            this.comboBox116.Text = "ЛЕКЦ";
-            this.comboBox116.UseWaitCursor = true;
+            resources.ApplyResources(comboBox116, "comboBox116");
+            comboBox116.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox116.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox116.FormattingEnabled = true;
+            comboBox116.Items.AddRange(new object[] { resources.GetString("comboBox116.Items"), resources.GetString("comboBox116.Items1"), resources.GetString("comboBox116.Items2") });
+            comboBox116.Name = "comboBox116";
+            comboBox116.UseWaitCursor = true;
             // 
             // comboBox117
             // 
-            this.comboBox117.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox117.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox117.FormattingEnabled = true;
-            this.comboBox117.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox117.Location = new System.Drawing.Point(938, 324);
-            this.comboBox117.Name = "comboBox117";
-            this.comboBox117.Size = new System.Drawing.Size(99, 28);
-            this.comboBox117.TabIndex = 299;
-            this.comboBox117.Text = "ЛЕКЦ";
-            this.comboBox117.UseWaitCursor = true;
+            resources.ApplyResources(comboBox117, "comboBox117");
+            comboBox117.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox117.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox117.FormattingEnabled = true;
+            comboBox117.Items.AddRange(new object[] { resources.GetString("comboBox117.Items"), resources.GetString("comboBox117.Items1"), resources.GetString("comboBox117.Items2") });
+            comboBox117.Name = "comboBox117";
+            comboBox117.UseWaitCursor = true;
             // 
             // comboBox118
             // 
-            this.comboBox118.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox118.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox118.FormattingEnabled = true;
-            this.comboBox118.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox118.Location = new System.Drawing.Point(833, 324);
-            this.comboBox118.Name = "comboBox118";
-            this.comboBox118.Size = new System.Drawing.Size(99, 28);
-            this.comboBox118.TabIndex = 298;
-            this.comboBox118.Text = "ПРАКТ";
-            this.comboBox118.UseWaitCursor = true;
+            resources.ApplyResources(comboBox118, "comboBox118");
+            comboBox118.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox118.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox118.FormattingEnabled = true;
+            comboBox118.Items.AddRange(new object[] { resources.GetString("comboBox118.Items"), resources.GetString("comboBox118.Items1"), resources.GetString("comboBox118.Items2") });
+            comboBox118.Name = "comboBox118";
+            comboBox118.UseWaitCursor = true;
             // 
             // comboBox119
             // 
-            this.comboBox119.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox119.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox119.FormattingEnabled = true;
-            this.comboBox119.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox119.Location = new System.Drawing.Point(728, 324);
-            this.comboBox119.Name = "comboBox119";
-            this.comboBox119.Size = new System.Drawing.Size(99, 28);
-            this.comboBox119.TabIndex = 297;
-            this.comboBox119.Text = "ПРАКТ";
-            this.comboBox119.UseWaitCursor = true;
+            resources.ApplyResources(comboBox119, "comboBox119");
+            comboBox119.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox119.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox119.FormattingEnabled = true;
+            comboBox119.Items.AddRange(new object[] { resources.GetString("comboBox119.Items"), resources.GetString("comboBox119.Items1"), resources.GetString("comboBox119.Items2") });
+            comboBox119.Name = "comboBox119";
+            comboBox119.UseWaitCursor = true;
             // 
             // comboBox120
             // 
-            this.comboBox120.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox120.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox120.FormattingEnabled = true;
-            this.comboBox120.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox120.Location = new System.Drawing.Point(623, 324);
-            this.comboBox120.Name = "comboBox120";
-            this.comboBox120.Size = new System.Drawing.Size(99, 28);
-            this.comboBox120.TabIndex = 296;
-            this.comboBox120.Text = "ЛАБ";
-            this.comboBox120.UseWaitCursor = true;
+            resources.ApplyResources(comboBox120, "comboBox120");
+            comboBox120.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox120.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox120.FormattingEnabled = true;
+            comboBox120.Items.AddRange(new object[] { resources.GetString("comboBox120.Items"), resources.GetString("comboBox120.Items1"), resources.GetString("comboBox120.Items2") });
+            comboBox120.Name = "comboBox120";
+            comboBox120.UseWaitCursor = true;
             // 
             // comboBox121
             // 
-            this.comboBox121.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox121.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox121.FormattingEnabled = true;
-            this.comboBox121.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox121.Location = new System.Drawing.Point(1043, 290);
-            this.comboBox121.Name = "comboBox121";
-            this.comboBox121.Size = new System.Drawing.Size(99, 28);
-            this.comboBox121.TabIndex = 295;
-            this.comboBox121.Text = "КСЦ-21";
-            this.comboBox121.UseWaitCursor = true;
+            resources.ApplyResources(comboBox121, "comboBox121");
+            comboBox121.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox121.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox121.FormattingEnabled = true;
+            comboBox121.Items.AddRange(new object[] { resources.GetString("comboBox121.Items"), resources.GetString("comboBox121.Items1"), resources.GetString("comboBox121.Items2"), resources.GetString("comboBox121.Items3"), resources.GetString("comboBox121.Items4") });
+            comboBox121.Name = "comboBox121";
+            comboBox121.UseWaitCursor = true;
             // 
             // comboBox122
             // 
-            this.comboBox122.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox122.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox122.FormattingEnabled = true;
-            this.comboBox122.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox122.Location = new System.Drawing.Point(938, 290);
-            this.comboBox122.Name = "comboBox122";
-            this.comboBox122.Size = new System.Drawing.Size(99, 28);
-            this.comboBox122.TabIndex = 294;
-            this.comboBox122.Text = "АСУ-21";
-            this.comboBox122.UseWaitCursor = true;
+            resources.ApplyResources(comboBox122, "comboBox122");
+            comboBox122.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox122.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox122.FormattingEnabled = true;
+            comboBox122.Items.AddRange(new object[] { resources.GetString("comboBox122.Items"), resources.GetString("comboBox122.Items1"), resources.GetString("comboBox122.Items2"), resources.GetString("comboBox122.Items3"), resources.GetString("comboBox122.Items4") });
+            comboBox122.Name = "comboBox122";
+            comboBox122.UseWaitCursor = true;
             // 
             // comboBox123
             // 
-            this.comboBox123.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox123.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox123.FormattingEnabled = true;
-            this.comboBox123.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox123.Location = new System.Drawing.Point(833, 290);
-            this.comboBox123.Name = "comboBox123";
-            this.comboBox123.Size = new System.Drawing.Size(99, 28);
-            this.comboBox123.TabIndex = 293;
-            this.comboBox123.Text = "СП-21";
-            this.comboBox123.UseWaitCursor = true;
+            resources.ApplyResources(comboBox123, "comboBox123");
+            comboBox123.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox123.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox123.FormattingEnabled = true;
+            comboBox123.Items.AddRange(new object[] { resources.GetString("comboBox123.Items"), resources.GetString("comboBox123.Items1"), resources.GetString("comboBox123.Items2"), resources.GetString("comboBox123.Items3"), resources.GetString("comboBox123.Items4") });
+            comboBox123.Name = "comboBox123";
+            comboBox123.UseWaitCursor = true;
             // 
             // comboBox124
             // 
-            this.comboBox124.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox124.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox124.FormattingEnabled = true;
-            this.comboBox124.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox124.Location = new System.Drawing.Point(728, 290);
-            this.comboBox124.Name = "comboBox124";
-            this.comboBox124.Size = new System.Drawing.Size(99, 28);
-            this.comboBox124.TabIndex = 292;
-            this.comboBox124.Text = "ПИ-21";
-            this.comboBox124.UseWaitCursor = true;
+            resources.ApplyResources(comboBox124, "comboBox124");
+            comboBox124.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox124.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox124.FormattingEnabled = true;
+            comboBox124.Items.AddRange(new object[] { resources.GetString("comboBox124.Items"), resources.GetString("comboBox124.Items1"), resources.GetString("comboBox124.Items2"), resources.GetString("comboBox124.Items3"), resources.GetString("comboBox124.Items4") });
+            comboBox124.Name = "comboBox124";
+            comboBox124.UseWaitCursor = true;
             // 
             // comboBox125
             // 
-            this.comboBox125.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox125.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox125.FormattingEnabled = true;
-            this.comboBox125.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox125.Location = new System.Drawing.Point(623, 290);
-            this.comboBox125.Name = "comboBox125";
-            this.comboBox125.Size = new System.Drawing.Size(99, 28);
-            this.comboBox125.TabIndex = 291;
-            this.comboBox125.Text = "КИ-21";
-            this.comboBox125.UseWaitCursor = true;
+            resources.ApplyResources(comboBox125, "comboBox125");
+            comboBox125.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox125.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox125.FormattingEnabled = true;
+            comboBox125.Items.AddRange(new object[] { resources.GetString("comboBox125.Items"), resources.GetString("comboBox125.Items1"), resources.GetString("comboBox125.Items2"), resources.GetString("comboBox125.Items3"), resources.GetString("comboBox125.Items4") });
+            comboBox125.Name = "comboBox125";
+            comboBox125.UseWaitCursor = true;
             // 
             // comboBox126
             // 
-            this.comboBox126.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox126.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox126.FormattingEnabled = true;
-            this.comboBox126.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox126.Location = new System.Drawing.Point(1043, 256);
-            this.comboBox126.Name = "comboBox126";
-            this.comboBox126.Size = new System.Drawing.Size(99, 28);
-            this.comboBox126.TabIndex = 290;
-            this.comboBox126.Text = "ООП";
+            resources.ApplyResources(comboBox126, "comboBox126");
+            comboBox126.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox126.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox126.FormattingEnabled = true;
+            comboBox126.Items.AddRange(new object[] { resources.GetString("comboBox126.Items"), resources.GetString("comboBox126.Items1"), resources.GetString("comboBox126.Items2"), resources.GetString("comboBox126.Items3"), resources.GetString("comboBox126.Items4") });
+            comboBox126.Name = "comboBox126";
             // 
             // comboBox127
             // 
-            this.comboBox127.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox127.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox127.FormattingEnabled = true;
-            this.comboBox127.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox127.Location = new System.Drawing.Point(938, 256);
-            this.comboBox127.Name = "comboBox127";
-            this.comboBox127.Size = new System.Drawing.Size(99, 28);
-            this.comboBox127.TabIndex = 289;
-            this.comboBox127.Text = "АНГЛ";
+            resources.ApplyResources(comboBox127, "comboBox127");
+            comboBox127.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox127.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox127.FormattingEnabled = true;
+            comboBox127.Items.AddRange(new object[] { resources.GetString("comboBox127.Items"), resources.GetString("comboBox127.Items1"), resources.GetString("comboBox127.Items2"), resources.GetString("comboBox127.Items3"), resources.GetString("comboBox127.Items4") });
+            comboBox127.Name = "comboBox127";
             // 
             // comboBox128
             // 
-            this.comboBox128.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox128.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox128.FormattingEnabled = true;
-            this.comboBox128.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox128.Location = new System.Drawing.Point(833, 256);
-            this.comboBox128.Name = "comboBox128";
-            this.comboBox128.Size = new System.Drawing.Size(99, 28);
-            this.comboBox128.TabIndex = 288;
-            this.comboBox128.Text = "РУСС";
+            resources.ApplyResources(comboBox128, "comboBox128");
+            comboBox128.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox128.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox128.FormattingEnabled = true;
+            comboBox128.Items.AddRange(new object[] { resources.GetString("comboBox128.Items"), resources.GetString("comboBox128.Items1"), resources.GetString("comboBox128.Items2"), resources.GetString("comboBox128.Items3"), resources.GetString("comboBox128.Items4") });
+            comboBox128.Name = "comboBox128";
             // 
             // comboBox129
             // 
-            this.comboBox129.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox129.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox129.FormattingEnabled = true;
-            this.comboBox129.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox129.Location = new System.Drawing.Point(728, 256);
-            this.comboBox129.Name = "comboBox129";
-            this.comboBox129.Size = new System.Drawing.Size(99, 28);
-            this.comboBox129.TabIndex = 287;
-            this.comboBox129.Text = "ИВТ";
+            resources.ApplyResources(comboBox129, "comboBox129");
+            comboBox129.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox129.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox129.FormattingEnabled = true;
+            comboBox129.Items.AddRange(new object[] { resources.GetString("comboBox129.Items"), resources.GetString("comboBox129.Items1"), resources.GetString("comboBox129.Items2"), resources.GetString("comboBox129.Items3"), resources.GetString("comboBox129.Items4") });
+            comboBox129.Name = "comboBox129";
             // 
             // comboBox130
             // 
-            this.comboBox130.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox130.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox130.FormattingEnabled = true;
-            this.comboBox130.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox130.Location = new System.Drawing.Point(623, 256);
-            this.comboBox130.Name = "comboBox130";
-            this.comboBox130.Size = new System.Drawing.Size(99, 28);
-            this.comboBox130.TabIndex = 286;
-            this.comboBox130.Text = "ОППТ";
+            resources.ApplyResources(comboBox130, "comboBox130");
+            comboBox130.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox130.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox130.FormattingEnabled = true;
+            comboBox130.Items.AddRange(new object[] { resources.GetString("comboBox130.Items"), resources.GetString("comboBox130.Items1"), resources.GetString("comboBox130.Items2"), resources.GetString("comboBox130.Items3"), resources.GetString("comboBox130.Items4") });
+            comboBox130.Name = "comboBox130";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.LightYellow;
-            this.label11.Location = new System.Drawing.Point(865, 219);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(26, 20);
-            this.label11.TabIndex = 285;
-            this.label11.Text = "ВТ";
+            resources.ApplyResources(label11, "label11");
+            label11.BackColor = Color.LightYellow;
+            label11.Name = "label11";
             // 
             // comboBox131
             // 
-            this.comboBox131.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox131.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox131.FormattingEnabled = true;
-            this.comboBox131.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox131.Location = new System.Drawing.Point(1043, 180);
-            this.comboBox131.Name = "comboBox131";
-            this.comboBox131.Size = new System.Drawing.Size(99, 28);
-            this.comboBox131.TabIndex = 284;
-            this.comboBox131.Text = "ЛЕКЦ";
-            this.comboBox131.UseWaitCursor = true;
+            resources.ApplyResources(comboBox131, "comboBox131");
+            comboBox131.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox131.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox131.FormattingEnabled = true;
+            comboBox131.Items.AddRange(new object[] { resources.GetString("comboBox131.Items"), resources.GetString("comboBox131.Items1"), resources.GetString("comboBox131.Items2") });
+            comboBox131.Name = "comboBox131";
+            comboBox131.UseWaitCursor = true;
             // 
             // comboBox132
             // 
-            this.comboBox132.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox132.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox132.FormattingEnabled = true;
-            this.comboBox132.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox132.Location = new System.Drawing.Point(938, 180);
-            this.comboBox132.Name = "comboBox132";
-            this.comboBox132.Size = new System.Drawing.Size(99, 28);
-            this.comboBox132.TabIndex = 283;
-            this.comboBox132.Text = "ЛАБ";
-            this.comboBox132.UseWaitCursor = true;
+            resources.ApplyResources(comboBox132, "comboBox132");
+            comboBox132.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox132.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox132.FormattingEnabled = true;
+            comboBox132.Items.AddRange(new object[] { resources.GetString("comboBox132.Items"), resources.GetString("comboBox132.Items1"), resources.GetString("comboBox132.Items2") });
+            comboBox132.Name = "comboBox132";
+            comboBox132.UseWaitCursor = true;
             // 
             // comboBox133
             // 
-            this.comboBox133.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox133.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox133.FormattingEnabled = true;
-            this.comboBox133.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox133.Location = new System.Drawing.Point(833, 180);
-            this.comboBox133.Name = "comboBox133";
-            this.comboBox133.Size = new System.Drawing.Size(99, 28);
-            this.comboBox133.TabIndex = 282;
-            this.comboBox133.Text = "ПРАКТ";
-            this.comboBox133.UseWaitCursor = true;
+            resources.ApplyResources(comboBox133, "comboBox133");
+            comboBox133.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox133.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox133.FormattingEnabled = true;
+            comboBox133.Items.AddRange(new object[] { resources.GetString("comboBox133.Items"), resources.GetString("comboBox133.Items1"), resources.GetString("comboBox133.Items2") });
+            comboBox133.Name = "comboBox133";
+            comboBox133.UseWaitCursor = true;
             // 
             // comboBox134
             // 
-            this.comboBox134.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox134.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox134.FormattingEnabled = true;
-            this.comboBox134.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox134.Location = new System.Drawing.Point(728, 180);
-            this.comboBox134.Name = "comboBox134";
-            this.comboBox134.Size = new System.Drawing.Size(99, 28);
-            this.comboBox134.TabIndex = 281;
-            this.comboBox134.Text = "ЛЕКЦ";
-            this.comboBox134.UseWaitCursor = true;
+            resources.ApplyResources(comboBox134, "comboBox134");
+            comboBox134.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox134.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox134.FormattingEnabled = true;
+            comboBox134.Items.AddRange(new object[] { resources.GetString("comboBox134.Items"), resources.GetString("comboBox134.Items1"), resources.GetString("comboBox134.Items2") });
+            comboBox134.Name = "comboBox134";
+            comboBox134.UseWaitCursor = true;
             // 
             // comboBox135
             // 
-            this.comboBox135.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox135.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox135.FormattingEnabled = true;
-            this.comboBox135.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox135.Location = new System.Drawing.Point(623, 180);
-            this.comboBox135.Name = "comboBox135";
-            this.comboBox135.Size = new System.Drawing.Size(99, 28);
-            this.comboBox135.TabIndex = 280;
-            this.comboBox135.Text = "ЛАБ";
-            this.comboBox135.UseWaitCursor = true;
+            resources.ApplyResources(comboBox135, "comboBox135");
+            comboBox135.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox135.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox135.FormattingEnabled = true;
+            comboBox135.Items.AddRange(new object[] { resources.GetString("comboBox135.Items"), resources.GetString("comboBox135.Items1"), resources.GetString("comboBox135.Items2") });
+            comboBox135.Name = "comboBox135";
+            comboBox135.UseWaitCursor = true;
             // 
             // comboBox136
             // 
-            this.comboBox136.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox136.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox136.FormattingEnabled = true;
-            this.comboBox136.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox136.Location = new System.Drawing.Point(1043, 146);
-            this.comboBox136.Name = "comboBox136";
-            this.comboBox136.Size = new System.Drawing.Size(99, 28);
-            this.comboBox136.TabIndex = 279;
-            this.comboBox136.Text = "КИ-21";
-            this.comboBox136.UseWaitCursor = true;
+            resources.ApplyResources(comboBox136, "comboBox136");
+            comboBox136.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox136.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox136.FormattingEnabled = true;
+            comboBox136.Items.AddRange(new object[] { resources.GetString("comboBox136.Items"), resources.GetString("comboBox136.Items1"), resources.GetString("comboBox136.Items2"), resources.GetString("comboBox136.Items3"), resources.GetString("comboBox136.Items4") });
+            comboBox136.Name = "comboBox136";
+            comboBox136.UseWaitCursor = true;
             // 
             // comboBox137
             // 
-            this.comboBox137.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox137.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox137.FormattingEnabled = true;
-            this.comboBox137.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox137.Location = new System.Drawing.Point(938, 146);
-            this.comboBox137.Name = "comboBox137";
-            this.comboBox137.Size = new System.Drawing.Size(99, 28);
-            this.comboBox137.TabIndex = 278;
-            this.comboBox137.Text = "АСУ-21";
-            this.comboBox137.UseWaitCursor = true;
+            resources.ApplyResources(comboBox137, "comboBox137");
+            comboBox137.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox137.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox137.FormattingEnabled = true;
+            comboBox137.Items.AddRange(new object[] { resources.GetString("comboBox137.Items"), resources.GetString("comboBox137.Items1"), resources.GetString("comboBox137.Items2"), resources.GetString("comboBox137.Items3"), resources.GetString("comboBox137.Items4") });
+            comboBox137.Name = "comboBox137";
+            comboBox137.UseWaitCursor = true;
             // 
             // comboBox138
             // 
-            this.comboBox138.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox138.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox138.FormattingEnabled = true;
-            this.comboBox138.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox138.Location = new System.Drawing.Point(833, 146);
-            this.comboBox138.Name = "comboBox138";
-            this.comboBox138.Size = new System.Drawing.Size(99, 28);
-            this.comboBox138.TabIndex = 277;
-            this.comboBox138.Text = "СП-21";
-            this.comboBox138.UseWaitCursor = true;
+            resources.ApplyResources(comboBox138, "comboBox138");
+            comboBox138.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox138.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox138.FormattingEnabled = true;
+            comboBox138.Items.AddRange(new object[] { resources.GetString("comboBox138.Items"), resources.GetString("comboBox138.Items1"), resources.GetString("comboBox138.Items2"), resources.GetString("comboBox138.Items3"), resources.GetString("comboBox138.Items4") });
+            comboBox138.Name = "comboBox138";
+            comboBox138.UseWaitCursor = true;
             // 
             // comboBox139
             // 
-            this.comboBox139.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox139.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox139.FormattingEnabled = true;
-            this.comboBox139.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox139.Location = new System.Drawing.Point(728, 146);
-            this.comboBox139.Name = "comboBox139";
-            this.comboBox139.Size = new System.Drawing.Size(99, 28);
-            this.comboBox139.TabIndex = 276;
-            this.comboBox139.Text = "КСЦ-21";
-            this.comboBox139.UseWaitCursor = true;
+            resources.ApplyResources(comboBox139, "comboBox139");
+            comboBox139.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox139.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox139.FormattingEnabled = true;
+            comboBox139.Items.AddRange(new object[] { resources.GetString("comboBox139.Items"), resources.GetString("comboBox139.Items1"), resources.GetString("comboBox139.Items2"), resources.GetString("comboBox139.Items3"), resources.GetString("comboBox139.Items4") });
+            comboBox139.Name = "comboBox139";
+            comboBox139.UseWaitCursor = true;
             // 
             // comboBox140
             // 
-            this.comboBox140.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox140.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox140.FormattingEnabled = true;
-            this.comboBox140.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox140.Location = new System.Drawing.Point(623, 146);
-            this.comboBox140.Name = "comboBox140";
-            this.comboBox140.Size = new System.Drawing.Size(99, 28);
-            this.comboBox140.TabIndex = 275;
-            this.comboBox140.Text = "ПИ-21";
-            this.comboBox140.UseWaitCursor = true;
+            resources.ApplyResources(comboBox140, "comboBox140");
+            comboBox140.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox140.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox140.FormattingEnabled = true;
+            comboBox140.Items.AddRange(new object[] { resources.GetString("comboBox140.Items"), resources.GetString("comboBox140.Items1"), resources.GetString("comboBox140.Items2"), resources.GetString("comboBox140.Items3"), resources.GetString("comboBox140.Items4") });
+            comboBox140.Name = "comboBox140";
+            comboBox140.UseWaitCursor = true;
             // 
             // comboBox141
             // 
-            this.comboBox141.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox141.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox141.FormattingEnabled = true;
-            this.comboBox141.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox141.Location = new System.Drawing.Point(1043, 112);
-            this.comboBox141.Name = "comboBox141";
-            this.comboBox141.Size = new System.Drawing.Size(99, 28);
-            this.comboBox141.TabIndex = 274;
-            this.comboBox141.Text = "ОППТ";
+            resources.ApplyResources(comboBox141, "comboBox141");
+            comboBox141.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox141.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox141.FormattingEnabled = true;
+            comboBox141.Items.AddRange(new object[] { resources.GetString("comboBox141.Items"), resources.GetString("comboBox141.Items1"), resources.GetString("comboBox141.Items2"), resources.GetString("comboBox141.Items3"), resources.GetString("comboBox141.Items4") });
+            comboBox141.Name = "comboBox141";
             // 
             // comboBox142
             // 
-            this.comboBox142.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox142.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox142.FormattingEnabled = true;
-            this.comboBox142.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox142.Location = new System.Drawing.Point(938, 112);
-            this.comboBox142.Name = "comboBox142";
-            this.comboBox142.Size = new System.Drawing.Size(99, 28);
-            this.comboBox142.TabIndex = 273;
-            this.comboBox142.Text = "РУСС";
+            resources.ApplyResources(comboBox142, "comboBox142");
+            comboBox142.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox142.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox142.FormattingEnabled = true;
+            comboBox142.Items.AddRange(new object[] { resources.GetString("comboBox142.Items"), resources.GetString("comboBox142.Items1"), resources.GetString("comboBox142.Items2"), resources.GetString("comboBox142.Items3"), resources.GetString("comboBox142.Items4") });
+            comboBox142.Name = "comboBox142";
             // 
             // comboBox143
             // 
-            this.comboBox143.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox143.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox143.FormattingEnabled = true;
-            this.comboBox143.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox143.Location = new System.Drawing.Point(833, 112);
-            this.comboBox143.Name = "comboBox143";
-            this.comboBox143.Size = new System.Drawing.Size(99, 28);
-            this.comboBox143.TabIndex = 272;
-            this.comboBox143.Text = "АНГЛ";
+            resources.ApplyResources(comboBox143, "comboBox143");
+            comboBox143.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox143.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox143.FormattingEnabled = true;
+            comboBox143.Items.AddRange(new object[] { resources.GetString("comboBox143.Items"), resources.GetString("comboBox143.Items1"), resources.GetString("comboBox143.Items2"), resources.GetString("comboBox143.Items3"), resources.GetString("comboBox143.Items4") });
+            comboBox143.Name = "comboBox143";
             // 
             // comboBox144
             // 
-            this.comboBox144.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox144.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox144.FormattingEnabled = true;
-            this.comboBox144.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox144.Location = new System.Drawing.Point(728, 112);
-            this.comboBox144.Name = "comboBox144";
-            this.comboBox144.Size = new System.Drawing.Size(99, 28);
-            this.comboBox144.TabIndex = 271;
-            this.comboBox144.Text = "ООП";
+            resources.ApplyResources(comboBox144, "comboBox144");
+            comboBox144.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox144.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox144.FormattingEnabled = true;
+            comboBox144.Items.AddRange(new object[] { resources.GetString("comboBox144.Items"), resources.GetString("comboBox144.Items1"), resources.GetString("comboBox144.Items2"), resources.GetString("comboBox144.Items3"), resources.GetString("comboBox144.Items4") });
+            comboBox144.Name = "comboBox144";
             // 
             // comboBox145
             // 
-            this.comboBox145.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox145.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox145.FormattingEnabled = true;
-            this.comboBox145.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox145.Location = new System.Drawing.Point(623, 112);
-            this.comboBox145.Name = "comboBox145";
-            this.comboBox145.Size = new System.Drawing.Size(99, 28);
-            this.comboBox145.TabIndex = 270;
-            this.comboBox145.Text = "АНГЛ";
+            resources.ApplyResources(comboBox145, "comboBox145");
+            comboBox145.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox145.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox145.FormattingEnabled = true;
+            comboBox145.Items.AddRange(new object[] { resources.GetString("comboBox145.Items"), resources.GetString("comboBox145.Items1"), resources.GetString("comboBox145.Items2"), resources.GetString("comboBox145.Items3"), resources.GetString("comboBox145.Items4") });
+            comboBox145.Name = "comboBox145";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.LightYellow;
-            this.label12.Location = new System.Drawing.Point(865, 75);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(31, 20);
-            this.label12.TabIndex = 269;
-            this.label12.Text = "ПН";
+            resources.ApplyResources(label12, "label12");
+            label12.BackColor = Color.LightYellow;
+            label12.Name = "label12";
             // 
             // comboBox61
             // 
-            this.comboBox61.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox61.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox61.FormattingEnabled = true;
-            this.comboBox61.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox61.Location = new System.Drawing.Point(479, 754);
-            this.comboBox61.Name = "comboBox61";
-            this.comboBox61.Size = new System.Drawing.Size(99, 28);
-            this.comboBox61.TabIndex = 268;
-            this.comboBox61.Text = "ЛЕКЦ";
-            this.comboBox61.UseWaitCursor = true;
+            resources.ApplyResources(comboBox61, "comboBox61");
+            comboBox61.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox61.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox61.FormattingEnabled = true;
+            comboBox61.Items.AddRange(new object[] { resources.GetString("comboBox61.Items"), resources.GetString("comboBox61.Items1"), resources.GetString("comboBox61.Items2") });
+            comboBox61.Name = "comboBox61";
+            comboBox61.UseWaitCursor = true;
             // 
             // comboBox62
             // 
-            this.comboBox62.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox62.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox62.FormattingEnabled = true;
-            this.comboBox62.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox62.Location = new System.Drawing.Point(374, 754);
-            this.comboBox62.Name = "comboBox62";
-            this.comboBox62.Size = new System.Drawing.Size(99, 28);
-            this.comboBox62.TabIndex = 267;
-            this.comboBox62.Text = "ЛЕКЦ";
-            this.comboBox62.UseWaitCursor = true;
+            resources.ApplyResources(comboBox62, "comboBox62");
+            comboBox62.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox62.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox62.FormattingEnabled = true;
+            comboBox62.Items.AddRange(new object[] { resources.GetString("comboBox62.Items"), resources.GetString("comboBox62.Items1"), resources.GetString("comboBox62.Items2") });
+            comboBox62.Name = "comboBox62";
+            comboBox62.UseWaitCursor = true;
             // 
             // comboBox63
             // 
-            this.comboBox63.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox63.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox63.FormattingEnabled = true;
-            this.comboBox63.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox63.Location = new System.Drawing.Point(269, 754);
-            this.comboBox63.Name = "comboBox63";
-            this.comboBox63.Size = new System.Drawing.Size(99, 28);
-            this.comboBox63.TabIndex = 266;
-            this.comboBox63.Text = "ПРАКТ";
-            this.comboBox63.UseWaitCursor = true;
+            resources.ApplyResources(comboBox63, "comboBox63");
+            comboBox63.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox63.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox63.FormattingEnabled = true;
+            comboBox63.Items.AddRange(new object[] { resources.GetString("comboBox63.Items"), resources.GetString("comboBox63.Items1"), resources.GetString("comboBox63.Items2") });
+            comboBox63.Name = "comboBox63";
+            comboBox63.UseWaitCursor = true;
             // 
             // comboBox64
             // 
-            this.comboBox64.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox64.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox64.FormattingEnabled = true;
-            this.comboBox64.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox64.Location = new System.Drawing.Point(164, 754);
-            this.comboBox64.Name = "comboBox64";
-            this.comboBox64.Size = new System.Drawing.Size(99, 28);
-            this.comboBox64.TabIndex = 265;
-            this.comboBox64.Text = "ПРАКТ";
-            this.comboBox64.UseWaitCursor = true;
+            resources.ApplyResources(comboBox64, "comboBox64");
+            comboBox64.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox64.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox64.FormattingEnabled = true;
+            comboBox64.Items.AddRange(new object[] { resources.GetString("comboBox64.Items"), resources.GetString("comboBox64.Items1"), resources.GetString("comboBox64.Items2") });
+            comboBox64.Name = "comboBox64";
+            comboBox64.UseWaitCursor = true;
             // 
             // comboBox65
             // 
-            this.comboBox65.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox65.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox65.FormattingEnabled = true;
-            this.comboBox65.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox65.Location = new System.Drawing.Point(59, 754);
-            this.comboBox65.Name = "comboBox65";
-            this.comboBox65.Size = new System.Drawing.Size(99, 28);
-            this.comboBox65.TabIndex = 264;
-            this.comboBox65.Text = "ЛАБ";
-            this.comboBox65.UseWaitCursor = true;
+            resources.ApplyResources(comboBox65, "comboBox65");
+            comboBox65.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox65.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox65.FormattingEnabled = true;
+            comboBox65.Items.AddRange(new object[] { resources.GetString("comboBox65.Items"), resources.GetString("comboBox65.Items1"), resources.GetString("comboBox65.Items2") });
+            comboBox65.Name = "comboBox65";
+            comboBox65.UseWaitCursor = true;
             // 
             // comboBox66
             // 
-            this.comboBox66.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox66.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox66.FormattingEnabled = true;
-            this.comboBox66.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox66.Location = new System.Drawing.Point(479, 720);
-            this.comboBox66.Name = "comboBox66";
-            this.comboBox66.Size = new System.Drawing.Size(99, 28);
-            this.comboBox66.TabIndex = 263;
-            this.comboBox66.Text = "КСЦ-21";
-            this.comboBox66.UseWaitCursor = true;
+            resources.ApplyResources(comboBox66, "comboBox66");
+            comboBox66.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox66.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox66.FormattingEnabled = true;
+            comboBox66.Items.AddRange(new object[] { resources.GetString("comboBox66.Items"), resources.GetString("comboBox66.Items1"), resources.GetString("comboBox66.Items2"), resources.GetString("comboBox66.Items3"), resources.GetString("comboBox66.Items4") });
+            comboBox66.Name = "comboBox66";
+            comboBox66.UseWaitCursor = true;
             // 
             // comboBox67
             // 
-            this.comboBox67.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox67.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox67.FormattingEnabled = true;
-            this.comboBox67.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox67.Location = new System.Drawing.Point(374, 720);
-            this.comboBox67.Name = "comboBox67";
-            this.comboBox67.Size = new System.Drawing.Size(99, 28);
-            this.comboBox67.TabIndex = 262;
-            this.comboBox67.Text = "АСУ-21";
-            this.comboBox67.UseWaitCursor = true;
+            resources.ApplyResources(comboBox67, "comboBox67");
+            comboBox67.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox67.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox67.FormattingEnabled = true;
+            comboBox67.Items.AddRange(new object[] { resources.GetString("comboBox67.Items"), resources.GetString("comboBox67.Items1"), resources.GetString("comboBox67.Items2"), resources.GetString("comboBox67.Items3"), resources.GetString("comboBox67.Items4") });
+            comboBox67.Name = "comboBox67";
+            comboBox67.UseWaitCursor = true;
             // 
             // comboBox68
             // 
-            this.comboBox68.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox68.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox68.FormattingEnabled = true;
-            this.comboBox68.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox68.Location = new System.Drawing.Point(269, 720);
-            this.comboBox68.Name = "comboBox68";
-            this.comboBox68.Size = new System.Drawing.Size(99, 28);
-            this.comboBox68.TabIndex = 261;
-            this.comboBox68.Text = "СП-21";
-            this.comboBox68.UseWaitCursor = true;
+            resources.ApplyResources(comboBox68, "comboBox68");
+            comboBox68.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox68.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox68.FormattingEnabled = true;
+            comboBox68.Items.AddRange(new object[] { resources.GetString("comboBox68.Items"), resources.GetString("comboBox68.Items1"), resources.GetString("comboBox68.Items2"), resources.GetString("comboBox68.Items3"), resources.GetString("comboBox68.Items4") });
+            comboBox68.Name = "comboBox68";
+            comboBox68.UseWaitCursor = true;
             // 
             // comboBox69
             // 
-            this.comboBox69.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox69.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox69.FormattingEnabled = true;
-            this.comboBox69.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox69.Location = new System.Drawing.Point(164, 720);
-            this.comboBox69.Name = "comboBox69";
-            this.comboBox69.Size = new System.Drawing.Size(99, 28);
-            this.comboBox69.TabIndex = 260;
-            this.comboBox69.Text = "ПИ-21";
-            this.comboBox69.UseWaitCursor = true;
+            resources.ApplyResources(comboBox69, "comboBox69");
+            comboBox69.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox69.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox69.FormattingEnabled = true;
+            comboBox69.Items.AddRange(new object[] { resources.GetString("comboBox69.Items"), resources.GetString("comboBox69.Items1"), resources.GetString("comboBox69.Items2"), resources.GetString("comboBox69.Items3"), resources.GetString("comboBox69.Items4") });
+            comboBox69.Name = "comboBox69";
+            comboBox69.UseWaitCursor = true;
             // 
             // comboBox70
             // 
-            this.comboBox70.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox70.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox70.FormattingEnabled = true;
-            this.comboBox70.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox70.Location = new System.Drawing.Point(59, 720);
-            this.comboBox70.Name = "comboBox70";
-            this.comboBox70.Size = new System.Drawing.Size(99, 28);
-            this.comboBox70.TabIndex = 259;
-            this.comboBox70.Text = "КИ-21";
-            this.comboBox70.UseWaitCursor = true;
+            resources.ApplyResources(comboBox70, "comboBox70");
+            comboBox70.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox70.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox70.FormattingEnabled = true;
+            comboBox70.Items.AddRange(new object[] { resources.GetString("comboBox70.Items"), resources.GetString("comboBox70.Items1"), resources.GetString("comboBox70.Items2"), resources.GetString("comboBox70.Items3"), resources.GetString("comboBox70.Items4") });
+            comboBox70.Name = "comboBox70";
+            comboBox70.UseWaitCursor = true;
             // 
             // comboBox71
             // 
-            this.comboBox71.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox71.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox71.FormattingEnabled = true;
-            this.comboBox71.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox71.Location = new System.Drawing.Point(479, 686);
-            this.comboBox71.Name = "comboBox71";
-            this.comboBox71.Size = new System.Drawing.Size(99, 28);
-            this.comboBox71.TabIndex = 258;
-            this.comboBox71.Text = "ОППТ";
+            resources.ApplyResources(comboBox71, "comboBox71");
+            comboBox71.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox71.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox71.FormattingEnabled = true;
+            comboBox71.Items.AddRange(new object[] { resources.GetString("comboBox71.Items"), resources.GetString("comboBox71.Items1"), resources.GetString("comboBox71.Items2"), resources.GetString("comboBox71.Items3"), resources.GetString("comboBox71.Items4") });
+            comboBox71.Name = "comboBox71";
             // 
             // comboBox72
             // 
-            this.comboBox72.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox72.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox72.FormattingEnabled = true;
-            this.comboBox72.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox72.Location = new System.Drawing.Point(374, 686);
-            this.comboBox72.Name = "comboBox72";
-            this.comboBox72.Size = new System.Drawing.Size(99, 28);
-            this.comboBox72.TabIndex = 257;
-            this.comboBox72.Text = "АНГЛ";
+            resources.ApplyResources(comboBox72, "comboBox72");
+            comboBox72.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox72.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox72.FormattingEnabled = true;
+            comboBox72.Items.AddRange(new object[] { resources.GetString("comboBox72.Items"), resources.GetString("comboBox72.Items1"), resources.GetString("comboBox72.Items2"), resources.GetString("comboBox72.Items3"), resources.GetString("comboBox72.Items4") });
+            comboBox72.Name = "comboBox72";
             // 
             // comboBox73
             // 
-            this.comboBox73.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox73.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox73.FormattingEnabled = true;
-            this.comboBox73.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox73.Location = new System.Drawing.Point(269, 686);
-            this.comboBox73.Name = "comboBox73";
-            this.comboBox73.Size = new System.Drawing.Size(99, 28);
-            this.comboBox73.TabIndex = 256;
-            this.comboBox73.Text = "РУСС";
+            resources.ApplyResources(comboBox73, "comboBox73");
+            comboBox73.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox73.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox73.FormattingEnabled = true;
+            comboBox73.Items.AddRange(new object[] { resources.GetString("comboBox73.Items"), resources.GetString("comboBox73.Items1"), resources.GetString("comboBox73.Items2"), resources.GetString("comboBox73.Items3"), resources.GetString("comboBox73.Items4") });
+            comboBox73.Name = "comboBox73";
             // 
             // comboBox74
             // 
-            this.comboBox74.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox74.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox74.FormattingEnabled = true;
-            this.comboBox74.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox74.Location = new System.Drawing.Point(164, 686);
-            this.comboBox74.Name = "comboBox74";
-            this.comboBox74.Size = new System.Drawing.Size(99, 28);
-            this.comboBox74.TabIndex = 255;
-            this.comboBox74.Text = "ИВТ";
+            resources.ApplyResources(comboBox74, "comboBox74");
+            comboBox74.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox74.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox74.FormattingEnabled = true;
+            comboBox74.Items.AddRange(new object[] { resources.GetString("comboBox74.Items"), resources.GetString("comboBox74.Items1"), resources.GetString("comboBox74.Items2"), resources.GetString("comboBox74.Items3"), resources.GetString("comboBox74.Items4") });
+            comboBox74.Name = "comboBox74";
             // 
             // comboBox75
             // 
-            this.comboBox75.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox75.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox75.FormattingEnabled = true;
-            this.comboBox75.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox75.Location = new System.Drawing.Point(59, 686);
-            this.comboBox75.Name = "comboBox75";
-            this.comboBox75.Size = new System.Drawing.Size(99, 28);
-            this.comboBox75.TabIndex = 254;
-            this.comboBox75.Text = "ООП";
+            resources.ApplyResources(comboBox75, "comboBox75");
+            comboBox75.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox75.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox75.FormattingEnabled = true;
+            comboBox75.Items.AddRange(new object[] { resources.GetString("comboBox75.Items"), resources.GetString("comboBox75.Items1"), resources.GetString("comboBox75.Items2"), resources.GetString("comboBox75.Items3"), resources.GetString("comboBox75.Items4") });
+            comboBox75.Name = "comboBox75";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.LightYellow;
-            this.label7.Location = new System.Drawing.Point(301, 649);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(28, 20);
-            this.label7.TabIndex = 253;
-            this.label7.Text = "ПТ";
+            resources.ApplyResources(label7, "label7");
+            label7.BackColor = Color.LightYellow;
+            label7.Name = "label7";
             // 
             // comboBox31
             // 
-            this.comboBox31.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox31.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox31.FormattingEnabled = true;
-            this.comboBox31.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox31.Location = new System.Drawing.Point(479, 611);
-            this.comboBox31.Name = "comboBox31";
-            this.comboBox31.Size = new System.Drawing.Size(99, 28);
-            this.comboBox31.TabIndex = 252;
-            this.comboBox31.Text = "ЛЕКЦ";
-            this.comboBox31.UseWaitCursor = true;
+            resources.ApplyResources(comboBox31, "comboBox31");
+            comboBox31.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox31.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox31.FormattingEnabled = true;
+            comboBox31.Items.AddRange(new object[] { resources.GetString("comboBox31.Items"), resources.GetString("comboBox31.Items1"), resources.GetString("comboBox31.Items2") });
+            comboBox31.Name = "comboBox31";
+            comboBox31.UseWaitCursor = true;
             // 
             // comboBox32
             // 
-            this.comboBox32.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox32.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox32.FormattingEnabled = true;
-            this.comboBox32.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox32.Location = new System.Drawing.Point(374, 611);
-            this.comboBox32.Name = "comboBox32";
-            this.comboBox32.Size = new System.Drawing.Size(99, 28);
-            this.comboBox32.TabIndex = 251;
-            this.comboBox32.Text = "ЛЕКЦ";
-            this.comboBox32.UseWaitCursor = true;
+            resources.ApplyResources(comboBox32, "comboBox32");
+            comboBox32.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox32.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox32.FormattingEnabled = true;
+            comboBox32.Items.AddRange(new object[] { resources.GetString("comboBox32.Items"), resources.GetString("comboBox32.Items1"), resources.GetString("comboBox32.Items2") });
+            comboBox32.Name = "comboBox32";
+            comboBox32.UseWaitCursor = true;
             // 
             // comboBox33
             // 
-            this.comboBox33.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox33.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox33.FormattingEnabled = true;
-            this.comboBox33.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox33.Location = new System.Drawing.Point(269, 611);
-            this.comboBox33.Name = "comboBox33";
-            this.comboBox33.Size = new System.Drawing.Size(99, 28);
-            this.comboBox33.TabIndex = 250;
-            this.comboBox33.Text = "ПРАКТ";
-            this.comboBox33.UseWaitCursor = true;
+            resources.ApplyResources(comboBox33, "comboBox33");
+            comboBox33.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox33.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox33.FormattingEnabled = true;
+            comboBox33.Items.AddRange(new object[] { resources.GetString("comboBox33.Items"), resources.GetString("comboBox33.Items1"), resources.GetString("comboBox33.Items2") });
+            comboBox33.Name = "comboBox33";
+            comboBox33.UseWaitCursor = true;
             // 
             // comboBox34
             // 
-            this.comboBox34.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox34.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox34.FormattingEnabled = true;
-            this.comboBox34.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox34.Location = new System.Drawing.Point(164, 611);
-            this.comboBox34.Name = "comboBox34";
-            this.comboBox34.Size = new System.Drawing.Size(99, 28);
-            this.comboBox34.TabIndex = 249;
-            this.comboBox34.Text = "ПРАКТ";
-            this.comboBox34.UseWaitCursor = true;
+            resources.ApplyResources(comboBox34, "comboBox34");
+            comboBox34.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox34.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox34.FormattingEnabled = true;
+            comboBox34.Items.AddRange(new object[] { resources.GetString("comboBox34.Items"), resources.GetString("comboBox34.Items1"), resources.GetString("comboBox34.Items2") });
+            comboBox34.Name = "comboBox34";
+            comboBox34.UseWaitCursor = true;
             // 
             // comboBox35
             // 
-            this.comboBox35.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox35.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox35.FormattingEnabled = true;
-            this.comboBox35.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox35.Location = new System.Drawing.Point(59, 611);
-            this.comboBox35.Name = "comboBox35";
-            this.comboBox35.Size = new System.Drawing.Size(99, 28);
-            this.comboBox35.TabIndex = 248;
-            this.comboBox35.Text = "ЛАБ";
-            this.comboBox35.UseWaitCursor = true;
+            resources.ApplyResources(comboBox35, "comboBox35");
+            comboBox35.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox35.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox35.FormattingEnabled = true;
+            comboBox35.Items.AddRange(new object[] { resources.GetString("comboBox35.Items"), resources.GetString("comboBox35.Items1"), resources.GetString("comboBox35.Items2") });
+            comboBox35.Name = "comboBox35";
+            comboBox35.UseWaitCursor = true;
             // 
             // comboBox36
             // 
-            this.comboBox36.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox36.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox36.FormattingEnabled = true;
-            this.comboBox36.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox36.Location = new System.Drawing.Point(479, 577);
-            this.comboBox36.Name = "comboBox36";
-            this.comboBox36.Size = new System.Drawing.Size(99, 28);
-            this.comboBox36.TabIndex = 247;
-            this.comboBox36.Text = "КСЦ-21";
-            this.comboBox36.UseWaitCursor = true;
+            resources.ApplyResources(comboBox36, "comboBox36");
+            comboBox36.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox36.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox36.FormattingEnabled = true;
+            comboBox36.Items.AddRange(new object[] { resources.GetString("comboBox36.Items"), resources.GetString("comboBox36.Items1"), resources.GetString("comboBox36.Items2"), resources.GetString("comboBox36.Items3"), resources.GetString("comboBox36.Items4") });
+            comboBox36.Name = "comboBox36";
+            comboBox36.UseWaitCursor = true;
             // 
             // comboBox37
             // 
-            this.comboBox37.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox37.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox37.FormattingEnabled = true;
-            this.comboBox37.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox37.Location = new System.Drawing.Point(374, 577);
-            this.comboBox37.Name = "comboBox37";
-            this.comboBox37.Size = new System.Drawing.Size(99, 28);
-            this.comboBox37.TabIndex = 246;
-            this.comboBox37.Text = "АСУ-21";
-            this.comboBox37.UseWaitCursor = true;
+            resources.ApplyResources(comboBox37, "comboBox37");
+            comboBox37.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox37.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox37.FormattingEnabled = true;
+            comboBox37.Items.AddRange(new object[] { resources.GetString("comboBox37.Items"), resources.GetString("comboBox37.Items1"), resources.GetString("comboBox37.Items2"), resources.GetString("comboBox37.Items3"), resources.GetString("comboBox37.Items4") });
+            comboBox37.Name = "comboBox37";
+            comboBox37.UseWaitCursor = true;
             // 
             // comboBox38
             // 
-            this.comboBox38.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox38.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox38.FormattingEnabled = true;
-            this.comboBox38.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox38.Location = new System.Drawing.Point(269, 577);
-            this.comboBox38.Name = "comboBox38";
-            this.comboBox38.Size = new System.Drawing.Size(99, 28);
-            this.comboBox38.TabIndex = 245;
-            this.comboBox38.Text = "СП-21";
-            this.comboBox38.UseWaitCursor = true;
+            resources.ApplyResources(comboBox38, "comboBox38");
+            comboBox38.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox38.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox38.FormattingEnabled = true;
+            comboBox38.Items.AddRange(new object[] { resources.GetString("comboBox38.Items"), resources.GetString("comboBox38.Items1"), resources.GetString("comboBox38.Items2"), resources.GetString("comboBox38.Items3"), resources.GetString("comboBox38.Items4") });
+            comboBox38.Name = "comboBox38";
+            comboBox38.UseWaitCursor = true;
             // 
             // comboBox39
             // 
-            this.comboBox39.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox39.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox39.FormattingEnabled = true;
-            this.comboBox39.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox39.Location = new System.Drawing.Point(164, 577);
-            this.comboBox39.Name = "comboBox39";
-            this.comboBox39.Size = new System.Drawing.Size(99, 28);
-            this.comboBox39.TabIndex = 244;
-            this.comboBox39.Text = "ПИ-21";
-            this.comboBox39.UseWaitCursor = true;
+            resources.ApplyResources(comboBox39, "comboBox39");
+            comboBox39.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox39.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox39.FormattingEnabled = true;
+            comboBox39.Items.AddRange(new object[] { resources.GetString("comboBox39.Items"), resources.GetString("comboBox39.Items1"), resources.GetString("comboBox39.Items2"), resources.GetString("comboBox39.Items3"), resources.GetString("comboBox39.Items4") });
+            comboBox39.Name = "comboBox39";
+            comboBox39.UseWaitCursor = true;
             // 
             // comboBox40
             // 
-            this.comboBox40.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox40.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox40.FormattingEnabled = true;
-            this.comboBox40.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox40.Location = new System.Drawing.Point(59, 577);
-            this.comboBox40.Name = "comboBox40";
-            this.comboBox40.Size = new System.Drawing.Size(99, 28);
-            this.comboBox40.TabIndex = 243;
-            this.comboBox40.Text = "КИ-21";
-            this.comboBox40.UseWaitCursor = true;
+            resources.ApplyResources(comboBox40, "comboBox40");
+            comboBox40.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox40.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox40.FormattingEnabled = true;
+            comboBox40.Items.AddRange(new object[] { resources.GetString("comboBox40.Items"), resources.GetString("comboBox40.Items1"), resources.GetString("comboBox40.Items2"), resources.GetString("comboBox40.Items3"), resources.GetString("comboBox40.Items4") });
+            comboBox40.Name = "comboBox40";
+            comboBox40.UseWaitCursor = true;
             // 
             // comboBox41
             // 
-            this.comboBox41.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox41.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox41.FormattingEnabled = true;
-            this.comboBox41.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox41.Location = new System.Drawing.Point(479, 543);
-            this.comboBox41.Name = "comboBox41";
-            this.comboBox41.Size = new System.Drawing.Size(99, 28);
-            this.comboBox41.TabIndex = 242;
-            this.comboBox41.Text = "ОППТ";
+            resources.ApplyResources(comboBox41, "comboBox41");
+            comboBox41.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox41.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox41.FormattingEnabled = true;
+            comboBox41.Items.AddRange(new object[] { resources.GetString("comboBox41.Items"), resources.GetString("comboBox41.Items1"), resources.GetString("comboBox41.Items2"), resources.GetString("comboBox41.Items3"), resources.GetString("comboBox41.Items4") });
+            comboBox41.Name = "comboBox41";
             // 
             // comboBox42
             // 
-            this.comboBox42.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox42.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox42.FormattingEnabled = true;
-            this.comboBox42.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox42.Location = new System.Drawing.Point(374, 543);
-            this.comboBox42.Name = "comboBox42";
-            this.comboBox42.Size = new System.Drawing.Size(99, 28);
-            this.comboBox42.TabIndex = 241;
-            this.comboBox42.Text = "АНГЛ";
+            resources.ApplyResources(comboBox42, "comboBox42");
+            comboBox42.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox42.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox42.FormattingEnabled = true;
+            comboBox42.Items.AddRange(new object[] { resources.GetString("comboBox42.Items"), resources.GetString("comboBox42.Items1"), resources.GetString("comboBox42.Items2"), resources.GetString("comboBox42.Items3"), resources.GetString("comboBox42.Items4") });
+            comboBox42.Name = "comboBox42";
             // 
             // comboBox43
             // 
-            this.comboBox43.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox43.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox43.FormattingEnabled = true;
-            this.comboBox43.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox43.Location = new System.Drawing.Point(269, 543);
-            this.comboBox43.Name = "comboBox43";
-            this.comboBox43.Size = new System.Drawing.Size(99, 28);
-            this.comboBox43.TabIndex = 240;
-            this.comboBox43.Text = "РУСС";
+            resources.ApplyResources(comboBox43, "comboBox43");
+            comboBox43.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox43.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox43.FormattingEnabled = true;
+            comboBox43.Items.AddRange(new object[] { resources.GetString("comboBox43.Items"), resources.GetString("comboBox43.Items1"), resources.GetString("comboBox43.Items2"), resources.GetString("comboBox43.Items3"), resources.GetString("comboBox43.Items4") });
+            comboBox43.Name = "comboBox43";
             // 
             // comboBox44
             // 
-            this.comboBox44.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox44.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox44.FormattingEnabled = true;
-            this.comboBox44.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox44.Location = new System.Drawing.Point(164, 543);
-            this.comboBox44.Name = "comboBox44";
-            this.comboBox44.Size = new System.Drawing.Size(99, 28);
-            this.comboBox44.TabIndex = 239;
-            this.comboBox44.Text = "ИВТ";
+            resources.ApplyResources(comboBox44, "comboBox44");
+            comboBox44.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox44.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox44.FormattingEnabled = true;
+            comboBox44.Items.AddRange(new object[] { resources.GetString("comboBox44.Items"), resources.GetString("comboBox44.Items1"), resources.GetString("comboBox44.Items2"), resources.GetString("comboBox44.Items3"), resources.GetString("comboBox44.Items4") });
+            comboBox44.Name = "comboBox44";
             // 
             // comboBox45
             // 
-            this.comboBox45.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox45.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox45.FormattingEnabled = true;
-            this.comboBox45.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox45.Location = new System.Drawing.Point(59, 543);
-            this.comboBox45.Name = "comboBox45";
-            this.comboBox45.Size = new System.Drawing.Size(99, 28);
-            this.comboBox45.TabIndex = 238;
-            this.comboBox45.Text = "ООП";
+            resources.ApplyResources(comboBox45, "comboBox45");
+            comboBox45.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox45.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox45.FormattingEnabled = true;
+            comboBox45.Items.AddRange(new object[] { resources.GetString("comboBox45.Items"), resources.GetString("comboBox45.Items1"), resources.GetString("comboBox45.Items2"), resources.GetString("comboBox45.Items3"), resources.GetString("comboBox45.Items4") });
+            comboBox45.Name = "comboBox45";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.LightYellow;
-            this.label5.Location = new System.Drawing.Point(301, 506);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(27, 20);
-            this.label5.TabIndex = 237;
-            this.label5.Text = "ЧТ";
+            resources.ApplyResources(label5, "label5");
+            label5.BackColor = Color.LightYellow;
+            label5.Name = "label5";
             // 
             // comboBox46
             // 
-            this.comboBox46.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox46.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox46.FormattingEnabled = true;
-            this.comboBox46.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox46.Location = new System.Drawing.Point(479, 467);
-            this.comboBox46.Name = "comboBox46";
-            this.comboBox46.Size = new System.Drawing.Size(99, 28);
-            this.comboBox46.TabIndex = 236;
-            this.comboBox46.Text = "ЛЕКЦ";
-            this.comboBox46.UseWaitCursor = true;
+            resources.ApplyResources(comboBox46, "comboBox46");
+            comboBox46.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox46.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox46.FormattingEnabled = true;
+            comboBox46.Items.AddRange(new object[] { resources.GetString("comboBox46.Items"), resources.GetString("comboBox46.Items1"), resources.GetString("comboBox46.Items2") });
+            comboBox46.Name = "comboBox46";
+            comboBox46.UseWaitCursor = true;
             // 
             // comboBox47
             // 
-            this.comboBox47.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox47.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox47.FormattingEnabled = true;
-            this.comboBox47.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox47.Location = new System.Drawing.Point(374, 467);
-            this.comboBox47.Name = "comboBox47";
-            this.comboBox47.Size = new System.Drawing.Size(99, 28);
-            this.comboBox47.TabIndex = 235;
-            this.comboBox47.Text = "ЛАБ";
-            this.comboBox47.UseWaitCursor = true;
+            resources.ApplyResources(comboBox47, "comboBox47");
+            comboBox47.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox47.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox47.FormattingEnabled = true;
+            comboBox47.Items.AddRange(new object[] { resources.GetString("comboBox47.Items"), resources.GetString("comboBox47.Items1"), resources.GetString("comboBox47.Items2") });
+            comboBox47.Name = "comboBox47";
+            comboBox47.UseWaitCursor = true;
             // 
             // comboBox48
             // 
-            this.comboBox48.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox48.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox48.FormattingEnabled = true;
-            this.comboBox48.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox48.Location = new System.Drawing.Point(269, 467);
-            this.comboBox48.Name = "comboBox48";
-            this.comboBox48.Size = new System.Drawing.Size(99, 28);
-            this.comboBox48.TabIndex = 234;
-            this.comboBox48.Text = "ПРАКТ";
-            this.comboBox48.UseWaitCursor = true;
+            resources.ApplyResources(comboBox48, "comboBox48");
+            comboBox48.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox48.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox48.FormattingEnabled = true;
+            comboBox48.Items.AddRange(new object[] { resources.GetString("comboBox48.Items"), resources.GetString("comboBox48.Items1"), resources.GetString("comboBox48.Items2") });
+            comboBox48.Name = "comboBox48";
+            comboBox48.UseWaitCursor = true;
             // 
             // comboBox49
             // 
-            this.comboBox49.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox49.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox49.FormattingEnabled = true;
-            this.comboBox49.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox49.Location = new System.Drawing.Point(164, 467);
-            this.comboBox49.Name = "comboBox49";
-            this.comboBox49.Size = new System.Drawing.Size(99, 28);
-            this.comboBox49.TabIndex = 233;
-            this.comboBox49.Text = "ЛЕКЦ";
-            this.comboBox49.UseWaitCursor = true;
+            resources.ApplyResources(comboBox49, "comboBox49");
+            comboBox49.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox49.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox49.FormattingEnabled = true;
+            comboBox49.Items.AddRange(new object[] { resources.GetString("comboBox49.Items"), resources.GetString("comboBox49.Items1"), resources.GetString("comboBox49.Items2") });
+            comboBox49.Name = "comboBox49";
+            comboBox49.UseWaitCursor = true;
             // 
             // comboBox50
             // 
-            this.comboBox50.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox50.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox50.FormattingEnabled = true;
-            this.comboBox50.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox50.Location = new System.Drawing.Point(59, 467);
-            this.comboBox50.Name = "comboBox50";
-            this.comboBox50.Size = new System.Drawing.Size(99, 28);
-            this.comboBox50.TabIndex = 232;
-            this.comboBox50.Text = "ЛАБ";
-            this.comboBox50.UseWaitCursor = true;
+            resources.ApplyResources(comboBox50, "comboBox50");
+            comboBox50.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox50.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox50.FormattingEnabled = true;
+            comboBox50.Items.AddRange(new object[] { resources.GetString("comboBox50.Items"), resources.GetString("comboBox50.Items1"), resources.GetString("comboBox50.Items2") });
+            comboBox50.Name = "comboBox50";
+            comboBox50.UseWaitCursor = true;
             // 
             // comboBox51
             // 
-            this.comboBox51.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox51.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox51.FormattingEnabled = true;
-            this.comboBox51.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox51.Location = new System.Drawing.Point(479, 433);
-            this.comboBox51.Name = "comboBox51";
-            this.comboBox51.Size = new System.Drawing.Size(99, 28);
-            this.comboBox51.TabIndex = 231;
-            this.comboBox51.Text = "СП-21";
-            this.comboBox51.UseWaitCursor = true;
+            resources.ApplyResources(comboBox51, "comboBox51");
+            comboBox51.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox51.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox51.FormattingEnabled = true;
+            comboBox51.Items.AddRange(new object[] { resources.GetString("comboBox51.Items"), resources.GetString("comboBox51.Items1"), resources.GetString("comboBox51.Items2"), resources.GetString("comboBox51.Items3"), resources.GetString("comboBox51.Items4") });
+            comboBox51.Name = "comboBox51";
+            comboBox51.UseWaitCursor = true;
             // 
             // comboBox52
             // 
-            this.comboBox52.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox52.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox52.FormattingEnabled = true;
-            this.comboBox52.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox52.Location = new System.Drawing.Point(374, 433);
-            this.comboBox52.Name = "comboBox52";
-            this.comboBox52.Size = new System.Drawing.Size(99, 28);
-            this.comboBox52.TabIndex = 230;
-            this.comboBox52.Text = "ПИ-21";
-            this.comboBox52.UseWaitCursor = true;
+            resources.ApplyResources(comboBox52, "comboBox52");
+            comboBox52.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox52.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox52.FormattingEnabled = true;
+            comboBox52.Items.AddRange(new object[] { resources.GetString("comboBox52.Items"), resources.GetString("comboBox52.Items1"), resources.GetString("comboBox52.Items2"), resources.GetString("comboBox52.Items3"), resources.GetString("comboBox52.Items4") });
+            comboBox52.Name = "comboBox52";
+            comboBox52.UseWaitCursor = true;
             // 
             // comboBox53
             // 
-            this.comboBox53.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox53.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox53.FormattingEnabled = true;
-            this.comboBox53.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox53.Location = new System.Drawing.Point(269, 433);
-            this.comboBox53.Name = "comboBox53";
-            this.comboBox53.Size = new System.Drawing.Size(99, 28);
-            this.comboBox53.TabIndex = 229;
-            this.comboBox53.Text = "АСУ-21";
-            this.comboBox53.UseWaitCursor = true;
+            resources.ApplyResources(comboBox53, "comboBox53");
+            comboBox53.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox53.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox53.FormattingEnabled = true;
+            comboBox53.Items.AddRange(new object[] { resources.GetString("comboBox53.Items"), resources.GetString("comboBox53.Items1"), resources.GetString("comboBox53.Items2"), resources.GetString("comboBox53.Items3"), resources.GetString("comboBox53.Items4") });
+            comboBox53.Name = "comboBox53";
+            comboBox53.UseWaitCursor = true;
             // 
             // comboBox54
             // 
-            this.comboBox54.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox54.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox54.FormattingEnabled = true;
-            this.comboBox54.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox54.Location = new System.Drawing.Point(164, 433);
-            this.comboBox54.Name = "comboBox54";
-            this.comboBox54.Size = new System.Drawing.Size(99, 28);
-            this.comboBox54.TabIndex = 228;
-            this.comboBox54.Text = "КСЦ-21";
-            this.comboBox54.UseWaitCursor = true;
+            resources.ApplyResources(comboBox54, "comboBox54");
+            comboBox54.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox54.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox54.FormattingEnabled = true;
+            comboBox54.Items.AddRange(new object[] { resources.GetString("comboBox54.Items"), resources.GetString("comboBox54.Items1"), resources.GetString("comboBox54.Items2"), resources.GetString("comboBox54.Items3"), resources.GetString("comboBox54.Items4") });
+            comboBox54.Name = "comboBox54";
+            comboBox54.UseWaitCursor = true;
             // 
             // comboBox55
             // 
-            this.comboBox55.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox55.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox55.FormattingEnabled = true;
-            this.comboBox55.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox55.Location = new System.Drawing.Point(59, 433);
-            this.comboBox55.Name = "comboBox55";
-            this.comboBox55.Size = new System.Drawing.Size(99, 28);
-            this.comboBox55.TabIndex = 227;
-            this.comboBox55.Text = "КИ-21";
-            this.comboBox55.UseWaitCursor = true;
+            resources.ApplyResources(comboBox55, "comboBox55");
+            comboBox55.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox55.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox55.FormattingEnabled = true;
+            comboBox55.Items.AddRange(new object[] { resources.GetString("comboBox55.Items"), resources.GetString("comboBox55.Items1"), resources.GetString("comboBox55.Items2"), resources.GetString("comboBox55.Items3"), resources.GetString("comboBox55.Items4") });
+            comboBox55.Name = "comboBox55";
+            comboBox55.UseWaitCursor = true;
             // 
             // comboBox56
             // 
-            this.comboBox56.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox56.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox56.FormattingEnabled = true;
-            this.comboBox56.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox56.Location = new System.Drawing.Point(479, 399);
-            this.comboBox56.Name = "comboBox56";
-            this.comboBox56.Size = new System.Drawing.Size(99, 28);
-            this.comboBox56.TabIndex = 226;
-            this.comboBox56.Text = "ОППТ";
+            resources.ApplyResources(comboBox56, "comboBox56");
+            comboBox56.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox56.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox56.FormattingEnabled = true;
+            comboBox56.Items.AddRange(new object[] { resources.GetString("comboBox56.Items"), resources.GetString("comboBox56.Items1"), resources.GetString("comboBox56.Items2"), resources.GetString("comboBox56.Items3"), resources.GetString("comboBox56.Items4") });
+            comboBox56.Name = "comboBox56";
             // 
             // comboBox57
             // 
-            this.comboBox57.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox57.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox57.FormattingEnabled = true;
-            this.comboBox57.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox57.Location = new System.Drawing.Point(374, 399);
-            this.comboBox57.Name = "comboBox57";
-            this.comboBox57.Size = new System.Drawing.Size(99, 28);
-            this.comboBox57.TabIndex = 225;
-            this.comboBox57.Text = "ИВТ";
+            resources.ApplyResources(comboBox57, "comboBox57");
+            comboBox57.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox57.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox57.FormattingEnabled = true;
+            comboBox57.Items.AddRange(new object[] { resources.GetString("comboBox57.Items"), resources.GetString("comboBox57.Items1"), resources.GetString("comboBox57.Items2"), resources.GetString("comboBox57.Items3"), resources.GetString("comboBox57.Items4") });
+            comboBox57.Name = "comboBox57";
             // 
             // comboBox58
             // 
-            this.comboBox58.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox58.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox58.FormattingEnabled = true;
-            this.comboBox58.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox58.Location = new System.Drawing.Point(269, 399);
-            this.comboBox58.Name = "comboBox58";
-            this.comboBox58.Size = new System.Drawing.Size(99, 28);
-            this.comboBox58.TabIndex = 224;
-            this.comboBox58.Text = "АНГЛ";
+            resources.ApplyResources(comboBox58, "comboBox58");
+            comboBox58.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox58.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox58.FormattingEnabled = true;
+            comboBox58.Items.AddRange(new object[] { resources.GetString("comboBox58.Items"), resources.GetString("comboBox58.Items1"), resources.GetString("comboBox58.Items2"), resources.GetString("comboBox58.Items3"), resources.GetString("comboBox58.Items4") });
+            comboBox58.Name = "comboBox58";
             // 
             // comboBox59
             // 
-            this.comboBox59.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox59.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox59.FormattingEnabled = true;
-            this.comboBox59.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox59.Location = new System.Drawing.Point(164, 399);
-            this.comboBox59.Name = "comboBox59";
-            this.comboBox59.Size = new System.Drawing.Size(99, 28);
-            this.comboBox59.TabIndex = 223;
-            this.comboBox59.Text = "ООП";
+            resources.ApplyResources(comboBox59, "comboBox59");
+            comboBox59.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox59.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox59.FormattingEnabled = true;
+            comboBox59.Items.AddRange(new object[] { resources.GetString("comboBox59.Items"), resources.GetString("comboBox59.Items1"), resources.GetString("comboBox59.Items2"), resources.GetString("comboBox59.Items3"), resources.GetString("comboBox59.Items4") });
+            comboBox59.Name = "comboBox59";
             // 
             // comboBox60
             // 
-            this.comboBox60.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox60.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox60.FormattingEnabled = true;
-            this.comboBox60.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox60.Location = new System.Drawing.Point(59, 399);
-            this.comboBox60.Name = "comboBox60";
-            this.comboBox60.Size = new System.Drawing.Size(99, 28);
-            this.comboBox60.TabIndex = 222;
-            this.comboBox60.Text = "РУСС";
+            resources.ApplyResources(comboBox60, "comboBox60");
+            comboBox60.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox60.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox60.FormattingEnabled = true;
+            comboBox60.Items.AddRange(new object[] { resources.GetString("comboBox60.Items"), resources.GetString("comboBox60.Items1"), resources.GetString("comboBox60.Items2"), resources.GetString("comboBox60.Items3"), resources.GetString("comboBox60.Items4") });
+            comboBox60.Name = "comboBox60";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.LightYellow;
-            this.label6.Location = new System.Drawing.Point(301, 362);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(26, 20);
-            this.label6.TabIndex = 221;
-            this.label6.Text = "СР";
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = Color.LightYellow;
+            label6.Name = "label6";
             // 
             // comboBox16
             // 
-            this.comboBox16.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox16.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox16.Location = new System.Drawing.Point(479, 324);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(99, 28);
-            this.comboBox16.TabIndex = 220;
-            this.comboBox16.Text = "ЛЕКЦ";
-            this.comboBox16.UseWaitCursor = true;
+            resources.ApplyResources(comboBox16, "comboBox16");
+            comboBox16.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox16.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox16.FormattingEnabled = true;
+            comboBox16.Items.AddRange(new object[] { resources.GetString("comboBox16.Items"), resources.GetString("comboBox16.Items1"), resources.GetString("comboBox16.Items2") });
+            comboBox16.Name = "comboBox16";
+            comboBox16.UseWaitCursor = true;
             // 
             // comboBox17
             // 
-            this.comboBox17.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox17.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox17.Location = new System.Drawing.Point(374, 324);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(99, 28);
-            this.comboBox17.TabIndex = 219;
-            this.comboBox17.Text = "ЛЕКЦ";
-            this.comboBox17.UseWaitCursor = true;
+            resources.ApplyResources(comboBox17, "comboBox17");
+            comboBox17.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox17.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox17.FormattingEnabled = true;
+            comboBox17.Items.AddRange(new object[] { resources.GetString("comboBox17.Items"), resources.GetString("comboBox17.Items1"), resources.GetString("comboBox17.Items2") });
+            comboBox17.Name = "comboBox17";
+            comboBox17.UseWaitCursor = true;
             // 
             // comboBox18
             // 
-            this.comboBox18.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox18.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox18.Location = new System.Drawing.Point(269, 324);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(99, 28);
-            this.comboBox18.TabIndex = 218;
-            this.comboBox18.Text = "ПРАКТ";
-            this.comboBox18.UseWaitCursor = true;
+            resources.ApplyResources(comboBox18, "comboBox18");
+            comboBox18.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox18.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox18.FormattingEnabled = true;
+            comboBox18.Items.AddRange(new object[] { resources.GetString("comboBox18.Items"), resources.GetString("comboBox18.Items1"), resources.GetString("comboBox18.Items2") });
+            comboBox18.Name = "comboBox18";
+            comboBox18.UseWaitCursor = true;
             // 
             // comboBox19
             // 
-            this.comboBox19.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox19.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox19.Location = new System.Drawing.Point(164, 324);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(99, 28);
-            this.comboBox19.TabIndex = 217;
-            this.comboBox19.Text = "ПРАКТ";
-            this.comboBox19.UseWaitCursor = true;
+            resources.ApplyResources(comboBox19, "comboBox19");
+            comboBox19.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox19.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox19.FormattingEnabled = true;
+            comboBox19.Items.AddRange(new object[] { resources.GetString("comboBox19.Items"), resources.GetString("comboBox19.Items1"), resources.GetString("comboBox19.Items2") });
+            comboBox19.Name = "comboBox19";
+            comboBox19.UseWaitCursor = true;
             // 
             // comboBox20
             // 
-            this.comboBox20.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox20.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox20.Location = new System.Drawing.Point(59, 324);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(99, 28);
-            this.comboBox20.TabIndex = 216;
-            this.comboBox20.Text = "ЛАБ";
-            this.comboBox20.UseWaitCursor = true;
+            resources.ApplyResources(comboBox20, "comboBox20");
+            comboBox20.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox20.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox20.FormattingEnabled = true;
+            comboBox20.Items.AddRange(new object[] { resources.GetString("comboBox20.Items"), resources.GetString("comboBox20.Items1"), resources.GetString("comboBox20.Items2") });
+            comboBox20.Name = "comboBox20";
+            comboBox20.UseWaitCursor = true;
             // 
             // comboBox21
             // 
-            this.comboBox21.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox21.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox21.FormattingEnabled = true;
-            this.comboBox21.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox21.Location = new System.Drawing.Point(479, 290);
-            this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(99, 28);
-            this.comboBox21.TabIndex = 215;
-            this.comboBox21.Text = "КСЦ-21";
-            this.comboBox21.UseWaitCursor = true;
+            resources.ApplyResources(comboBox21, "comboBox21");
+            comboBox21.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox21.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox21.FormattingEnabled = true;
+            comboBox21.Items.AddRange(new object[] { resources.GetString("comboBox21.Items"), resources.GetString("comboBox21.Items1"), resources.GetString("comboBox21.Items2"), resources.GetString("comboBox21.Items3"), resources.GetString("comboBox21.Items4") });
+            comboBox21.Name = "comboBox21";
+            comboBox21.UseWaitCursor = true;
             // 
             // comboBox22
             // 
-            this.comboBox22.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox22.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox22.Location = new System.Drawing.Point(374, 290);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(99, 28);
-            this.comboBox22.TabIndex = 214;
-            this.comboBox22.Text = "АСУ-21";
-            this.comboBox22.UseWaitCursor = true;
+            resources.ApplyResources(comboBox22, "comboBox22");
+            comboBox22.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox22.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox22.FormattingEnabled = true;
+            comboBox22.Items.AddRange(new object[] { resources.GetString("comboBox22.Items"), resources.GetString("comboBox22.Items1"), resources.GetString("comboBox22.Items2"), resources.GetString("comboBox22.Items3"), resources.GetString("comboBox22.Items4") });
+            comboBox22.Name = "comboBox22";
+            comboBox22.UseWaitCursor = true;
             // 
             // comboBox23
             // 
-            this.comboBox23.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox23.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox23.FormattingEnabled = true;
-            this.comboBox23.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox23.Location = new System.Drawing.Point(269, 290);
-            this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(99, 28);
-            this.comboBox23.TabIndex = 213;
-            this.comboBox23.Text = "СП-21";
-            this.comboBox23.UseWaitCursor = true;
+            resources.ApplyResources(comboBox23, "comboBox23");
+            comboBox23.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox23.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox23.FormattingEnabled = true;
+            comboBox23.Items.AddRange(new object[] { resources.GetString("comboBox23.Items"), resources.GetString("comboBox23.Items1"), resources.GetString("comboBox23.Items2"), resources.GetString("comboBox23.Items3"), resources.GetString("comboBox23.Items4") });
+            comboBox23.Name = "comboBox23";
+            comboBox23.UseWaitCursor = true;
             // 
             // comboBox24
             // 
-            this.comboBox24.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox24.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox24.FormattingEnabled = true;
-            this.comboBox24.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox24.Location = new System.Drawing.Point(164, 290);
-            this.comboBox24.Name = "comboBox24";
-            this.comboBox24.Size = new System.Drawing.Size(99, 28);
-            this.comboBox24.TabIndex = 212;
-            this.comboBox24.Text = "ПИ-21";
-            this.comboBox24.UseWaitCursor = true;
+            resources.ApplyResources(comboBox24, "comboBox24");
+            comboBox24.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox24.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox24.FormattingEnabled = true;
+            comboBox24.Items.AddRange(new object[] { resources.GetString("comboBox24.Items"), resources.GetString("comboBox24.Items1"), resources.GetString("comboBox24.Items2"), resources.GetString("comboBox24.Items3"), resources.GetString("comboBox24.Items4") });
+            comboBox24.Name = "comboBox24";
+            comboBox24.UseWaitCursor = true;
             // 
             // comboBox25
             // 
-            this.comboBox25.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox25.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox25.Location = new System.Drawing.Point(59, 290);
-            this.comboBox25.Name = "comboBox25";
-            this.comboBox25.Size = new System.Drawing.Size(99, 28);
-            this.comboBox25.TabIndex = 211;
-            this.comboBox25.Text = "КИ-21";
-            this.comboBox25.UseWaitCursor = true;
+            resources.ApplyResources(comboBox25, "comboBox25");
+            comboBox25.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox25.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox25.FormattingEnabled = true;
+            comboBox25.Items.AddRange(new object[] { resources.GetString("comboBox25.Items"), resources.GetString("comboBox25.Items1"), resources.GetString("comboBox25.Items2"), resources.GetString("comboBox25.Items3"), resources.GetString("comboBox25.Items4") });
+            comboBox25.Name = "comboBox25";
+            comboBox25.UseWaitCursor = true;
             // 
             // comboBox26
             // 
-            this.comboBox26.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox26.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox26.FormattingEnabled = true;
-            this.comboBox26.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox26.Location = new System.Drawing.Point(479, 256);
-            this.comboBox26.Name = "comboBox26";
-            this.comboBox26.Size = new System.Drawing.Size(99, 28);
-            this.comboBox26.TabIndex = 210;
-            this.comboBox26.Text = "ОППТ";
+            resources.ApplyResources(comboBox26, "comboBox26");
+            comboBox26.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox26.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox26.FormattingEnabled = true;
+            comboBox26.Items.AddRange(new object[] { resources.GetString("comboBox26.Items"), resources.GetString("comboBox26.Items1"), resources.GetString("comboBox26.Items2"), resources.GetString("comboBox26.Items3"), resources.GetString("comboBox26.Items4") });
+            comboBox26.Name = "comboBox26";
             // 
             // comboBox27
             // 
-            this.comboBox27.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox27.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox27.FormattingEnabled = true;
-            this.comboBox27.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox27.Location = new System.Drawing.Point(374, 256);
-            this.comboBox27.Name = "comboBox27";
-            this.comboBox27.Size = new System.Drawing.Size(99, 28);
-            this.comboBox27.TabIndex = 209;
-            this.comboBox27.Text = "АНГЛ";
+            resources.ApplyResources(comboBox27, "comboBox27");
+            comboBox27.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox27.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox27.FormattingEnabled = true;
+            comboBox27.Items.AddRange(new object[] { resources.GetString("comboBox27.Items"), resources.GetString("comboBox27.Items1"), resources.GetString("comboBox27.Items2"), resources.GetString("comboBox27.Items3"), resources.GetString("comboBox27.Items4") });
+            comboBox27.Name = "comboBox27";
             // 
             // comboBox28
             // 
-            this.comboBox28.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox28.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox28.FormattingEnabled = true;
-            this.comboBox28.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox28.Location = new System.Drawing.Point(269, 256);
-            this.comboBox28.Name = "comboBox28";
-            this.comboBox28.Size = new System.Drawing.Size(99, 28);
-            this.comboBox28.TabIndex = 208;
-            this.comboBox28.Text = "РУСС";
+            resources.ApplyResources(comboBox28, "comboBox28");
+            comboBox28.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox28.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox28.FormattingEnabled = true;
+            comboBox28.Items.AddRange(new object[] { resources.GetString("comboBox28.Items"), resources.GetString("comboBox28.Items1"), resources.GetString("comboBox28.Items2"), resources.GetString("comboBox28.Items3"), resources.GetString("comboBox28.Items4") });
+            comboBox28.Name = "comboBox28";
             // 
             // comboBox29
             // 
-            this.comboBox29.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox29.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox29.FormattingEnabled = true;
-            this.comboBox29.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox29.Location = new System.Drawing.Point(164, 256);
-            this.comboBox29.Name = "comboBox29";
-            this.comboBox29.Size = new System.Drawing.Size(99, 28);
-            this.comboBox29.TabIndex = 207;
-            this.comboBox29.Text = "ИВТ";
+            resources.ApplyResources(comboBox29, "comboBox29");
+            comboBox29.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox29.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox29.FormattingEnabled = true;
+            comboBox29.Items.AddRange(new object[] { resources.GetString("comboBox29.Items"), resources.GetString("comboBox29.Items1"), resources.GetString("comboBox29.Items2"), resources.GetString("comboBox29.Items3"), resources.GetString("comboBox29.Items4") });
+            comboBox29.Name = "comboBox29";
             // 
             // comboBox30
             // 
-            this.comboBox30.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox30.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox30.FormattingEnabled = true;
-            this.comboBox30.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox30.Location = new System.Drawing.Point(59, 256);
-            this.comboBox30.Name = "comboBox30";
-            this.comboBox30.Size = new System.Drawing.Size(99, 28);
-            this.comboBox30.TabIndex = 206;
-            this.comboBox30.Text = "ООП";
+            resources.ApplyResources(comboBox30, "comboBox30");
+            comboBox30.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox30.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox30.FormattingEnabled = true;
+            comboBox30.Items.AddRange(new object[] { resources.GetString("comboBox30.Items"), resources.GetString("comboBox30.Items1"), resources.GetString("comboBox30.Items2"), resources.GetString("comboBox30.Items3"), resources.GetString("comboBox30.Items4") });
+            comboBox30.Name = "comboBox30";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.LightYellow;
-            this.label4.Location = new System.Drawing.Point(301, 219);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 20);
-            this.label4.TabIndex = 205;
-            this.label4.Text = "ВТ";
+            resources.ApplyResources(label4, "label4");
+            label4.BackColor = Color.LightYellow;
+            label4.Name = "label4";
             // 
             // comboBox15
             // 
-            this.comboBox15.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox15.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox15.Location = new System.Drawing.Point(479, 180);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(99, 28);
-            this.comboBox15.TabIndex = 204;
-            this.comboBox15.Text = "ЛЕКЦ";
-            this.comboBox15.UseWaitCursor = true;
+            resources.ApplyResources(comboBox15, "comboBox15");
+            comboBox15.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox15.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox15.FormattingEnabled = true;
+            comboBox15.Items.AddRange(new object[] { resources.GetString("comboBox15.Items"), resources.GetString("comboBox15.Items1"), resources.GetString("comboBox15.Items2") });
+            comboBox15.Name = "comboBox15";
+            comboBox15.UseWaitCursor = true;
             // 
             // comboBox14
             // 
-            this.comboBox14.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox14.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox14.Location = new System.Drawing.Point(374, 180);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(99, 28);
-            this.comboBox14.TabIndex = 203;
-            this.comboBox14.Text = "ЛАБ";
-            this.comboBox14.UseWaitCursor = true;
+            resources.ApplyResources(comboBox14, "comboBox14");
+            comboBox14.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox14.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox14.FormattingEnabled = true;
+            comboBox14.Items.AddRange(new object[] { resources.GetString("comboBox14.Items"), resources.GetString("comboBox14.Items1"), resources.GetString("comboBox14.Items2") });
+            comboBox14.Name = "comboBox14";
+            comboBox14.UseWaitCursor = true;
             // 
             // comboBox13
             // 
-            this.comboBox13.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox13.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox13.Location = new System.Drawing.Point(269, 180);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(99, 28);
-            this.comboBox13.TabIndex = 202;
-            this.comboBox13.Text = "ПРАКТ";
-            this.comboBox13.UseWaitCursor = true;
+            resources.ApplyResources(comboBox13, "comboBox13");
+            comboBox13.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox13.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox13.FormattingEnabled = true;
+            comboBox13.Items.AddRange(new object[] { resources.GetString("comboBox13.Items"), resources.GetString("comboBox13.Items1"), resources.GetString("comboBox13.Items2") });
+            comboBox13.Name = "comboBox13";
+            comboBox13.UseWaitCursor = true;
             // 
             // comboBox12
             // 
-            this.comboBox12.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox12.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox12.Location = new System.Drawing.Point(164, 180);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(99, 28);
-            this.comboBox12.TabIndex = 201;
-            this.comboBox12.Text = "ЛЕКЦ";
-            this.comboBox12.UseWaitCursor = true;
+            resources.ApplyResources(comboBox12, "comboBox12");
+            comboBox12.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox12.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox12.FormattingEnabled = true;
+            comboBox12.Items.AddRange(new object[] { resources.GetString("comboBox12.Items"), resources.GetString("comboBox12.Items1"), resources.GetString("comboBox12.Items2") });
+            comboBox12.Name = "comboBox12";
+            comboBox12.UseWaitCursor = true;
             // 
             // comboBox11
             // 
-            this.comboBox11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox11.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
-            "ЛАБ",
-            "ЛЕКЦ",
-            "ПРАКТ"});
-            this.comboBox11.Location = new System.Drawing.Point(59, 180);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(99, 28);
-            this.comboBox11.TabIndex = 200;
-            this.comboBox11.Text = "ЛАБ";
-            this.comboBox11.UseWaitCursor = true;
+            resources.ApplyResources(comboBox11, "comboBox11");
+            comboBox11.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox11.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox11.FormattingEnabled = true;
+            comboBox11.Items.AddRange(new object[] { resources.GetString("comboBox11.Items"), resources.GetString("comboBox11.Items1"), resources.GetString("comboBox11.Items2") });
+            comboBox11.Name = "comboBox11";
+            comboBox11.UseWaitCursor = true;
             // 
             // comboBox10
             // 
-            this.comboBox10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox10.Location = new System.Drawing.Point(479, 146);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(99, 28);
-            this.comboBox10.TabIndex = 199;
-            this.comboBox10.Text = "СП-21";
-            this.comboBox10.UseWaitCursor = true;
+            resources.ApplyResources(comboBox10, "comboBox10");
+            comboBox10.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox10.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox10.FormattingEnabled = true;
+            comboBox10.Items.AddRange(new object[] { resources.GetString("comboBox10.Items"), resources.GetString("comboBox10.Items1"), resources.GetString("comboBox10.Items2"), resources.GetString("comboBox10.Items3"), resources.GetString("comboBox10.Items4") });
+            comboBox10.Name = "comboBox10";
+            comboBox10.UseWaitCursor = true;
             // 
             // comboBox9
             // 
-            this.comboBox9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox9.Location = new System.Drawing.Point(374, 146);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(99, 28);
-            this.comboBox9.TabIndex = 198;
-            this.comboBox9.Text = "ПИ-21";
-            this.comboBox9.UseWaitCursor = true;
+            resources.ApplyResources(comboBox9, "comboBox9");
+            comboBox9.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox9.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox9.FormattingEnabled = true;
+            comboBox9.Items.AddRange(new object[] { resources.GetString("comboBox9.Items"), resources.GetString("comboBox9.Items1"), resources.GetString("comboBox9.Items2"), resources.GetString("comboBox9.Items3"), resources.GetString("comboBox9.Items4") });
+            comboBox9.Name = "comboBox9";
+            comboBox9.UseWaitCursor = true;
             // 
             // comboBox8
             // 
-            this.comboBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox8.Location = new System.Drawing.Point(269, 146);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(99, 28);
-            this.comboBox8.TabIndex = 197;
-            this.comboBox8.Text = "АСУ-21";
-            this.comboBox8.UseWaitCursor = true;
+            resources.ApplyResources(comboBox8, "comboBox8");
+            comboBox8.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox8.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox8.FormattingEnabled = true;
+            comboBox8.Items.AddRange(new object[] { resources.GetString("comboBox8.Items"), resources.GetString("comboBox8.Items1"), resources.GetString("comboBox8.Items2"), resources.GetString("comboBox8.Items3"), resources.GetString("comboBox8.Items4") });
+            comboBox8.Name = "comboBox8";
+            comboBox8.UseWaitCursor = true;
             // 
             // comboBox7
             // 
-            this.comboBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox7.Location = new System.Drawing.Point(164, 146);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(99, 28);
-            this.comboBox7.TabIndex = 196;
-            this.comboBox7.Text = "КСЦ-21";
-            this.comboBox7.UseWaitCursor = true;
+            resources.ApplyResources(comboBox7, "comboBox7");
+            comboBox7.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox7.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox7.FormattingEnabled = true;
+            comboBox7.Items.AddRange(new object[] { resources.GetString("comboBox7.Items"), resources.GetString("comboBox7.Items1"), resources.GetString("comboBox7.Items2"), resources.GetString("comboBox7.Items3"), resources.GetString("comboBox7.Items4") });
+            comboBox7.Name = "comboBox7";
+            comboBox7.UseWaitCursor = true;
             // 
             // comboBox6
             // 
-            this.comboBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "КИ-21",
-            "СП-21",
-            "АСУ-21",
-            "ПИ-21",
-            "КСЦ-21"});
-            this.comboBox6.Location = new System.Drawing.Point(59, 146);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(99, 28);
-            this.comboBox6.TabIndex = 195;
-            this.comboBox6.Text = "КИ-21";
-            this.comboBox6.UseWaitCursor = true;
+            resources.ApplyResources(comboBox6, "comboBox6");
+            comboBox6.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox6.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox6.FormattingEnabled = true;
+            comboBox6.Items.AddRange(new object[] { resources.GetString("comboBox6.Items"), resources.GetString("comboBox6.Items1"), resources.GetString("comboBox6.Items2"), resources.GetString("comboBox6.Items3"), resources.GetString("comboBox6.Items4") });
+            comboBox6.Name = "comboBox6";
+            comboBox6.UseWaitCursor = true;
             // 
             // comboBox5
             // 
-            this.comboBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox5.Location = new System.Drawing.Point(479, 112);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(99, 28);
-            this.comboBox5.TabIndex = 194;
-            this.comboBox5.Text = "ОППТ";
+            resources.ApplyResources(comboBox5, "comboBox5");
+            comboBox5.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox5.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Items.AddRange(new object[] { resources.GetString("comboBox5.Items"), resources.GetString("comboBox5.Items1"), resources.GetString("comboBox5.Items2"), resources.GetString("comboBox5.Items3"), resources.GetString("comboBox5.Items4") });
+            comboBox5.Name = "comboBox5";
             // 
             // comboBox3
             // 
-            this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox3.Location = new System.Drawing.Point(374, 112);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(99, 28);
-            this.comboBox3.TabIndex = 193;
-            this.comboBox3.Text = "ИВТ";
+            resources.ApplyResources(comboBox3, "comboBox3");
+            comboBox3.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox3.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Items.AddRange(new object[] { resources.GetString("comboBox3.Items"), resources.GetString("comboBox3.Items1"), resources.GetString("comboBox3.Items2"), resources.GetString("comboBox3.Items3"), resources.GetString("comboBox3.Items4") });
+            comboBox3.Name = "comboBox3";
             // 
             // comboBox4
             // 
-            this.comboBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox4.Location = new System.Drawing.Point(269, 112);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(99, 28);
-            this.comboBox4.TabIndex = 192;
-            this.comboBox4.Text = "АНГЛ";
+            resources.ApplyResources(comboBox4, "comboBox4");
+            comboBox4.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox4.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox4.FormattingEnabled = true;
+            comboBox4.Items.AddRange(new object[] { resources.GetString("comboBox4.Items"), resources.GetString("comboBox4.Items1"), resources.GetString("comboBox4.Items2"), resources.GetString("comboBox4.Items3"), resources.GetString("comboBox4.Items4") });
+            comboBox4.Name = "comboBox4";
             // 
             // comboBox2
             // 
-            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox2.Location = new System.Drawing.Point(164, 112);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(99, 28);
-            this.comboBox2.TabIndex = 191;
-            this.comboBox2.Text = "ООП";
+            resources.ApplyResources(comboBox2, "comboBox2");
+            comboBox2.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox2.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { resources.GetString("comboBox2.Items"), resources.GetString("comboBox2.Items1"), resources.GetString("comboBox2.Items2"), resources.GetString("comboBox2.Items3"), resources.GetString("comboBox2.Items4") });
+            comboBox2.Name = "comboBox2";
             // 
             // comboBox1
             // 
-            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "РУСС",
-            "ООП",
-            "АНГЛ",
-            "ИВТ",
-            "ОППТ"});
-            this.comboBox1.Location = new System.Drawing.Point(59, 112);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(99, 28);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.Text = "РУСС";
+            resources.ApplyResources(comboBox1, "comboBox1");
+            comboBox1.AutoCompleteMode = AutoCompleteMode.Suggest;
+            comboBox1.AutoCompleteSource = AutoCompleteSource.ListItems;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { resources.GetString("comboBox1.Items"), resources.GetString("comboBox1.Items1"), resources.GetString("comboBox1.Items2"), resources.GetString("comboBox1.Items3"), resources.GetString("comboBox1.Items4") });
+            comboBox1.Name = "comboBox1";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightYellow;
-            this.label3.Location = new System.Drawing.Point(301, 75);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "ПН";
+            resources.ApplyResources(label3, "label3");
+            label3.BackColor = Color.LightYellow;
+            label3.Name = "label3";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(label14, "label14");
+            label14.BackColor = Color.FromArgb(177, 221, 252);
+            label14.ForeColor = Color.Black;
+            label14.Name = "label14";
+            label14.UseCompatibleTextRendering = true;
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(221)))), ((int)(((byte)(252)))));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(833, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 27);
-            this.label2.TabIndex = 189;
-            this.label2.Text = "НИЖНЯЯ";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.UseCompatibleTextRendering = true;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(221)))), ((int)(((byte)(252)))));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(269, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 27);
-            this.label1.TabIndex = 190;
-            this.label1.Text = "ВЕРХНЯЯ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.UseCompatibleTextRendering = true;
+            resources.ApplyResources(label2, "label2");
+            label2.BackColor = Color.FromArgb(177, 221, 252);
+            label2.ForeColor = Color.Black;
+            label2.Name = "label2";
+            label2.UseCompatibleTextRendering = true;
             // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1197, 942);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Календарь";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(tabPage2, "tabPage2");
+            tabPage2.Name = "tabPage2";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1197, 942);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Нагрузка";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(tabPage3, "tabPage3");
+            tabPage3.Name = "tabPage3";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1197, 942);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "План";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            resources.ApplyResources(tabPage4, "tabPage4");
+            tabPage4.Name = "tabPage4";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            resources.ApplyResources(tabPage5, "tabPage5");
+            tabPage5.Controls.Add(button1);
+            tabPage5.Controls.Add(label1);
+            tabPage5.Controls.Add(dateTimePicker1);
+            tabPage5.Name = "tabPage5";
+            tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(button1, "button1");
+            button1.Name = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(label1, "label1");
+            label1.Name = "label1";
+            // 
+            // dateTimePicker1
+            // 
+            resources.ApplyResources(dateTimePicker1, "dateTimePicker1");
+            dateTimePicker1.Name = "dateTimePicker1";
+            // 
+            // label13
+            // 
+            resources.ApplyResources(label13, "label13");
+            label13.Name = "label13";
+            // 
+            // button3
+            // 
+            resources.ApplyResources(button3, "button3");
+            button3.Name = "button3";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1197, 977);
-            this.Controls.Add(this.tabControl1);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.ResumeLayout(false);
-
+            resources.ApplyResources(this, "$this");
+            AutoScaleMode = AutoScaleMode.None;
+            Controls.Add(tabControl1);
+            MaximizeBox = false;
+            Name = "Form1";
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage1.PerformLayout();
+            tabPage5.ResumeLayout(false);
+            tabPage5.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -3302,5 +2162,11 @@
         private Label label12;
         private Button button2;
         private Button button1;
+
+        private DateTimePicker dateTimePicker1;
+        private Button button3;
+        private Label label13;
+        private TabPage tabPage5;
+        private Label label14;
     }
 }
