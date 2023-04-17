@@ -1,5 +1,3 @@
-using System.Data;
-
 namespace WinFormsAppProject
 {
     public partial class Form1 : Form
@@ -63,6 +61,15 @@ namespace WinFormsAppProject
 
                 for (int j = 0; j < rowCells.Length && selectedCol + j < dataGridViewPlan.ColumnCount; j++)
                     dataGridViewPlan.Rows[selectedRow + i].Cells[selectedCol + j].Value = rowCells[j];
+            }
+        }
+
+        private void dataGridViewPlan_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex > 2 && dataGridViewPlan.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
+            {
+                string data = (string)dataGridViewPlan.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
+                dataGridViewPlan.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = new string(data.Where(char.IsDigit).ToArray());
             }
         }
     }
