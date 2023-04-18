@@ -696,7 +696,7 @@
   <data name="&gt;&gt;comboBox37.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="comboBox68.Text" xml:space="preserve">
+  <data name="comboBox10.Items1" xml:space="preserve">
     <value>СП-21</value>
   </data>
   <data name="comboBox129.Items3" xml:space="preserve">
@@ -1837,8 +1837,11 @@
   <data name="comboBox17.Items1" xml:space="preserve">
     <value>ЛЕКЦ</value>
   </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1197, 942</value>
+  <data name="comboBox55.Items2" xml:space="preserve">
+    <value>АСУ-21</value>
+  </data>
+  <data name="comboBox26.Items2" xml:space="preserve">
+    <value>АНГЛ</value>
   </data>
   <data name="comboBox88.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 23</value>
@@ -2620,8 +2623,8 @@
   <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="comboBox139.Items1" xml:space="preserve">
-    <value>СП-21</value>
+  <data name="comboBox77.Items3" xml:space="preserve">
+    <value>ПИ-21</value>
   </data>
   <data name="comboBox56.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 23</value>
@@ -2911,8 +2914,8 @@
   <data name="comboBox128.Items4" xml:space="preserve">
     <value>ОППТ</value>
   </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
+  <data name="comboBox56.Items" xml:space="preserve">
+    <value>РУСС</value>
   </data>
   <data name="&gt;&gt;university58.Type" xml:space="preserve">
     <value>WinFormsAppProject.UniversityStudy, WinFormsAppProject, Culture=neutral, PublicKeyToken=null</value>
@@ -3040,8 +3043,8 @@
   <data name="&gt;&gt;university103.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;comboBox118.Name" xml:space="preserve">
-    <value>comboBox118</value>
+  <data name="comboBox40.TabIndex" type="System.Int32, mscorlib">
+    <value>243</value>
   </data>
   <data name="&gt;&gt;university95.Parent" xml:space="preserve">
     <value>groupBox15</value>
@@ -3508,8 +3511,8 @@
   <data name="universityStudy26.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 23</value>
   </data>
-  <data name="ControlAuditWork.HeaderText" xml:space="preserve">
-    <value>Проверка контрольных аудиторных работ</value>
+  <data name="comboBox127.Items2" xml:space="preserve">
+    <value>АНГЛ</value>
   </data>
   <data name="comboBox60.Items4" xml:space="preserve">
     <value>ОППТ</value>
@@ -4678,8 +4681,8 @@
   <data name="&gt;&gt;university93.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="comboBox142.Items2" xml:space="preserve">
-    <value>АНГЛ</value>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
   </data>
   <data name="comboBox136.Items3" xml:space="preserve">
     <value>ПИ-21</value>
@@ -7261,8 +7264,8 @@
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>301</value>
   </data>
-  <data name="&gt;&gt;comboBox40.Name" xml:space="preserve">
-    <value>comboBox40</value>
+  <data name="comboBox49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 467</value>
   </data>
   <data name="comboBox117.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 23</value>
@@ -8686,8 +8689,8 @@
   <data name="university59.Location" type="System.Drawing.Point, System.Drawing">
     <value>384, 23</value>
   </data>
-  <data name="comboBox62.Text" xml:space="preserve">
-    <value>ЛЕКЦ</value>
+  <data name="comboBox106.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 433</value>
   </data>
   <data name="comboBox108.Items" xml:space="preserve">
     <value>КИ-21</value>
@@ -9700,7 +9703,7 @@
   <metadata name="Abbriviation.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="StateExams.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ControlAuditWork.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="IndependentWork.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

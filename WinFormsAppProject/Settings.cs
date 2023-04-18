@@ -29,7 +29,7 @@ namespace WinFormsAppProject
         public static string GetSemestrBeginning()
         {
             RegistryKey fer = Registry.CurrentUser.CreateSubKey("Software\\MyApp");
-            string tInteger = Registry.GetValue(REGISTRY_KEY, "SemestrBeginning", 0).ToString();
+            string tInteger = Registry.GetValue(REGISTRY_KEY, "SemestrBeginning", 0)?.ToString() ?? "";
 
             return tInteger;
         }

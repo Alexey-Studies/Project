@@ -791,6 +791,7 @@
             dataGridViewPlan.Columns.AddRange(new DataGridViewColumn[] { Subject, Abbriviation, StudyGroups, Lectures, PracticalLessons, LaboratoryStudies, Nirs, PartTimeStudents, CourseConsultations, ExaminationConsultations, ControlAuditWork, IndependentWork, AbstractsTranslations, CalculatedGraphWorks, CourseWorks, SemesterExams, PracticeGuide, StateExams, Vkr, Guidance, OtherTypes });
             dataGridViewPlan.Name = "dataGridViewPlan";
             dataGridViewPlan.RowTemplate.Height = 25;
+            dataGridViewPlan.CellValueChanged += dataGridViewPlan_CellValueChanged;
             dataGridViewPlan.KeyDown += dataGridView1_KeyDown;
             // 
             // Subject
