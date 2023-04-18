@@ -61,28 +61,1025 @@
   <data name="tabPage1.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>964, 832</value>
+  <data name="flowLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flowLayoutPanel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxUpperWeek.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="comboBox29.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="university36.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
   </data>
-  <data name="comboBox29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 23</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="university36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="university36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="university36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university37.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="university37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university38.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 23</value>
+  </data>
+  <data name="university38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university39.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 23</value>
+  </data>
+  <data name="university39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university40.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 23</value>
+  </data>
+  <data name="university40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 309</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 135</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Среда</value>
+  </data>
+  <data name="groupBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="university41.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="university41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university42.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university42.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="university42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university43.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university43.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 23</value>
+  </data>
+  <data name="university43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university44.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 23</value>
+  </data>
+  <data name="university44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university45.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 23</value>
+  </data>
+  <data name="university45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 871</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>356</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Воскресенье</value>
+  </data>
+  <data name="groupBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="university46.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university46.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="university46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university47.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university47.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="university47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university48.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university48.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 23</value>
+  </data>
+  <data name="university48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university49.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university49.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 23</value>
+  </data>
+  <data name="university49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university50.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university50.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 23</value>
+  </data>
+  <data name="university50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 170</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>351</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Вторник</value>
+  </data>
+  <data name="groupBox6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="university51.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university52.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university52.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university53.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university54.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university54.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university55.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university55.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 452</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>353</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Четверг</value>
+  </data>
+  <data name="groupBox7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="university56.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university56.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university57.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university57.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university58.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university59.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university60.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university60.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="groupBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 29</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 135</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Понедельник</value>
+  </data>
+  <data name="groupBox8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="university61.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university61.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university62.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university62.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university63.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university63.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university64.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university64.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="university65.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university65.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 732</value>
+  </data>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>355</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Суббота</value>
+  </data>
+  <data name="groupBox9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="university66.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university66.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university67.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university67.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university68.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university68.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university69.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university69.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="university70.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="university70.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="university70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="groupBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 591</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 135</value>
+  </data>
+  <data name="groupBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>354</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Пятница</value>
+  </data>
+  <data name="groupBoxUpperWeek.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="groupBoxUpperWeek.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12.75pt, style=Bold</value>
+  </data>
+  <data name="groupBoxUpperWeek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="groupBoxUpperWeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 1033</value>
+  </data>
+  <data name="groupBoxUpperWeek.Text" xml:space="preserve">
+    <value>Верхняя</value>
+  </data>
+  <data name="groupBoxLowerWeek.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="universityStudy1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 309</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 135</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>352</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Среда</value>
+  </data>
+  <data name="groupBox10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="universityStudy6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 871</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>356</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Воскресенье</value>
+  </data>
+  <data name="groupBox11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="universityStudy11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 170</value>
+  </data>
+  <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>351</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Вторник</value>
+  </data>
+  <data name="groupBox12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="universityStudy16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 452</value>
+  </data>
+  <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>353</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Четверг</value>
+  </data>
+  <data name="groupBox13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="universityStudy21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy24.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy25.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="groupBox13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 29</value>
+  </data>
+  <data name="groupBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 135</value>
+  </data>
+  <data name="groupBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Понедельник</value>
+  </data>
+  <data name="groupBox14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="universityStudy26.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy27.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy28.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy29.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="universityStudy30.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 107</value>
+  </data>
+  <data name="groupBox14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 732</value>
+  </data>
+  <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 133</value>
+  </data>
+  <data name="groupBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>355</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Суббота</value>
+  </data>
+  <data name="groupBox15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="universityStudy31.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy32.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy33.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy34.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="universityStudy35.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="universityStudy35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="universityStudy35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="groupBox15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt</value>
+  </data>
+  <data name="groupBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 591</value>
+  </data>
+  <data name="groupBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 135</value>
+  </data>
+  <data name="groupBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>354</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>Пятница</value>
+  </data>
+  <data name="groupBoxLowerWeek.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="groupBoxLowerWeek.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12.75pt, style=Bold</value>
+  </data>
+  <data name="groupBoxLowerWeek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 3</value>
+  </data>
+  <data name="groupBoxLowerWeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 1033</value>
+  </data>
+  <data name="groupBoxLowerWeek.TabIndex" type="System.Int32, mscorlib">
+    <value>358</value>
+  </data>
+  <data name="groupBoxLowerWeek.Text" xml:space="preserve">
+    <value>Нижняя</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 250</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1332, 1255</value>
+  </data>
+  <data name="flowLayoutPanel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 27</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1143, 5</value>
   </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>ВЕРХНЯЯ</value>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 8, 3</value>
   </data>
-  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 48</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>358</value>
+  </data>
+  <data name="flowLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="flowLayoutPanel2.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 1252</value>
+  </data>
+  <data name="flowLayoutPanel2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 64</value>
+  </data>
+  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1329, 64</value>
+  </data>
+  <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>358</value>
   </data>
   <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1183, 708</value>
@@ -153,7 +1150,6 @@
   <data name="dataGridViewPlan.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 5</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="dataGridViewPlan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
@@ -171,6 +1167,9 @@
   </data>
   <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="tabControl1.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1191, 741</value>
