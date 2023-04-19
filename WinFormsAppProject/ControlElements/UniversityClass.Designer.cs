@@ -1,6 +1,6 @@
 ﻿namespace WinFormsAppProject
 {
-    partial class UniversityStudy
+    partial class UniversityClass
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -73,7 +73,7 @@
             label1.TabIndex = 3;
             label1.Text = "Пара";
             // 
-            // UniversityStudy
+            // UniversityClass
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -81,7 +81,7 @@
             Controls.Add(comboBoxType);
             Controls.Add(comboBoxStudyGroup);
             Controls.Add(comboBoxSubject);
-            Name = "UniversityStudy";
+            Name = "UniversityClass";
             Size = new Size(127, 95);
             ResumeLayout(false);
             PerformLayout();

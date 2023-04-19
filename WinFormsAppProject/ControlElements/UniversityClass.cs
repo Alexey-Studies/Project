@@ -1,8 +1,8 @@
 ﻿namespace WinFormsAppProject
 {
-    public partial class UniversityStudy : UserControl
+    public partial class UniversityClass : UserControl
     {
-        public UniversityStudy()
+        public UniversityClass()
         {
             InitializeComponent();
         }

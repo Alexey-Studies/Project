@@ -57,15 +57,126 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 671</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tableLayoutPanel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableLayoutPanel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ControlAuditWork.Width" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="IndependentWork.Width" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="AbstractsTranslations.Width" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="CalculatedGraphWorks.Width" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="CourseWorks.Width" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="Guidance.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="OtherTypes.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dataGridViewPlan.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dataGridViewPlan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewPlan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dataGridViewPlan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1246, 568</value>
+  </data>
+  <data name="buttonSaveTabPlan.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonSaveTabPlan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSaveTabPlan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 582</value>
+  </data>
+  <data name="buttonSaveTabPlan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 8, 8</value>
+  </data>
+  <data name="buttonSaveTabPlan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 48</value>
+  </data>
+  <data name="buttonSaveTabPlan.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="dateTimePicker1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 612</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 23</value>
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1246, 638</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1252, 644</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1252, 644</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1252, 644</value>
+  </data>
   <data name="tabPage1.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="flowLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
+  <data name="tableLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="flowLayoutPanel1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="tableLayoutPanel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="tableLayoutPanel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="groupBoxUpperWeek.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -73,11 +184,9 @@
   <data name="groupBox3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="university36.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="university36.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
@@ -139,7 +248,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 309</value>
+    <value>10, 306</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 135</value>
@@ -214,7 +323,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 871</value>
+    <value>10, 868</value>
   </data>
   <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -292,7 +401,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 170</value>
+    <value>10, 167</value>
   </data>
   <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -355,7 +464,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 452</value>
+    <value>10, 449</value>
   </data>
   <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -418,7 +527,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 29</value>
+    <value>10, 26</value>
   </data>
   <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 135</value>
@@ -481,7 +590,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 732</value>
+    <value>10, 729</value>
   </data>
   <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -544,7 +653,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 591</value>
+    <value>10, 588</value>
   </data>
   <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 135</value>
@@ -556,19 +665,49 @@
     <value>Пятница</value>
   </data>
   <data name="groupBoxUpperWeek.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
+    <value>Fill</value>
   </data>
   <data name="groupBoxUpperWeek.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 12.75pt, style=Bold</value>
   </data>
   <data name="groupBoxUpperWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>0, 0</value>
+  </data>
+  <data name="groupBoxUpperWeek.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="groupBoxUpperWeek.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>623, 0</value>
+  </data>
+  <data name="groupBoxUpperWeek.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="groupBoxUpperWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>660, 1033</value>
+    <value>654, 1027</value>
+  </data>
+  <data name="groupBoxUpperWeek.TabIndex" type="System.Int32, mscorlib">
+    <value>359</value>
   </data>
   <data name="groupBoxUpperWeek.Text" xml:space="preserve">
     <value>Верхняя</value>
+  </data>
+  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 1027</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>361</value>
+  </data>
+  <data name="flowLayoutPanel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="groupBoxLowerWeek.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -625,7 +764,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 309</value>
+    <value>10, 306</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 135</value>
@@ -688,7 +827,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 871</value>
+    <value>10, 868</value>
   </data>
   <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -751,7 +890,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 170</value>
+    <value>10, 167</value>
   </data>
   <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -814,7 +953,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 452</value>
+    <value>10, 449</value>
   </data>
   <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -877,7 +1016,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 29</value>
+    <value>10, 26</value>
   </data>
   <data name="groupBox13.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 135</value>
@@ -940,7 +1079,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 732</value>
+    <value>10, 729</value>
   </data>
   <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 133</value>
@@ -1003,7 +1142,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="groupBox15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 591</value>
+    <value>10, 588</value>
   </data>
   <data name="groupBox15.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 135</value>
@@ -1015,149 +1154,82 @@
     <value>Пятница</value>
   </data>
   <data name="groupBoxLowerWeek.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+    <value>Fill</value>
   </data>
   <data name="groupBoxLowerWeek.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 12.75pt, style=Bold</value>
   </data>
   <data name="groupBoxLowerWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 3</value>
+    <value>0, 0</value>
+  </data>
+  <data name="groupBoxLowerWeek.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="groupBoxLowerWeek.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="groupBoxLowerWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>660, 1033</value>
+    <value>654, 1027</value>
   </data>
   <data name="groupBoxLowerWeek.TabIndex" type="System.Int32, mscorlib">
-    <value>358</value>
+    <value>360</value>
   </data>
   <data name="groupBoxLowerWeek.Text" xml:space="preserve">
     <value>Нижняя</value>
   </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 250</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1332, 1255</value>
-  </data>
-  <data name="flowLayoutPanel2.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1143, 5</value>
-  </data>
-  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 8, 3</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 48</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>358</value>
-  </data>
   <data name="flowLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="flowLayoutPanel2.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>RightToLeft</value>
+    <value>Fill</value>
   </data>
   <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 1252</value>
+    <value>623, 0</value>
   </data>
-  <data name="flowLayoutPanel2.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 64</value>
-  </data>
-  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1329, 64</value>
-  </data>
-  <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>358</value>
-  </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 708</value>
-  </data>
-  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 708</value>
-  </data>
-  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 708</value>
-  </data>
-  <data name="button4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 48</value>
-  </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 671</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="dateTimePicker1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 667</value>
-  </data>
-  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="dataGridViewPlan.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="ControlAuditWork.Width" type="System.Int32, mscorlib">
-    <value>151</value>
-  </data>
-  <data name="IndependentWork.Width" type="System.Int32, mscorlib">
-    <value>242</value>
-  </data>
-  <data name="AbstractsTranslations.Width" type="System.Int32, mscorlib">
-    <value>163</value>
-  </data>
-  <data name="CalculatedGraphWorks.Width" type="System.Int32, mscorlib">
-    <value>187</value>
-  </data>
-  <data name="CourseWorks.Width" type="System.Int32, mscorlib">
-    <value>121</value>
-  </data>
-  <data name="Guidance.Width" type="System.Int32, mscorlib">
-    <value>160</value>
-  </data>
-  <data name="OtherTypes.Width" type="System.Int32, mscorlib">
-    <value>120</value>
-  </data>
-  <data name="dataGridViewPlan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 5</value>
-  </data>
-  <data name="dataGridViewPlan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="flowLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="dataGridViewPlan.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1177, 624</value>
+  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 1027</value>
   </data>
-  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 708</value>
+  <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>362</value>
+  </data>
+  <data name="buttonSaveTabSchedule.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonSaveTabSchedule.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSaveTabSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 1041</value>
+  </data>
+  <data name="buttonSaveTabSchedule.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 8, 8</value>
+  </data>
+  <data name="buttonSaveTabSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 48</value>
+  </data>
+  <data name="buttonSaveTabSchedule.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1246, 638</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1252, 644</value>
   </data>
   <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1168,14 +1240,20 @@
   <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="tabControl1.Padding" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>0, 0</value>
   </data>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1191, 741</value>
+    <value>1260, 677</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1191, 741</value>
+    <value>1260, 677</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>3840, 2160</value>

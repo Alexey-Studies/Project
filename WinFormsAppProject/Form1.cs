@@ -4,9 +4,11 @@ namespace WinFormsAppProject
     {
         public Form1()
         {
+            Size = new Size(1280, 720);
             InitializeComponent();
-            Settings.Init(ref dateTimePicker1);
         }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -66,11 +68,16 @@ namespace WinFormsAppProject
 
         private void dataGridViewPlan_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex > 2 && dataGridViewPlan.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
+            if (e.RowIndex > 0 && e.ColumnIndex > 2 && dataGridViewPlan.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
             {
                 string data = (string)dataGridViewPlan.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
                 dataGridViewPlan.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = new string(data.Where(char.IsDigit).ToArray());
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Settings.Init(ref dateTimePicker1);
         }
     }
 }

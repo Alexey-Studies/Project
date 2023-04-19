@@ -29,103 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            tabControl1 = new TabControl();
-            tabPage1 = new TabPage();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            groupBoxUpperWeek = new GroupBox();
-            groupBox3 = new GroupBox();
-            university36 = new UniversityStudy();
-            university37 = new UniversityStudy();
-            university38 = new UniversityStudy();
-            university39 = new UniversityStudy();
-            university40 = new UniversityStudy();
-            groupBox4 = new GroupBox();
-            university41 = new UniversityStudy();
-            university42 = new UniversityStudy();
-            university43 = new UniversityStudy();
-            university44 = new UniversityStudy();
-            university45 = new UniversityStudy();
-            groupBox5 = new GroupBox();
-            university46 = new UniversityStudy();
-            university47 = new UniversityStudy();
-            university48 = new UniversityStudy();
-            university49 = new UniversityStudy();
-            university50 = new UniversityStudy();
-            groupBox6 = new GroupBox();
-            university51 = new UniversityStudy();
-            university52 = new UniversityStudy();
-            university53 = new UniversityStudy();
-            university54 = new UniversityStudy();
-            university55 = new UniversityStudy();
-            groupBox7 = new GroupBox();
-            university56 = new UniversityStudy();
-            university57 = new UniversityStudy();
-            university58 = new UniversityStudy();
-            university59 = new UniversityStudy();
-            university60 = new UniversityStudy();
-            groupBox8 = new GroupBox();
-            university61 = new UniversityStudy();
-            university62 = new UniversityStudy();
-            university63 = new UniversityStudy();
-            university64 = new UniversityStudy();
-            university65 = new UniversityStudy();
-            groupBox9 = new GroupBox();
-            university66 = new UniversityStudy();
-            university67 = new UniversityStudy();
-            university68 = new UniversityStudy();
-            university69 = new UniversityStudy();
-            university70 = new UniversityStudy();
-            groupBoxLowerWeek = new GroupBox();
-            groupBox2 = new GroupBox();
-            universityStudy1 = new UniversityStudy();
-            universityStudy2 = new UniversityStudy();
-            universityStudy3 = new UniversityStudy();
-            universityStudy4 = new UniversityStudy();
-            universityStudy5 = new UniversityStudy();
-            groupBox10 = new GroupBox();
-            universityStudy6 = new UniversityStudy();
-            universityStudy7 = new UniversityStudy();
-            universityStudy8 = new UniversityStudy();
-            universityStudy9 = new UniversityStudy();
-            universityStudy10 = new UniversityStudy();
-            groupBox11 = new GroupBox();
-            universityStudy11 = new UniversityStudy();
-            universityStudy12 = new UniversityStudy();
-            universityStudy13 = new UniversityStudy();
-            universityStudy14 = new UniversityStudy();
-            universityStudy15 = new UniversityStudy();
-            groupBox12 = new GroupBox();
-            universityStudy16 = new UniversityStudy();
-            universityStudy17 = new UniversityStudy();
-            universityStudy18 = new UniversityStudy();
-            universityStudy19 = new UniversityStudy();
-            universityStudy20 = new UniversityStudy();
-            groupBox13 = new GroupBox();
-            universityStudy21 = new UniversityStudy();
-            universityStudy22 = new UniversityStudy();
-            universityStudy23 = new UniversityStudy();
-            universityStudy24 = new UniversityStudy();
-            universityStudy25 = new UniversityStudy();
-            groupBox14 = new GroupBox();
-            universityStudy26 = new UniversityStudy();
-            universityStudy27 = new UniversityStudy();
-            universityStudy28 = new UniversityStudy();
-            universityStudy29 = new UniversityStudy();
-            universityStudy30 = new UniversityStudy();
-            groupBox15 = new GroupBox();
-            universityStudy31 = new UniversityStudy();
-            universityStudy32 = new UniversityStudy();
-            universityStudy33 = new UniversityStudy();
-            universityStudy34 = new UniversityStudy();
-            universityStudy35 = new UniversityStudy();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            button1 = new Button();
-            tabPage2 = new TabPage();
-            tabPage3 = new TabPage();
+            label13 = new Label();
+            button3 = new Button();
             tabPage4 = new TabPage();
-            button4 = new Button();
             label1 = new Label();
-            dateTimePicker1 = new DateTimePicker();
+            tableLayoutPanel2 = new TableLayoutPanel();
             dataGridViewPlan = new DataGridView();
             Subject = new DataGridViewTextBoxColumn();
             Abbriviation = new DataGridViewTextBoxColumn();
@@ -148,10 +56,107 @@
             Vkr = new DataGridViewTextBoxColumn();
             Guidance = new DataGridViewTextBoxColumn();
             OtherTypes = new DataGridViewTextBoxColumn();
-            label13 = new Label();
-            button3 = new Button();
-            tabControl1.SuspendLayout();
+            buttonSaveTabPlan = new Button();
+            dateTimePicker1 = new DateTimePicker();
+            tabPage3 = new TabPage();
+            tabPage2 = new TabPage();
+            tabPage1 = new TabPage();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            groupBoxUpperWeek = new GroupBox();
+            groupBox3 = new GroupBox();
+            university36 = new UniversityClass();
+            university37 = new UniversityClass();
+            university38 = new UniversityClass();
+            university39 = new UniversityClass();
+            university40 = new UniversityClass();
+            groupBox4 = new GroupBox();
+            university41 = new UniversityClass();
+            university42 = new UniversityClass();
+            university43 = new UniversityClass();
+            university44 = new UniversityClass();
+            university45 = new UniversityClass();
+            groupBox5 = new GroupBox();
+            university46 = new UniversityClass();
+            university47 = new UniversityClass();
+            university48 = new UniversityClass();
+            university49 = new UniversityClass();
+            university50 = new UniversityClass();
+            groupBox6 = new GroupBox();
+            university51 = new UniversityClass();
+            university52 = new UniversityClass();
+            university53 = new UniversityClass();
+            university54 = new UniversityClass();
+            university55 = new UniversityClass();
+            groupBox7 = new GroupBox();
+            university56 = new UniversityClass();
+            university57 = new UniversityClass();
+            university58 = new UniversityClass();
+            university59 = new UniversityClass();
+            university60 = new UniversityClass();
+            groupBox8 = new GroupBox();
+            university61 = new UniversityClass();
+            university62 = new UniversityClass();
+            university63 = new UniversityClass();
+            university64 = new UniversityClass();
+            university65 = new UniversityClass();
+            groupBox9 = new GroupBox();
+            university66 = new UniversityClass();
+            university67 = new UniversityClass();
+            university68 = new UniversityClass();
+            university69 = new UniversityClass();
+            university70 = new UniversityClass();
+            flowLayoutPanel2 = new FlowLayoutPanel();
+            groupBoxLowerWeek = new GroupBox();
+            groupBox2 = new GroupBox();
+            universityStudy1 = new UniversityClass();
+            universityStudy2 = new UniversityClass();
+            universityStudy3 = new UniversityClass();
+            universityStudy4 = new UniversityClass();
+            universityStudy5 = new UniversityClass();
+            groupBox10 = new GroupBox();
+            universityStudy6 = new UniversityClass();
+            universityStudy7 = new UniversityClass();
+            universityStudy8 = new UniversityClass();
+            universityStudy9 = new UniversityClass();
+            universityStudy10 = new UniversityClass();
+            groupBox11 = new GroupBox();
+            universityStudy11 = new UniversityClass();
+            universityStudy12 = new UniversityClass();
+            universityStudy13 = new UniversityClass();
+            universityStudy14 = new UniversityClass();
+            universityStudy15 = new UniversityClass();
+            groupBox12 = new GroupBox();
+            universityStudy16 = new UniversityClass();
+            universityStudy17 = new UniversityClass();
+            universityStudy18 = new UniversityClass();
+            universityStudy19 = new UniversityClass();
+            universityStudy20 = new UniversityClass();
+            groupBox13 = new GroupBox();
+            universityStudy21 = new UniversityClass();
+            universityStudy22 = new UniversityClass();
+            universityStudy23 = new UniversityClass();
+            universityStudy24 = new UniversityClass();
+            universityStudy25 = new UniversityClass();
+            groupBox14 = new GroupBox();
+            universityStudy26 = new UniversityClass();
+            universityStudy27 = new UniversityClass();
+            universityStudy28 = new UniversityClass();
+            universityStudy29 = new UniversityClass();
+            universityStudy30 = new UniversityClass();
+            groupBox15 = new GroupBox();
+            universityStudy31 = new UniversityClass();
+            universityStudy32 = new UniversityClass();
+            universityStudy33 = new UniversityClass();
+            universityStudy34 = new UniversityClass();
+            universityStudy35 = new UniversityClass();
+            buttonSaveTabSchedule = new Button();
+            tabControl1 = new TabControl();
+            tabPage4.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewPlan).BeginInit();
             tabPage1.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             groupBoxUpperWeek.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -161,6 +166,7 @@
             groupBox7.SuspendLayout();
             groupBox8.SuspendLayout();
             groupBox9.SuspendLayout();
+            flowLayoutPanel2.SuspendLayout();
             groupBoxLowerWeek.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox10.SuspendLayout();
@@ -169,35 +175,201 @@
             groupBox13.SuspendLayout();
             groupBox14.SuspendLayout();
             groupBox15.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
-            tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewPlan).BeginInit();
+            tabControl1.SuspendLayout();
             SuspendLayout();
             // 
-            // tabControl1
+            // label13
             // 
-            resources.ApplyResources(tabControl1, "tabControl1");
-            tabControl1.Controls.Add(tabPage1);
-            tabControl1.Controls.Add(tabPage2);
-            tabControl1.Controls.Add(tabPage3);
-            tabControl1.Controls.Add(tabPage4);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.SizeMode = TabSizeMode.Fixed;
+            resources.ApplyResources(label13, "label13");
+            label13.Name = "label13";
+            // 
+            // button3
+            // 
+            resources.ApplyResources(button3, "button3");
+            button3.Name = "button3";
+            // 
+            // tabPage4
+            // 
+            resources.ApplyResources(tabPage4, "tabPage4");
+            tabPage4.Controls.Add(label1);
+            tabPage4.Controls.Add(tableLayoutPanel2);
+            tabPage4.Name = "tabPage4";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(label1, "label1");
+            label1.Name = "label1";
+            // 
+            // tableLayoutPanel2
+            // 
+            resources.ApplyResources(tableLayoutPanel2, "tableLayoutPanel2");
+            tableLayoutPanel2.Controls.Add(dataGridViewPlan, 0, 0);
+            tableLayoutPanel2.Controls.Add(buttonSaveTabPlan, 1, 1);
+            tableLayoutPanel2.Controls.Add(dateTimePicker1, 0, 1);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
+            // dataGridViewPlan
+            // 
+            resources.ApplyResources(dataGridViewPlan, "dataGridViewPlan");
+            dataGridViewPlan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
+            dataGridViewPlan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewPlan.Columns.AddRange(new DataGridViewColumn[] { Subject, Abbriviation, StudyGroups, Lectures, PracticalLessons, LaboratoryStudies, Nirs, PartTimeStudents, CourseConsultations, ExaminationConsultations, ControlAuditWork, IndependentWork, AbstractsTranslations, CalculatedGraphWorks, CourseWorks, SemesterExams, PracticeGuide, StateExams, Vkr, Guidance, OtherTypes });
+            tableLayoutPanel2.SetColumnSpan(dataGridViewPlan, 2);
+            dataGridViewPlan.Name = "dataGridViewPlan";
+            dataGridViewPlan.RowTemplate.Height = 25;
+            dataGridViewPlan.CellValueChanged += dataGridViewPlan_CellValueChanged;
+            dataGridViewPlan.KeyDown += dataGridView1_KeyDown;
+            // 
+            // Subject
+            // 
+            resources.ApplyResources(Subject, "Subject");
+            Subject.Name = "Subject";
+            // 
+            // Abbriviation
+            // 
+            resources.ApplyResources(Abbriviation, "Abbriviation");
+            Abbriviation.Name = "Abbriviation";
+            // 
+            // StudyGroups
+            // 
+            resources.ApplyResources(StudyGroups, "StudyGroups");
+            StudyGroups.Name = "StudyGroups";
+            // 
+            // Lectures
+            // 
+            resources.ApplyResources(Lectures, "Lectures");
+            Lectures.Name = "Lectures";
+            // 
+            // PracticalLessons
+            // 
+            resources.ApplyResources(PracticalLessons, "PracticalLessons");
+            PracticalLessons.Name = "PracticalLessons";
+            // 
+            // LaboratoryStudies
+            // 
+            resources.ApplyResources(LaboratoryStudies, "LaboratoryStudies");
+            LaboratoryStudies.Name = "LaboratoryStudies";
+            // 
+            // Nirs
+            // 
+            resources.ApplyResources(Nirs, "Nirs");
+            Nirs.Name = "Nirs";
+            // 
+            // PartTimeStudents
+            // 
+            resources.ApplyResources(PartTimeStudents, "PartTimeStudents");
+            PartTimeStudents.Name = "PartTimeStudents";
+            // 
+            // CourseConsultations
+            // 
+            resources.ApplyResources(CourseConsultations, "CourseConsultations");
+            CourseConsultations.Name = "CourseConsultations";
+            // 
+            // ExaminationConsultations
+            // 
+            resources.ApplyResources(ExaminationConsultations, "ExaminationConsultations");
+            ExaminationConsultations.Name = "ExaminationConsultations";
+            // 
+            // ControlAuditWork
+            // 
+            resources.ApplyResources(ControlAuditWork, "ControlAuditWork");
+            ControlAuditWork.Name = "ControlAuditWork";
+            // 
+            // IndependentWork
+            // 
+            resources.ApplyResources(IndependentWork, "IndependentWork");
+            IndependentWork.Name = "IndependentWork";
+            // 
+            // AbstractsTranslations
+            // 
+            resources.ApplyResources(AbstractsTranslations, "AbstractsTranslations");
+            AbstractsTranslations.Name = "AbstractsTranslations";
+            // 
+            // CalculatedGraphWorks
+            // 
+            resources.ApplyResources(CalculatedGraphWorks, "CalculatedGraphWorks");
+            CalculatedGraphWorks.Name = "CalculatedGraphWorks";
+            // 
+            // CourseWorks
+            // 
+            resources.ApplyResources(CourseWorks, "CourseWorks");
+            CourseWorks.Name = "CourseWorks";
+            // 
+            // SemesterExams
+            // 
+            resources.ApplyResources(SemesterExams, "SemesterExams");
+            SemesterExams.Name = "SemesterExams";
+            // 
+            // PracticeGuide
+            // 
+            resources.ApplyResources(PracticeGuide, "PracticeGuide");
+            PracticeGuide.Name = "PracticeGuide";
+            // 
+            // StateExams
+            // 
+            resources.ApplyResources(StateExams, "StateExams");
+            StateExams.Name = "StateExams";
+            // 
+            // Vkr
+            // 
+            resources.ApplyResources(Vkr, "Vkr");
+            Vkr.Name = "Vkr";
+            // 
+            // Guidance
+            // 
+            resources.ApplyResources(Guidance, "Guidance");
+            Guidance.Name = "Guidance";
+            // 
+            // OtherTypes
+            // 
+            resources.ApplyResources(OtherTypes, "OtherTypes");
+            OtherTypes.Name = "OtherTypes";
+            // 
+            // buttonSaveTabPlan
+            // 
+            resources.ApplyResources(buttonSaveTabPlan, "buttonSaveTabPlan");
+            buttonSaveTabPlan.BackColor = Color.FromArgb(220, 237, 250);
+            buttonSaveTabPlan.Name = "buttonSaveTabPlan";
+            buttonSaveTabPlan.UseVisualStyleBackColor = false;
+            buttonSaveTabPlan.Click += button4_Click;
+            // 
+            // dateTimePicker1
+            // 
+            resources.ApplyResources(dateTimePicker1, "dateTimePicker1");
+            dateTimePicker1.Name = "dateTimePicker1";
+            // 
+            // tabPage3
+            // 
+            resources.ApplyResources(tabPage3, "tabPage3");
+            tabPage3.Name = "tabPage3";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            resources.ApplyResources(tabPage2, "tabPage2");
+            tabPage2.Name = "tabPage2";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabPage1
             // 
             resources.ApplyResources(tabPage1, "tabPage1");
             tabPage1.BackColor = SystemColors.GradientActiveCaption;
-            tabPage1.Controls.Add(flowLayoutPanel1);
-            tabPage1.Controls.Add(flowLayoutPanel2);
+            tabPage1.Controls.Add(tableLayoutPanel1);
             tabPage1.Name = "tabPage1";
+            // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.Controls.Add(flowLayoutPanel1, 0, 0);
+            tableLayoutPanel1.Controls.Add(flowLayoutPanel2, 1, 0);
+            tableLayoutPanel1.Controls.Add(buttonSaveTabSchedule, 1, 1);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // flowLayoutPanel1
             // 
             resources.ApplyResources(flowLayoutPanel1, "flowLayoutPanel1");
             flowLayoutPanel1.Controls.Add(groupBoxUpperWeek);
-            flowLayoutPanel1.Controls.Add(groupBoxLowerWeek);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             // 
             // groupBoxUpperWeek
@@ -465,6 +637,12 @@
             resources.ApplyResources(university70, "university70");
             university70.Name = "university70";
             // 
+            // flowLayoutPanel2
+            // 
+            resources.ApplyResources(flowLayoutPanel2, "flowLayoutPanel2");
+            flowLayoutPanel2.Controls.Add(groupBoxLowerWeek);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            // 
             // groupBoxLowerWeek
             // 
             resources.ApplyResources(groupBoxLowerWeek, "groupBoxLowerWeek");
@@ -730,197 +908,44 @@
             resources.ApplyResources(universityStudy35, "universityStudy35");
             universityStudy35.Name = "universityStudy35";
             // 
-            // flowLayoutPanel2
+            // buttonSaveTabSchedule
             // 
-            resources.ApplyResources(flowLayoutPanel2, "flowLayoutPanel2");
-            flowLayoutPanel2.Controls.Add(button1);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            resources.ApplyResources(buttonSaveTabSchedule, "buttonSaveTabSchedule");
+            buttonSaveTabSchedule.BackColor = Color.FromArgb(220, 237, 250);
+            buttonSaveTabSchedule.Name = "buttonSaveTabSchedule";
+            buttonSaveTabSchedule.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // tabControl1
             // 
-            resources.ApplyResources(button1, "button1");
-            button1.BackColor = Color.FromArgb(220, 237, 250);
-            button1.Name = "button1";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // tabPage2
-            // 
-            resources.ApplyResources(tabPage2, "tabPage2");
-            tabPage2.Name = "tabPage2";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            resources.ApplyResources(tabPage3, "tabPage3");
-            tabPage3.Name = "tabPage3";
-            tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            resources.ApplyResources(tabPage4, "tabPage4");
-            tabPage4.Controls.Add(button4);
-            tabPage4.Controls.Add(label1);
-            tabPage4.Controls.Add(dateTimePicker1);
-            tabPage4.Controls.Add(dataGridViewPlan);
-            tabPage4.Name = "tabPage4";
-            tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            resources.ApplyResources(button4, "button4");
-            button4.BackColor = Color.FromArgb(220, 237, 250);
-            button4.Name = "button4";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
-            // 
-            // label1
-            // 
-            resources.ApplyResources(label1, "label1");
-            label1.Name = "label1";
-            // 
-            // dateTimePicker1
-            // 
-            resources.ApplyResources(dateTimePicker1, "dateTimePicker1");
-            dateTimePicker1.Name = "dateTimePicker1";
-            // 
-            // dataGridViewPlan
-            // 
-            resources.ApplyResources(dataGridViewPlan, "dataGridViewPlan");
-            dataGridViewPlan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
-            dataGridViewPlan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewPlan.Columns.AddRange(new DataGridViewColumn[] { Subject, Abbriviation, StudyGroups, Lectures, PracticalLessons, LaboratoryStudies, Nirs, PartTimeStudents, CourseConsultations, ExaminationConsultations, ControlAuditWork, IndependentWork, AbstractsTranslations, CalculatedGraphWorks, CourseWorks, SemesterExams, PracticeGuide, StateExams, Vkr, Guidance, OtherTypes });
-            dataGridViewPlan.Name = "dataGridViewPlan";
-            dataGridViewPlan.RowTemplate.Height = 25;
-            dataGridViewPlan.CellValueChanged += dataGridViewPlan_CellValueChanged;
-            dataGridViewPlan.KeyDown += dataGridView1_KeyDown;
-            // 
-            // Subject
-            // 
-            resources.ApplyResources(Subject, "Subject");
-            Subject.Name = "Subject";
-            // 
-            // Abbriviation
-            // 
-            resources.ApplyResources(Abbriviation, "Abbriviation");
-            Abbriviation.Name = "Abbriviation";
-            // 
-            // StudyGroups
-            // 
-            resources.ApplyResources(StudyGroups, "StudyGroups");
-            StudyGroups.Name = "StudyGroups";
-            // 
-            // Lectures
-            // 
-            resources.ApplyResources(Lectures, "Lectures");
-            Lectures.Name = "Lectures";
-            // 
-            // PracticalLessons
-            // 
-            resources.ApplyResources(PracticalLessons, "PracticalLessons");
-            PracticalLessons.Name = "PracticalLessons";
-            // 
-            // LaboratoryStudies
-            // 
-            resources.ApplyResources(LaboratoryStudies, "LaboratoryStudies");
-            LaboratoryStudies.Name = "LaboratoryStudies";
-            // 
-            // Nirs
-            // 
-            resources.ApplyResources(Nirs, "Nirs");
-            Nirs.Name = "Nirs";
-            // 
-            // PartTimeStudents
-            // 
-            resources.ApplyResources(PartTimeStudents, "PartTimeStudents");
-            PartTimeStudents.Name = "PartTimeStudents";
-            // 
-            // CourseConsultations
-            // 
-            resources.ApplyResources(CourseConsultations, "CourseConsultations");
-            CourseConsultations.Name = "CourseConsultations";
-            // 
-            // ExaminationConsultations
-            // 
-            resources.ApplyResources(ExaminationConsultations, "ExaminationConsultations");
-            ExaminationConsultations.Name = "ExaminationConsultations";
-            // 
-            // ControlAuditWork
-            // 
-            resources.ApplyResources(ControlAuditWork, "ControlAuditWork");
-            ControlAuditWork.Name = "ControlAuditWork";
-            // 
-            // IndependentWork
-            // 
-            resources.ApplyResources(IndependentWork, "IndependentWork");
-            IndependentWork.Name = "IndependentWork";
-            // 
-            // AbstractsTranslations
-            // 
-            resources.ApplyResources(AbstractsTranslations, "AbstractsTranslations");
-            AbstractsTranslations.Name = "AbstractsTranslations";
-            // 
-            // CalculatedGraphWorks
-            // 
-            resources.ApplyResources(CalculatedGraphWorks, "CalculatedGraphWorks");
-            CalculatedGraphWorks.Name = "CalculatedGraphWorks";
-            // 
-            // CourseWorks
-            // 
-            resources.ApplyResources(CourseWorks, "CourseWorks");
-            CourseWorks.Name = "CourseWorks";
-            // 
-            // SemesterExams
-            // 
-            resources.ApplyResources(SemesterExams, "SemesterExams");
-            SemesterExams.Name = "SemesterExams";
-            // 
-            // PracticeGuide
-            // 
-            resources.ApplyResources(PracticeGuide, "PracticeGuide");
-            PracticeGuide.Name = "PracticeGuide";
-            // 
-            // StateExams
-            // 
-            resources.ApplyResources(StateExams, "StateExams");
-            StateExams.Name = "StateExams";
-            // 
-            // Vkr
-            // 
-            resources.ApplyResources(Vkr, "Vkr");
-            Vkr.Name = "Vkr";
-            // 
-            // Guidance
-            // 
-            resources.ApplyResources(Guidance, "Guidance");
-            Guidance.Name = "Guidance";
-            // 
-            // OtherTypes
-            // 
-            resources.ApplyResources(OtherTypes, "OtherTypes");
-            OtherTypes.Name = "OtherTypes";
-            // 
-            // label13
-            // 
-            resources.ApplyResources(label13, "label13");
-            label13.Name = "label13";
-            // 
-            // button3
-            // 
-            resources.ApplyResources(button3, "button3");
-            button3.Name = "button3";
+            resources.ApplyResources(tabControl1, "tabControl1");
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.SizeMode = TabSizeMode.Fixed;
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
-            AutoScaleMode = AutoScaleMode.None;
+            AutoScaleMode = AutoScaleMode.Dpi;
+            ControlBox = false;
             Controls.Add(tabControl1);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
+            DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Form1";
             WindowState = FormWindowState.Maximized;
-            tabControl1.ResumeLayout(false);
+            Load += Form1_Load;
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewPlan).EndInit();
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
+            tableLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
             groupBoxUpperWeek.ResumeLayout(false);
@@ -932,6 +957,8 @@
             groupBox7.ResumeLayout(false);
             groupBox8.ResumeLayout(false);
             groupBox9.ResumeLayout(false);
+            flowLayoutPanel2.ResumeLayout(false);
+            flowLayoutPanel2.PerformLayout();
             groupBoxLowerWeek.ResumeLayout(false);
             groupBoxLowerWeek.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -941,22 +968,15 @@
             groupBox13.ResumeLayout(false);
             groupBox14.ResumeLayout(false);
             groupBox15.ResumeLayout(false);
-            flowLayoutPanel2.ResumeLayout(false);
-            tabPage4.ResumeLayout(false);
-            tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewPlan).EndInit();
+            tabControl1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
-        private TabControl tabControl1;
-        private TabPage tabPage2;
-        private TabPage tabPage3;
-        private TabPage tabPage4;
         private Button button3;
         private Label label13;
-        private Button button4;
+        private TabPage tabPage4;
+        private Button buttonSaveTabPlan;
         private Label label1;
         private DateTimePicker dateTimePicker1;
         private DataGridView dataGridViewPlan;
@@ -981,95 +1001,100 @@
         private DataGridViewTextBoxColumn Vkr;
         private DataGridViewTextBoxColumn Guidance;
         private DataGridViewTextBoxColumn OtherTypes;
+        private TabPage tabPage3;
+        private TabPage tabPage2;
         private TabPage tabPage1;
+        private TabControl tabControl1;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Button buttonSaveTabSchedule;
+        private TableLayoutPanel tableLayoutPanel2;
+        private FlowLayoutPanel flowLayoutPanel1;
         private GroupBox groupBoxUpperWeek;
         private GroupBox groupBox3;
-        private UniversityStudy university36;
-        private UniversityStudy university37;
-        private UniversityStudy university38;
-        private UniversityStudy university39;
-        private UniversityStudy university40;
+        private UniversityClass university36;
+        private UniversityClass university37;
+        private UniversityClass university38;
+        private UniversityClass university39;
+        private UniversityClass university40;
         private GroupBox groupBox4;
-        private UniversityStudy university41;
-        private UniversityStudy university42;
-        private UniversityStudy university43;
-        private UniversityStudy university44;
-        private UniversityStudy university45;
+        private UniversityClass university41;
+        private UniversityClass university42;
+        private UniversityClass university43;
+        private UniversityClass university44;
+        private UniversityClass university45;
         private GroupBox groupBox5;
-        private UniversityStudy university46;
-        private UniversityStudy university47;
-        private UniversityStudy university48;
-        private UniversityStudy university49;
-        private UniversityStudy university50;
+        private UniversityClass university46;
+        private UniversityClass university47;
+        private UniversityClass university48;
+        private UniversityClass university49;
+        private UniversityClass university50;
         private GroupBox groupBox6;
-        private UniversityStudy university51;
-        private UniversityStudy university52;
-        private UniversityStudy university53;
-        private UniversityStudy university54;
-        private UniversityStudy university55;
+        private UniversityClass university51;
+        private UniversityClass university52;
+        private UniversityClass university53;
+        private UniversityClass university54;
+        private UniversityClass university55;
         private GroupBox groupBox7;
-        private UniversityStudy university56;
-        private UniversityStudy university57;
-        private UniversityStudy university58;
-        private UniversityStudy university59;
-        private UniversityStudy university60;
+        private UniversityClass university56;
+        private UniversityClass university57;
+        private UniversityClass university58;
+        private UniversityClass university59;
+        private UniversityClass university60;
         private GroupBox groupBox8;
-        private UniversityStudy university61;
-        private UniversityStudy university62;
-        private UniversityStudy university63;
-        private UniversityStudy university64;
-        private UniversityStudy university65;
+        private UniversityClass university61;
+        private UniversityClass university62;
+        private UniversityClass university63;
+        private UniversityClass university64;
+        private UniversityClass university65;
         private GroupBox groupBox9;
-        private UniversityStudy university66;
-        private UniversityStudy university67;
-        private UniversityStudy university68;
-        private UniversityStudy university69;
-        private UniversityStudy university70;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private UniversityClass university66;
+        private UniversityClass university67;
+        private UniversityClass university68;
+        private UniversityClass university69;
+        private UniversityClass university70;
         private FlowLayoutPanel flowLayoutPanel2;
-        private Button button1;
         private GroupBox groupBoxLowerWeek;
         private GroupBox groupBox2;
-        private UniversityStudy universityStudy1;
-        private UniversityStudy universityStudy2;
-        private UniversityStudy universityStudy3;
-        private UniversityStudy universityStudy4;
-        private UniversityStudy universityStudy5;
+        private UniversityClass universityStudy1;
+        private UniversityClass universityStudy2;
+        private UniversityClass universityStudy3;
+        private UniversityClass universityStudy4;
+        private UniversityClass universityStudy5;
         private GroupBox groupBox10;
-        private UniversityStudy universityStudy6;
-        private UniversityStudy universityStudy7;
-        private UniversityStudy universityStudy8;
-        private UniversityStudy universityStudy9;
-        private UniversityStudy universityStudy10;
+        private UniversityClass universityStudy6;
+        private UniversityClass universityStudy7;
+        private UniversityClass universityStudy8;
+        private UniversityClass universityStudy9;
+        private UniversityClass universityStudy10;
         private GroupBox groupBox11;
-        private UniversityStudy universityStudy11;
-        private UniversityStudy universityStudy12;
-        private UniversityStudy universityStudy13;
-        private UniversityStudy universityStudy14;
-        private UniversityStudy universityStudy15;
+        private UniversityClass universityStudy11;
+        private UniversityClass universityStudy12;
+        private UniversityClass universityStudy13;
+        private UniversityClass universityStudy14;
+        private UniversityClass universityStudy15;
         private GroupBox groupBox12;
-        private UniversityStudy universityStudy16;
-        private UniversityStudy universityStudy17;
-        private UniversityStudy universityStudy18;
-        private UniversityStudy universityStudy19;
-        private UniversityStudy universityStudy20;
+        private UniversityClass universityStudy16;
+        private UniversityClass universityStudy17;
+        private UniversityClass universityStudy18;
+        private UniversityClass universityStudy19;
+        private UniversityClass universityStudy20;
         private GroupBox groupBox13;
-        private UniversityStudy universityStudy21;
-        private UniversityStudy universityStudy22;
-        private UniversityStudy universityStudy23;
-        private UniversityStudy universityStudy24;
-        private UniversityStudy universityStudy25;
+        private UniversityClass universityStudy21;
+        private UniversityClass universityStudy22;
+        private UniversityClass universityStudy23;
+        private UniversityClass universityStudy24;
+        private UniversityClass universityStudy25;
         private GroupBox groupBox14;
-        private UniversityStudy universityStudy26;
-        private UniversityStudy universityStudy27;
-        private UniversityStudy universityStudy28;
-        private UniversityStudy universityStudy29;
-        private UniversityStudy universityStudy30;
+        private UniversityClass universityStudy26;
+        private UniversityClass universityStudy27;
+        private UniversityClass universityStudy28;
+        private UniversityClass universityStudy29;
+        private UniversityClass universityStudy30;
         private GroupBox groupBox15;
-        private UniversityStudy universityStudy31;
-        private UniversityStudy universityStudy32;
-        private UniversityStudy universityStudy33;
-        private UniversityStudy universityStudy34;
-        private UniversityStudy universityStudy35;
+        private UniversityClass universityStudy31;
+        private UniversityClass universityStudy32;
+        private UniversityClass universityStudy33;
+        private UniversityClass universityStudy34;
+        private UniversityClass universityStudy35;
     }
 }
