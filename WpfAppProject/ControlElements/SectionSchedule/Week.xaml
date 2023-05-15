@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="WpfAppProject.ControlElements.SectionSchedule.Week"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAppProject.ControlElements.SectionSchedule"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="450">
+    <UserControl.Resources>
+        <Style x:Key="Week.GridRCSpacing">
+            <Setter Property="RowDefinition.Height" Value="10px"/>
+            <Setter Property="ColumnDefinition.Width" Value="10px"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".3*"/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <RowDefinition/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <RowDefinition/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <RowDefinition/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <RowDefinition/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <RowDefinition/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <RowDefinition/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <RowDefinition/>
+            <RowDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+            <ColumnDefinition />
+            <ColumnDefinition Style="{StaticResource Week.GridRCSpacing}"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.ColumnSpan="3"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Padding="0,2" Background="#FF78D085">
+            <Viewbox>
+                <Label x:Name="WeekTitle" Content="Верхняя" Padding="0" Grid.IsSharedSizeScope="True" FontSize="16"/>
+            </Viewbox>
+        </Label>
+        
+        <local:WeekDay Grid.Row="2" Grid.Column="1" DayTitle="Пн"/>
+                
+        <local:WeekDay Grid.Row="4" Grid.Column="1" DayTitle="Вт"/>
+        
+        <local:WeekDay Grid.Row="6" Grid.Column="1" DayTitle="Ср"/>
+        
+        <local:WeekDay Grid.Row="8" Grid.Column="1" DayTitle="Чт"/>
+        
+        <local:WeekDay Grid.Row="10" Grid.Column="1" DayTitle="Пт"/>
+        
+        <local:WeekDay Grid.Row="12" Grid.Column="1" DayTitle="Сб"/>
+        
+        <local:WeekDay Grid.Row="14" Grid.Column="1" DayTitle="Вс"/>
+    </Grid>
+</UserControl>
