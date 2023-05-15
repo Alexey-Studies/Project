@@ -60,6 +60,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ControlElements\SectionCalendar\Calendar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ControlElements\SectionCalendar\Month.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="ControlElements\SectionPlan\DataGridPlan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -94,6 +102,12 @@
     </Compile>
     <Compile Include="ControlElements\General\ButtonSave.xaml.cs">
       <DependentUpon>ButtonSave.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlElements\SectionCalendar\Calendar.xaml.cs">
+      <DependentUpon>Calendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlElements\SectionCalendar\Month.xaml.cs">
+      <DependentUpon>Month.xaml</DependentUpon>
     </Compile>
     <Compile Include="ControlElements\SectionPlan\DataGridPlan.xaml.cs">
       <DependentUpon>DataGridPlan.xaml</DependentUpon>

@@ -1,4 +1,4 @@
-﻿<Window x:Class="WpfAppProject.MainWindow"
+﻿<Window xmlns:calendar_Test="clr-namespace:WpfAppProject.ControlElements.SectionCalendar"  x:Class="WpfAppProject.MainWindow"
         xmlns:TabPagePlan="clr-namespace:WpfAppProject.ControlElements.SectionPlan" 
         xmlns:TabPageSchedule="clr-namespace:WpfAppProject.ControlElements.SectionSchedule" 
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -18,7 +18,9 @@
             </TabItem>
 
             <TabItem Header="Календарь">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <calendar_Test:Calendar />
+                </Grid>
             </TabItem>
 
             <TabItem Header="Нагрузка">
