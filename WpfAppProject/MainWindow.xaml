@@ -1,43 +1,39 @@
-﻿<Window xmlns:SectionOther="clr-namespace:WpfAppProject.ControlElements.SectionOther"  xmlns:SectionWorkload="clr-namespace:WpfAppProject.ControlElements.SectionWorkload"  xmlns:calendar_Test="clr-namespace:WpfAppProject.ControlElements.SectionCalendar"  x:Class="WpfAppProject.MainWindow"
-        xmlns:TabPagePlan="clr-namespace:WpfAppProject.ControlElements.SectionPlan" 
-        xmlns:TabPageSchedule="clr-namespace:WpfAppProject.ControlElements.SectionSchedule" 
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfAppProject"
-        mc:Ignorable="d"
-        Title="MainWindow" 
-        d:DesignWidth="1280" d:DesignHeight="1024"
-        MinWidth="720" MinHeight="720"
-        WindowState="Maximized" >
+﻿<Window x:Class="WpfAppProject.MainWindow"
+    xmlns:SectionSchedule="clr-namespace:WpfAppProject.UserControls.SectionSchedule" 
+    xmlns:SectionCalendar="clr-namespace:WpfAppProject.UserControls.SectionCalendar"  
+    xmlns:SectionPlan="clr-namespace:WpfAppProject.UserControls.SectionPlan" 
+    xmlns:SectionWorkload="clr-namespace:WpfAppProject.UserControls.SectionWorkload"
+    xmlns:SectionOther="clr-namespace:WpfAppProject.UserControls.SectionOther"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:WpfAppProject"
+    mc:Ignorable="d"
+    Title="MainWindow" 
+    d:DesignWidth="1280" d:DesignHeight="1024"
+    MinWidth="720" MinHeight="720"
+    WindowState="Maximized">
     <Grid>
         <TabControl TabStripPlacement="Bottom" Padding="0" BorderThickness="0">
             <TabItem Header="Расписание">
-                <TabPageSchedule:TabItemSchedule />
+                <SectionSchedule:TabItemSchedule />
             </TabItem>
 
             <TabItem Header="Календарь">
-                <Grid Background="#FFE5E5E5">
-                    <calendar_Test:Calendar />
-                </Grid>
-            </TabItem>
-
-            <TabItem Header="Нагрузка">
-                <Grid Background="#FFE5E5E5">
-                    <SectionWorkload:DataGridWorkload />
-                </Grid>
-                
+                <SectionCalendar:TabItemCalendar/>
             </TabItem>
 
             <TabItem Header="План">
-                <TabPagePlan:TabItemPlan/>
+                <SectionPlan:TabItemPlan/>
+            </TabItem>
+
+            <TabItem Header="Нагрузка">
+                <SectionWorkload:DataGridWorkload />
             </TabItem>
 
             <TabItem Header="Прочее">
-                <Grid Background="#FFE5E5E5">
-                    <SectionOther:TabItemOther />
-                </Grid>
+                <SectionOther:TabItemOther />
             </TabItem>
         </TabControl>
     </Grid>

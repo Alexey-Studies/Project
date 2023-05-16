@@ -37,7 +37,10 @@
   <ItemGroup>
     <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,47 +59,51 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ControlElements\General\ButtonSave.xaml">
+    <Page Include="UserControls\General\ButtonSave.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionCalendar\Calendar.xaml">
+    <Page Include="UserControls\SectionCalendar\Calendar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="ControlElements\SectionCalendar\Month.xaml">
+    <Page Include="UserControls\SectionCalendar\Month.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="ControlElements\SectionOther\TabItemOther.xaml">
+    <Page Include="UserControls\SectionCalendar\TabItemCalendar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SectionOther\TabItemOther.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionPlan\DataGridPlan.xaml">
+    <Page Include="UserControls\SectionPlan\DataGridPlan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionPlan\TabItemPlan.xaml">
+    <Page Include="UserControls\SectionPlan\TabItemPlan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionSchedule\TabItemSchedule.xaml">
+    <Page Include="UserControls\SectionSchedule\TabItemSchedule.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionSchedule\WeekDayUniversityClass.xaml">
+    <Page Include="UserControls\SectionSchedule\WeekDayUniversityClass.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionSchedule\Week.xaml">
+    <Page Include="UserControls\SectionSchedule\Week.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionSchedule\WeekDay.xaml">
+    <Page Include="UserControls\SectionSchedule\WeekDay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlElements\SectionWorkload\DataGridWorkload.xaml">
+    <Page Include="UserControls\SectionWorkload\DataGridWorkload.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -108,37 +115,40 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ControlElements\General\ButtonSave.xaml.cs">
+    <Compile Include="UserControls\General\ButtonSave.xaml.cs">
       <DependentUpon>ButtonSave.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionCalendar\Calendar.xaml.cs">
+    <Compile Include="UserControls\SectionCalendar\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionCalendar\Month.xaml.cs">
+    <Compile Include="UserControls\SectionCalendar\Month.xaml.cs">
       <DependentUpon>Month.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionOther\TabItemOther.xaml.cs">
+    <Compile Include="UserControls\SectionCalendar\TabItemCalendar.xaml.cs">
+      <DependentUpon>TabItemCalendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SectionOther\TabItemOther.xaml.cs">
       <DependentUpon>TabItemOther.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionPlan\DataGridPlan.xaml.cs">
+    <Compile Include="UserControls\SectionPlan\DataGridPlan.xaml.cs">
       <DependentUpon>DataGridPlan.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionPlan\TabItemPlan.xaml.cs">
+    <Compile Include="UserControls\SectionPlan\TabItemPlan.xaml.cs">
       <DependentUpon>TabItemPlan.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionSchedule\TabItemSchedule.xaml.cs">
+    <Compile Include="UserControls\SectionSchedule\TabItemSchedule.xaml.cs">
       <DependentUpon>TabItemSchedule.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionSchedule\WeekDayUniversityClass.xaml.cs">
+    <Compile Include="UserControls\SectionSchedule\WeekDayUniversityClass.xaml.cs">
       <DependentUpon>WeekDayUniversityClass.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionSchedule\Week.xaml.cs">
+    <Compile Include="UserControls\SectionSchedule\Week.xaml.cs">
       <DependentUpon>Week.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionSchedule\WeekDay.xaml.cs">
+    <Compile Include="UserControls\SectionSchedule\WeekDay.xaml.cs">
       <DependentUpon>WeekDay.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlElements\SectionWorkload\DataGridWorkload.xaml.cs">
+    <Compile Include="UserControls\SectionWorkload\DataGridWorkload.xaml.cs">
       <DependentUpon>DataGridWorkload.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
@@ -200,6 +210,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

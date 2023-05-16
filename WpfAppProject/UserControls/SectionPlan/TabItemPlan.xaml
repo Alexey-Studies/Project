@@ -1,9 +1,9 @@
-﻿<UserControl xmlns:General="clr-namespace:WpfAppProject.ControlElements.General"  x:Class="WpfAppProject.ControlElements.SectionPlan.TabItemPlan"
+﻿<UserControl xmlns:General="clr-namespace:WpfAppProject.UserControls.General"  x:Class="WpfAppProject.UserControls.SectionPlan.TabItemPlan"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfAppProject.ControlElements.SectionPlan"
+             xmlns:local="clr-namespace:WpfAppProject.UserControls.SectionPlan"
              mc:Ignorable="d" 
              d:DesignHeight="1024" d:DesignWidth="720">
     <Grid Background="#FFE4E4E4">

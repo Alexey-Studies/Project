@@ -5,19 +5,17 @@ using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 
-namespace WpfAppProject.ControlElements.SectionCalendar
+namespace WpfAppProject.UserControls.SectionCalendar
 {
     /// <summary>
     /// Логика взаимодействия для Month.xaml
     /// </summary>
     public partial class Month : UserControl, INotifyPropertyChanged
     {
-        /// <summary>
-        /// инициализация свойств
-        /// </summary>
-        public List<Label> Weeks { get; set; } = new List<Label>();
+        public List<Label> Weeks { get; set; }
 
         public List<Button> ButtonsDate { get; set; } = new List<Button>();
 
@@ -36,6 +34,7 @@ namespace WpfAppProject.ControlElements.SectionCalendar
                 }
             }
         }
+
         private SolidColorBrush _DayOffBackground = Brushes.LightGreen;
 
         public SolidColorBrush DayOffBackground
@@ -84,7 +83,9 @@ namespace WpfAppProject.ControlElements.SectionCalendar
                 }
             }
         }
+
         public bool EndWeekType { get; set; }
+
         public DateTime Date
         {
             get => _Date;
@@ -100,6 +101,7 @@ namespace WpfAppProject.ControlElements.SectionCalendar
         }
 
         private bool _FullBlock = false;
+
         public bool FullBlock
         {
             get => _FullBlock;
@@ -112,31 +114,57 @@ namespace WpfAppProject.ControlElements.SectionCalendar
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        /// <summary>
-        /// методы и реализация
-        /// </summary>
+        // Методы и реализация
 
         public Month()
         {
             InitializeComponent();
-            InitializeProperties(); //инициализация коллекций
+            InitializeProperties();
             Render();
         }
 
+        /// <summary>
+        /// Инициализация свойств.
+        /// </summary>
+        private void InitializeProperties()
+        {
+            Weeks = new List<Label>()
+            {
+                Week1,
+                Week2,
+                Week3,
+                Week4,
+                Week5,
+                Week6
+            };
+
+            foreach (var child in MyGrid.Children)
+            {
+                if (child is Button button)
+                {
+                    button.Padding = new Thickness(0);
+                    ButtonsDate.Add(button);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Отрисовывает месяц.
+        /// </summary>
         public void Render()
         {
-            CompletionMonthName(Date);
             Clear();
+            SetMonthName();
             FillDataMonth();
         }
 
-        //метод определения имени месяца
-        private void CompletionMonthName(DateTime date)
+        // Метод определения имени месяца.
+        private void SetMonthName()
         {
-            LabelMonth.Content = DateTime.ParseExact(date.ToShortDateString(), "dd.MM.yyyy", CultureInfo.InvariantCulture).ToString("MMMM");
+            LabelMonth.Content = DateTime.ParseExact(Date.ToShortDateString(), "dd.MM.yyyy", CultureInfo.InvariantCulture).ToString("MMMM");
         }
 
-        //метод для обновления информации
+        // Метод для обновления информации.
         public void OnPropertyChanged([CallerMemberName] string property = "")
         {
             if (PropertyChanged != null)
@@ -144,13 +172,16 @@ namespace WpfAppProject.ControlElements.SectionCalendar
                 PropertyChanged(this, new PropertyChangedEventArgs(property));
             }
         }
+
+        // Очищает данные месяца.
         public void Clear()
         {
             foreach (var item in Weeks)
             {
                 item.Content = "—";
             }
-            for (int i = 0; i < myGrid.Children.Count; i++)
+
+            for (int i = 0; i < ButtonsDate.Count; i++)
             {
                 ButtonsDate[i].Content = "";
                 ButtonsDate[i].IsEnabled = true;
@@ -158,20 +189,28 @@ namespace WpfAppProject.ControlElements.SectionCalendar
             }
         }
 
-        private void InitializeProperties()
+        private void SetDayContent(int index, object content)
         {
-            Weeks.Add(Week1);
-            Weeks.Add(Week2);
-            Weeks.Add(Week3);
-            Weeks.Add(Week4);
-            Weeks.Add(Week5);
-            Weeks.Add(Week6);
-            for (int i = 0; i < myGrid.Children.Count; i++)
+            Viewbox viewbox = new Viewbox()
             {
-                ButtonsDate.Add((Button)myGrid.Children[i]);
-            }
+                Name = "Container"
+            };
+
+            Label label = new Label()
+            {
+                Name = "Day",
+                Content = content.ToString(),
+                Padding = new Thickness(0)
+            };
+
+            viewbox.Child = label;
+
+            ButtonsDate[index].Content = viewbox;
         }
 
+        /// <summary>
+        /// Заполняет данными месяц, числами и типами недель.
+        /// </summary>
         private void FillDataMonth()
         {
             int previosMonth = DateTime.DaysInMonth(Date.Year - 1, 12);
@@ -188,13 +227,13 @@ namespace WpfAppProject.ControlElements.SectionCalendar
             //обозначение кнокпок вне месяца неактивными
             for (int j = butInd - 1; j >= 0; j--)
             {
-                ButtonsDate[j].Content = previosMonth--;
+                SetDayContent(j, previosMonth--);
                 ButtonsDate[j].IsEnabled = false;
             }
 
             for (int day = 1; day <= DateTime.DaysInMonth(Date.Year, Date.Month); butInd++, day++)
             {
-                ButtonsDate[butInd].Content = day;
+                SetDayContent(butInd, day);
 
                 // Подсветить текущий день
                 if ((Date.ToString("M.yyyy") == DateTime.Now.ToString("M.yyyy")) && day == DateTime.Now.Day)
@@ -224,12 +263,29 @@ namespace WpfAppProject.ControlElements.SectionCalendar
             //обозначение оставшихся кнокпок вне месяца неактивными
             for (; butInd < 42; butInd++)
             {
-                ButtonsDate[butInd].Content = nextMonth++;
+                SetDayContent(butInd, nextMonth++);
                 ButtonsDate[butInd].IsEnabled = false;
             }
         }
 
-        // Обработчик клика на опцию меню
+        /// <summary>
+        /// Получает день из кнопки.
+        /// </summary>
+        /// <param name="button">Кнопка месяца, из которой нужно полуить число.</param>
+        /// <returns></returns>
+        private int GetDay(Button button)
+        {
+            int result = 0;
+
+            if (button.Content is Viewbox viewbox && viewbox.Child is Label label)
+            {
+                Int32.TryParse((string)label.Content, out result);
+            }
+
+            return result;
+        }
+
+        // Обработчик клика на опцию меню.
         private void MenuItem_Click(object sender, RoutedEventArgs e, Button button)
         {
             if (button.Background != DayOffBackground)
@@ -238,12 +294,17 @@ namespace WpfAppProject.ControlElements.SectionCalendar
             }
             else
             {
-                button.Background = (Date.ToString("M.yyyy") == DateTime.Now.ToString("M.yyyy") && (int)button.Content == DateTime.Now.Day) ? TodayBackground : DayBackground;
+                button.Background =
+                    (Date.ToString("M.yyyy") == DateTime.Now.ToString("M.yyyy")
+                        &&
+                        GetDay(button) == DateTime.Now.Day)
+                    ?
+                    TodayBackground : DayBackground;
             }
         }
 
-        //обработчик меню
-        private void Button_PreviewMouseRightButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        // Обработчик нажатия на день.
+        private void Button_PreviewMouseButtonDown(object sender, MouseButtonEventArgs e)
         {
             Button button = sender as Button;
 
@@ -254,13 +315,23 @@ namespace WpfAppProject.ControlElements.SectionCalendar
 
             ContextMenu contextMenu = new ContextMenu();
             MenuItem menuItem = new MenuItem();
+
             menuItem.Header = " Выходной ";
 
-            menuItem.Click += (Sender, EventArgs) => { MenuItem_Click(Sender, EventArgs, button); };// событие клика по опции с передачей базовой кнопки
+            // Установить обработчик события клика.
+            menuItem.Click += (Sender, EventArgs) =>
+                {
+                    MenuItem_Click(Sender, EventArgs, button);
+                };
 
             contextMenu.Items.Add(menuItem);
 
             button.ContextMenu = contextMenu;
+
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                button.ContextMenu.IsOpen = true;
+            }
         }
     }
 }

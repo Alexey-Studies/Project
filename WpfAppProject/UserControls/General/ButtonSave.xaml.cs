@@ -1,7 +1,7 @@
 ﻿using System.Windows.Controls;
 
 
-namespace WpfAppProject.ControlElements.General
+namespace WpfAppProject.UserControls.General
 {
     /// <summary>
     /// Логика взаимодействия для ButtonSave.xaml

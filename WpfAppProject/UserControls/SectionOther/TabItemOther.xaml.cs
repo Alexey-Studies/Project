@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfAppProject.ControlElements.SectionOther
+namespace WpfAppProject.UserControls.SectionOther
 {
     /// <summary>
     /// Логика взаимодействия для TabItemOther.xaml

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Controls;
 
-namespace WpfAppProject.ControlElements.SectionCalendar
+namespace WpfAppProject.UserControls.SectionCalendar
 {
     /// <summary>
     /// Логика взаимодействия для Calendar.xaml

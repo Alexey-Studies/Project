@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace WpfAppProject.ControlElements.SectionSchedule
+namespace WpfAppProject.UserControls.SectionSchedule
 {
     /// <summary>
     /// Логика взаимодействия для WeekDay.xaml

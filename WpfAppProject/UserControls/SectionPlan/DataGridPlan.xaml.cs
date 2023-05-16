@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
 
-namespace WpfAppProject.ControlElements.SectionPlan
+namespace WpfAppProject.UserControls.SectionPlan
 {
     /// <summary>
     /// Логика взаимодействия для DataGridPlan.xaml

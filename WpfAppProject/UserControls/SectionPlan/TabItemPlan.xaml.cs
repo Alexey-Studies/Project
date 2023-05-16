@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace WpfAppProject.ControlElements.SectionPlan
+namespace WpfAppProject.UserControls.SectionPlan
 {
     /// <summary>
     /// Логика взаимодействия для TabItemPlan.xaml

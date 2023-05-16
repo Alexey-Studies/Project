@@ -1,18 +1,15 @@
-﻿<UserControl xmlns:General="clr-namespace:WpfAppProject.ControlElements.General"        x:Class="WpfAppProject.ControlElements.SectionSchedule.TabItemSchedule"
+﻿<UserControl xmlns:General="clr-namespace:WpfAppProject.UserControls.General"  x:Class="WpfAppProject.UserControls.SectionCalendar.TabItemCalendar"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfAppProject.ControlElements.SectionSchedule"
+             xmlns:local="clr-namespace:WpfAppProject.UserControls.SectionCalendar"
              mc:Ignorable="d" 
-             d:DesignHeight="1024" d:DesignWidth="720
-             ">
-    <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Auto">
-        <Grid Background="#FFE4E4E4">
+             d:DesignHeight="1024" d:DesignWidth="1280" Background="#FFE5E5E5">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="10px"/>
-                <ColumnDefinition/>
-                <ColumnDefinition Width=".02*" MinWidth="10px"/>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="10px"/>
             </Grid.ColumnDefinitions>
@@ -25,18 +22,18 @@
                 <RowDefinition Height="10px"/>
             </Grid.RowDefinitions>
 
-            <local:Week x:Name="UpWeek" Grid.Row="1" Grid.Column="1" Title="Верхняя" Background="White" />
-            <local:Week x:Name="DownWeek" Grid.Row="1" Grid.Column="3" Title="Нижняя" Background="White" />
+            <local:Calendar Grid.Column="1" Grid.Row="1"/>
 
-            <Grid Grid.Row="3" Grid.Column="3" x:Name="ParentGrid">
+            <Grid Grid.Row="3" Grid.Column="1">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width=".5*"/>
+                    <ColumnDefinition Width=".1*"/>
+                    <ColumnDefinition Width=".1*"/>
+                    <ColumnDefinition Width=".1*"/>
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
 
-                <General:ButtonSave Grid.Column="3" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <General:ButtonSave Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center"/>
             </Grid>
         </Grid>
     </ScrollViewer>
