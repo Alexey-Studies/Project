@@ -115,6 +115,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Converters\TabSizeConverter.cs" />
     <Compile Include="UserControls\General\ButtonSave.xaml.cs">
       <DependentUpon>ButtonSave.xaml</DependentUpon>
     </Compile>
