@@ -6,6 +6,7 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
 using Excel = Microsoft.Office.Interop.Excel;
+using WpfAppProject.Interfaces;
 
 namespace WpfAppProject.UserControls.SectionWorkload
 {
@@ -25,23 +26,23 @@ namespace WpfAppProject.UserControls.SectionWorkload
         {
             var rows = new List<DataGridWorkloadRow>
             {
-                new DataGridWorkloadRow {Date = new DateTime(2023, 2, 21).ToString("dd.MM.yyyy"), Group = "КИ-21", Lecture = 8, Labs = 32, Exam = 0, Total = 0 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 3, 27).ToString("dd.MM.yyyy"), Lecture = 20, Labs = 44 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 4, 29).ToString("dd.MM.yyyy"), Lecture = 16, Labs = 40 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 5, 3).ToString("dd.MM.yyyy"), Lecture = 16, Labs = 46 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 6, 6).ToString("dd.MM.yyyy"), Lecture = 4, Labs = 4 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 6, 10).ToString("dd.MM.yyyy"), Lecture = 3, Labs = 3 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 6, 14).ToString("dd.MM.yyyy"), Lecture = 3, Labs = 2 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 10, 23).ToString("dd.MM.yyyy"), Lecture = 1, Labs = 1 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 10, 28).ToString("dd.MM.yyyy"), Lecture = 6, Labs = 4 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 11, 7).ToString("dd.MM.yyyy"), Lecture = 3, Labs = 3 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 11, 15).ToString("dd.MM.yyyy"), Lecture = 4, Labs = 3 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 12, 7).ToString("dd.MM.yyyy"), Lecture = 7, Labs = 5 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 12, 15).ToString("dd.MM.yyyy"), Lecture = 3, Labs = 1 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 12, 16).ToString("dd.MM.yyyy"), Lecture = 3, Labs = 1 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 01, 7).ToString("dd.MM.yyyy"), Lecture = 7, Labs = 5 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 01, 15).ToString("dd.MM.yyyy"), Lecture = 3, Labs = 1 },
-                new DataGridWorkloadRow {Date = new DateTime(2023, 01, 16).ToString("dd.MM.yyyy"), Lecture = 3, Labs = 1 },
+                new DataGridWorkloadRow {Date = new DateTime(2023, 2, 21).ToString("dd.MM.yyyy"), Group = "КИ-21", Lectures = 8, Total = 0},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 3, 27).ToString("dd.MM.yyyy"), Lectures = 20},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 4, 29).ToString("dd.MM.yyyy"), Lectures = 16},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 5, 3).ToString("dd.MM.yyyy"), Lectures = 16},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 6, 6).ToString("dd.MM.yyyy"), Lectures = 4},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 6, 10).ToString("dd.MM.yyyy"), Lectures = 3},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 6, 14).ToString("dd.MM.yyyy"), Lectures = 3},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 10, 23).ToString("dd.MM.yyyy"), Lectures = 1},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 10, 28).ToString("dd.MM.yyyy"), Lectures = 6},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 11, 7).ToString("dd.MM.yyyy"), Lectures = 3},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 11, 15).ToString("dd.MM.yyyy"), Lectures = 4},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 12, 7).ToString("dd.MM.yyyy"), Lectures = 7},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 12, 15).ToString("dd.MM.yyyy"), Lectures = 3},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 12, 16).ToString("dd.MM.yyyy"), Lectures = 3},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 01, 7).ToString("dd.MM.yyyy"), Lectures = 7},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 01, 15).ToString("dd.MM.yyyy"), Lectures = 3},
+                new DataGridWorkloadRow {Date = new DateTime(2023, 01, 16).ToString("dd.MM.yyyy"), Lectures = 3},
             };
 
             return rows;
@@ -126,8 +127,6 @@ namespace WpfAppProject.UserControls.SectionWorkload
             return data;
         }
 
-
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Excel.Application excel = new Excel.Application();
@@ -155,13 +154,48 @@ namespace WpfAppProject.UserControls.SectionWorkload
         }
     }
 
-    public class DataGridWorkloadRow
+    public class DataGridWorkloadRow : IDataGridPlanWorkloadRow
     {
         public string Date { get; set; }
+
         public string Group { get; set; }
-        public int Lecture { get; set; }
-        public int Labs { get; set; }
-        public int Exam { get; set; }
+
+        public int Lectures { get; set; }
+
+        public int PracticalLessons { get; set; }
+
+        public int LaboratoryStudies { get; set; }
+
+        public int Nirs { get; set; }
+
+        public int PartTimeStudents { get; set; }
+
+        public int CourseConsultations { get; set; }
+
+        public int ExaminationConsultations { get; set; }
+
+        public int ControlAuditWork { get; set; }
+
+        public int IndependentWork { get; set; }
+
+        public int AbstractsTranslations { get; set; }
+
+        public int CalculatedGraphWorks { get; set; }
+
+        public int CourseWorks { get; set; }
+
+        public int SemesterExams { get; set; }
+
+        public int PracticeGuide { get; set; }
+
+        public int StateExams { get; set; }
+
+        public int Vkr { get; set; }
+
+        public int Guidance { get; set; }
+
+        public int OtherTypes { get; set; }
+
         public int Total { get; set; }
     }
 }

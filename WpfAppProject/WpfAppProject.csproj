@@ -116,6 +116,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Converters\TabSizeConverter.cs" />
+    <Compile Include="Interfaces\IDataGridPlanWorkloadRow.cs" />
     <Compile Include="UserControls\General\ButtonSave.xaml.cs">
       <DependentUpon>ButtonSave.xaml</DependentUpon>
     </Compile>
@@ -212,8 +213,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

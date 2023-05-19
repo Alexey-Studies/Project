@@ -7,16 +7,167 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <DataGrid x:Name="MainDataGrid"
-              AutoGenerateColumns="False"
-              VerticalScrollBarVisibility="Visible">
+        <DataGrid x:Name="MainDataGrid" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" ColumnWidth="SizeToCells" CanUserReorderColumns="False">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="ContentTemplate">
+                        <Setter.Value>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding}" TextWrapping="WrapWithOverflow" TextAlignment="Center"/>
+                            </DataTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
             <DataGrid.Columns>
-                <DataGridTextColumn x:Name="Date1" Header="Дата" Binding="{Binding Date}" Width="120" />
-                <DataGridTextColumn x:Name="Group" Header="Группа" Binding="{Binding Group}" Width="120" />
-                <DataGridTextColumn x:Name="Lectures" Header="Лекции" Binding="{Binding Lecture}" Width="180" />
-                <DataGridTextColumn x:Name="Labs" Header="Лабораторные" Binding="{Binding Labs}" Width="180" />
-                <DataGridTextColumn x:Name="Exam" Header="Экзамены" Binding="{Binding Exam}" Width="180" />
-                <DataGridTextColumn x:Name="Total" Header="Итого" Binding="{Binding Total}" Width="180" />
+                <DataGridTextColumn 
+                    x:Name="Date" 
+                    Header="Дата" 
+                    Binding="{Binding Date}" 
+                    MinWidth="110" 
+                    IsReadOnly="True"/>
+
+                <DataGridTextColumn 
+                    x:Name="Group" 
+                    Header="Группа" 
+                    Binding="{Binding Group}" 
+                    MinWidth="110" 
+                    IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="Lectures"
+                    Binding="{Binding Lectures}"
+                    Header="Лекции"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="PracticalLessons"
+                    Binding="{Binding PracticalLessons}"
+                    Header="Практические занятия"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="LaboratoryStudies"
+                    Binding="{Binding LaboratoryStudies}"
+                    Header="Лабораторные занятия"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="Nirs"
+                    Binding="{Binding Nirs}"
+                    Header="НИРС"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="PartTimeStudents"
+                    Binding="{Binding PartTimeStudents}"
+                    Header="Контрольные работы студентов-заочников"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="CourseConsultations"
+                    Binding="{Binding CourseConsultations}"
+                    Header="Проведение консультаций по курсу"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="ExaminationConsultations"
+                    Binding="{Binding ExaminationConsultations}"
+                    Header="Проведение экзаменационных консультаций"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="ControlAuditWork"
+                    Binding="{Binding ControlAuditWork}"
+                    Header="Проверка контрольных аудиторных работ"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="IndependentWork"
+                    Binding="{Binding IndependentWork}"
+                    Header="Проверка контрольных самостоятельных работ"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="AbstractsTranslations"
+                    Binding="{Binding AbstractsTranslations}"
+                    Header="Рук. и приём инд. рефератов, переводов"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="CalculatedGraphWorks"
+                    Binding="{Binding CalculatedGraphWorks}"
+                    Header="Рук. и приём инд. рассч.-граф. работ"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="CourseWorks"
+                    Binding="{Binding CourseWorks}"
+                    Header="Рук. и приём инд. курсовых работ"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="SemesterExams"
+                    Binding="{Binding SemesterExams}"
+                    Header="Проведение семестровых экзаменов"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="PracticeGuide"
+                    Binding="{Binding PracticeGuide}"
+                    Header="Руководство практикой"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="StateExams"
+                    Binding="{Binding StateExams}"
+                    Header="Проведение государственных экзаменов"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="Vkr"
+                    Binding="{Binding Vkr}"
+                    Header="Управление защитой ВКР"
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="Guidance"
+                    Binding="{Binding Guidance}"
+                    Header="Рук. асп., соискателями и стажировкой преп."
+                    MinWidth="110"
+					IsReadOnly="True"/>
+
+                <DataGridTextColumn
+                    x:Name="OtherTypes"
+                    Binding="{Binding OtherTypes}"
+                    Header="Другие виды учебной нагрузки"
+                    MinWidth="110" 
+                    IsReadOnly="True"/>
+
+                <DataGridTextColumn 
+                    x:Name="Total" 
+                    Header="Итого" 
+                    Binding="{Binding Total}" 
+                    MinWidth="110" 
+                    IsReadOnly="True"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

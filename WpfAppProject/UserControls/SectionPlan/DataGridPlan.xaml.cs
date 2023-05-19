@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
+using WpfAppProject.Interfaces;
 
 namespace WpfAppProject.UserControls.SectionPlan
 {
@@ -148,11 +149,11 @@ namespace WpfAppProject.UserControls.SectionPlan
     /// <summary>
     /// Класс, используемый для главного DataGrid раздела "План".
     /// </summary>
-    public class PlanDataGridRow
+    public class PlanDataGridRow : IDataGridPlanWorkloadRow
     {
         public string Subject { get; set; }
 
-        public string Abbriviation { get; set; }
+        public string Abbreviation { get; set; }
 
         public string Group { get; set; }
 
