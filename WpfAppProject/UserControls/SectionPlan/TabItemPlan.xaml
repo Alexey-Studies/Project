@@ -25,6 +25,22 @@
 
         <local:DataGridPlan x:Name="Plan" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3"/>
 
+        <Grid Grid.Row="3" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition MinWidth="100px"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Viewbox VerticalAlignment="Center" HorizontalAlignment="Left">
+                <Label Content="Дата начала семестра:" FontSize="5" VerticalAlignment="Center" HorizontalAlignment="Left" Padding="0,5,2,7"/>
+            </Viewbox>
+
+            <DatePicker x:Name="SemestrStartDate" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+        </Grid>
+
         <Grid Grid.Row="3" Grid.Column="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
