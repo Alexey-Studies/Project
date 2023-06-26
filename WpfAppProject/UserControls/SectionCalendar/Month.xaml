@@ -12,7 +12,7 @@
         </Style>
     </UserControl.Resources>
 
-    <Grid x:Name="MyGrid" Grid.Row ="1" Background="White">
+    <Grid x:Name="MainGrid" Grid.Row ="1" Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width=".4*"/>
             <ColumnDefinition/>

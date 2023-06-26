@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WpfAppProject.UserControls.SectionCalendar"
              mc:Ignorable="d" 
              d:DesignHeight="1024" d:DesignWidth="1280">
-    <Grid x:Name="myGrid" >
+    <Grid x:Name="MainGrid" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="10px"/>

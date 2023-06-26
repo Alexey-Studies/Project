@@ -115,14 +115,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Clasess\SaveTabItemCalendar.cs" />
     <Compile Include="Converters\TabSizeConverter.cs" />
     <Compile Include="Interfaces\IDataGridPlanWorkloadRow.cs" />
+    <Compile Include="Interfaces\ILoad.cs" />
+    <Compile Include="Interfaces\ISave.cs" />
+    <Compile Include="Interfaces\ISaveLoad.cs" />
     <Compile Include="UserControls\General\ButtonSave.xaml.cs">
       <DependentUpon>ButtonSave.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControls\SectionCalendar\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Clasess\LoadTabItemCalendar.cs" />
     <Compile Include="UserControls\SectionCalendar\Month.xaml.cs">
       <DependentUpon>Month.xaml</DependentUpon>
     </Compile>

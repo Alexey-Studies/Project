@@ -1,17 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using WpfAppProject.Clasess;
 
 namespace WpfAppProject.UserControls.SectionCalendar
 {
@@ -23,6 +13,21 @@ namespace WpfAppProject.UserControls.SectionCalendar
         public TabItemCalendar()
         {
             InitializeComponent();
+        }
+
+        public Dictionary<DateTime, Dictionary<DateTime, Dictionary<string, bool>>> GetData()
+        {
+            return MainCalendar.GetData();
+        }
+
+        public void SetData(Dictionary<DateTime, Dictionary<DateTime, Dictionary<string, bool>>> data)
+        {
+            MainCalendar.SetData(data);
+        }
+
+        private void ButtonSave_PreviewMouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            SaveTabItemCalendar.Instance.Save();
         }
     }
 }

@@ -59,7 +59,7 @@
             </TabItem>
 
             <TabItem Header="Календарь">
-                <SectionCalendar:TabItemCalendar/>
+                <SectionCalendar:TabItemCalendar x:Name="MyTabItemCalendar"/>
             </TabItem>
 
             <TabItem Header="План">

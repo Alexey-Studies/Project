@@ -1,4 +1,6 @@
 ﻿using System.Windows;
+using WpfAppProject.Clasess;
+using WpfAppProject.UserControls.SectionCalendar;
 
 namespace WpfAppProject
 {
@@ -10,6 +12,8 @@ namespace WpfAppProject
         public MainWindow()
         {
             InitializeComponent();
+            SaveTabItemCalendar.InstanceOf(this);
+            LoadTabItemCalendar.Load(this);
         }
     }
 }

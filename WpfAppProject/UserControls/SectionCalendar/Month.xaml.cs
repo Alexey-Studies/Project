@@ -19,6 +19,8 @@ namespace WpfAppProject.UserControls.SectionCalendar
 
         public List<Button> ButtonsDate { get; set; } = new List<Button>();
 
+        public List<Button> MonthButtons = new List<Button>();
+
         private SolidColorBrush _dayBackground = Brushes.White;
 
         public SolidColorBrush DayBackground
@@ -138,7 +140,7 @@ namespace WpfAppProject.UserControls.SectionCalendar
                 Week6
             };
 
-            foreach (var child in MyGrid.Children)
+            foreach (var child in MainGrid.Children)
             {
                 if (child is Button button)
                 {
@@ -187,6 +189,8 @@ namespace WpfAppProject.UserControls.SectionCalendar
                 ButtonsDate[i].IsEnabled = true;
                 ButtonsDate[i].Background = DayBackground;
             }
+
+            MonthButtons.Clear();
         }
 
         private void SetDayContent(int index, object content)
@@ -235,6 +239,8 @@ namespace WpfAppProject.UserControls.SectionCalendar
             {
                 SetDayContent(butInd, day);
 
+                MonthButtons.Add(ButtonsDate[butInd]);
+
                 // Подсветить текущий день
                 if ((Date.ToString("M.yyyy") == DateTime.Now.ToString("M.yyyy")) && day == DateTime.Now.Day)
                 {
@@ -257,7 +263,14 @@ namespace WpfAppProject.UserControls.SectionCalendar
                 {
                     EndWeekType = (new DateTime(Date.Year, Date.Month, 1)).AddMonths(1).AddDays(-1).DayOfWeek != 0 ? !weekType : weekType;
                 }
-
+                //1.1
+                if (MonthButtons == null && ButtonsDate[butInd].IsEnabled)
+                {
+                    for (int i = 0; i <= DateTime.DaysInMonth(Date.Year, Date.Month); i++)
+                    {
+                        MonthButtons[i] = ButtonsDate[butInd];
+                    }
+                }
             }
 
             //обозначение оставшихся кнокпок вне месяца неактивными
@@ -268,6 +281,75 @@ namespace WpfAppProject.UserControls.SectionCalendar
             }
         }
 
+        //1.2
+        private DateTime GetDateFromButton(Button button)
+        {
+            return new DateTime(Date.Year, Date.Month, GetDay(button));
+        }
+
+        //1.3
+        private Button GetButtonFromDate(DateTime date)
+        {
+            Button result = null;
+
+            if (Date.Month == date.Month && Date.Year == date.Year)
+            {
+                result = MonthButtons[date.Day - 1];
+            }
+
+            return result;
+        }
+
+        //1.4
+        private bool IsDayOff(DateTime day)
+        {
+            bool result = false;
+
+            result = MonthButtons[day.Day - 1].Background == DayOffBackground;
+
+            return result;
+        }
+
+        //1.5
+        public Dictionary<DateTime, Dictionary<string, bool>> GetData()
+        {
+            Dictionary<DateTime, Dictionary<string, bool>> monthDayInfo = new Dictionary<DateTime, Dictionary<string, bool>>();
+
+            for (int i = 1; i <= DateTime.DaysInMonth(Date.Year, Date.Month); i++)
+            {
+                if (IsDayOff(new DateTime(Date.Year, Date.Month, i)))
+                {
+                    monthDayInfo[new DateTime(Date.Year, Date.Month, i)] = new Dictionary<string, bool>()
+                    {
+                        { "DayOff", true }
+                    };
+                }
+            }
+            return monthDayInfo;
+        }
+
+        //1.6
+        private void SetDayOff(DateTime date)
+        {
+            Button button = GetButtonFromDate(date);
+
+            if (button != null && !IsDayOff(date))
+            {
+                button.Background = DayOffBackground;
+            }
+        }
+
+        //1.7
+        public void SetData(Dictionary<DateTime, Dictionary<string, bool>> data)
+        {
+            foreach (var item in data)
+            {
+                if (item.Value["DayOff"])
+                {
+                    SetDayOff(item.Key);
+                }
+            }
+        }
         /// <summary>
         /// Получает день из кнопки.
         /// </summary>
@@ -335,4 +417,3 @@ namespace WpfAppProject.UserControls.SectionCalendar
         }
     }
 }
-

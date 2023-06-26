@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="1024" d:DesignWidth="1280" Background="#FFE5E5E5">
     <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
-        <Grid>
+        <Grid x:Name="MainGrid">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="10px"/>
                 <ColumnDefinition/>
@@ -22,7 +22,7 @@
                 <RowDefinition Height="10px"/>
             </Grid.RowDefinitions>
 
-            <local:Calendar Grid.Column="1" Grid.Row="1"/>
+            <local:Calendar x:Name="MainCalendar" Grid.Column="1" Grid.Row="1"/>
 
             <Grid Grid.Row="3" Grid.Column="1">
                 <Grid.ColumnDefinitions>
@@ -33,7 +33,7 @@
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
 
-                <General:ButtonSave Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <General:ButtonSave Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Top" PreviewMouseDown="ButtonSave_PreviewMouseDown" />
             </Grid>
         </Grid>
     </ScrollViewer>
